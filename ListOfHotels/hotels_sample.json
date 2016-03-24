@@ -1,32 +1,10 @@
 {
     "viewType": "SUCCESS",
     "result": {
-        "omniture": {
-            "eVar9": "UBS",
-            "eVar34": "H927:007.001,H1293.0,H1294.0,H1423:009.099,H1464:010.099,H2178:003.002,H2179:004.001",
-            "eVar63": "91ed6875-a35d-4ad7-a2df-ebf0ec9ee3b5",
-            "prop7": "242",
-            "prop8": "0",
-            "prop9": "242"
-        },
-        "destinationId": 1504033,
-        "resolvedLocation": "CITY:1504033:PROVIDED:PROVIDED",
-        "resolvedDestination": "Las Vegas, Nevada, United States of America",
-        "baseLandmark": "city center",
-        "lat": 36.11466598510742,
-        "lon": -115.1728744506836,
-        "matchingHotels": 242,
-        "unavailableMatchingHotels": 0,
-        "sortOrder": "BEST_SELLER",
-        "resultsPerPage": 25,
-        "page": 1,
-        "moreResultsAvailable": true,
         "hotels": [{
                    "hotelId": 129410,
-                   "supplierId": 13,
                    "hotelName": "SLS Las Vegas a Tribute Portfolio Resort",
                    "localizedCountryName": "United States of America",
-                   "isMerchant": true,
                    "address1": "2535 Las Vegas Blvd S",
                    "address2": "",
                    "locality": "Las Vegas",
@@ -40,13 +18,9 @@
                    "guestReviewRating": 3.9,
                    "qualitativeBadgeText": "Good",
                    "numberOfGuestReviews": 3345,
-                   "roomsLeft": 2,
                    "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/30000/20200/20194/20194_400_b.jpg",
                    "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/30000/20200/20194/20194_400_t.jpg",
                    "location": "The Strip / Las Vegas",
-                   "accommodationType": "Hotel",
-                   "typesThemes": ["Spa Hotel", "Business"],
-                   "distanceFromBaseLandmark": "2.1 mi",
                    "avgPrice": "$198",
                    "avgPriceDescription": "nightly price",
                    "avgPriceDetails": {
@@ -57,7 +31,6 @@
                    },
                    "promoPrice": "$99",
                    "promoPriceDescription": "24 hour deal: save 50%",
-                   "promoPriceId": "438",
                    "promoPriceDetails": {
                    "prefix": "$",
                    "formattedValue": "99",
@@ -70,9 +43,6 @@
                    "message": "2 rooms left"
                    },
                    "dealOfTheDay": true,
-                   "dealOfTheDayEndDate": "2016-03-24T15:59:00Z",
-                   "facilityIds": "[128, 134234112, 256, 513, 1, 2, 515, 519, 537, 539, 527]",
-                   "accessibilityIds": "[1048576, 131072]"
                    }, {
                    "hotelId": 199782,
                    "supplierId": 13,
