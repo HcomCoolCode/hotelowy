@@ -29,8 +29,8 @@ class HotelParserTests: XCTestCase {
         parser = nil
     }
     
-    func testParsingEmptyDataReturnEmptyArray() {
-        XCTAssertEqual(parser.parseHotelData(NSData())!, [Hotel]())
+    func testParsingEmptyDataReturnNil() {
+        XCTAssertNil(parser.parseHotelData(NSData()))
     }
     
     func testParserParserHotels () {
