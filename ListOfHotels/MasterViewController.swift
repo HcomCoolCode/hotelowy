@@ -27,7 +27,9 @@ class MasterViewController: UITableViewController {
     }
     
     func fetch() {
-        
+        fetcher.fetchHotels { (hotels, error) -> () in
+            
+        }
     }
 
     override func viewWillAppear(animated: Bool) {
