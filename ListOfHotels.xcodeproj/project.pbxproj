@@ -15,6 +15,8 @@
 		0429ED931CA413B600428AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0429ED911CA413B600428AFB /* LaunchScreen.storyboard */; };
 		0429ED9E1CA413B600428AFB /* ListOfHotelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429ED9D1CA413B600428AFB /* ListOfHotelsTests.swift */; };
 		0429EDA91CA413B600428AFB /* ListOfHotelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDA81CA413B600428AFB /* ListOfHotelsUITests.swift */; };
+		0429EDB71CA4146800428AFB /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB61CA4146800428AFB /* Hotel.swift */; };
+		0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB81CA4154300428AFB /* HotelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0429EDA41CA413B600428AFB /* ListOfHotelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListOfHotelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0429EDA81CA413B600428AFB /* ListOfHotelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfHotelsUITests.swift; sourceTree = "<group>"; };
 		0429EDAA1CA413B600428AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0429EDB61CA4146800428AFB /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		0429EDB81CA4154300428AFB /* HotelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				0429ED861CA413B500428AFB /* AppDelegate.swift */,
 				0429ED881CA413B500428AFB /* MasterViewController.swift */,
 				0429ED8A1CA413B600428AFB /* DetailViewController.swift */,
+				0429EDB61CA4146800428AFB /* Hotel.swift */,
 				0429ED8C1CA413B600428AFB /* Main.storyboard */,
 				0429ED8F1CA413B600428AFB /* Assets.xcassets */,
 				0429ED911CA413B600428AFB /* LaunchScreen.storyboard */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				0429ED9D1CA413B600428AFB /* ListOfHotelsTests.swift */,
+				0429EDB81CA4154300428AFB /* HotelTests.swift */,
 				0429ED9F1CA413B600428AFB /* Info.plist */,
 			);
 			path = ListOfHotelsTests;
@@ -261,6 +267,7 @@
 			files = (
 				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
+				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
 				0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */,
 				0429ED9E1CA413B600428AFB /* ListOfHotelsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +496,7 @@
 				0429EDAF1CA413B600428AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0429EDB01CA413B600428AFB /* Build configuration list for PBXNativeTarget "ListOfHotelsTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +505,7 @@
 				0429EDB21CA413B600428AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0429EDB31CA413B600428AFB /* Build configuration list for PBXNativeTarget "ListOfHotelsUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				0429EDB51CA413B600428AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
