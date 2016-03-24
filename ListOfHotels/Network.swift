@@ -8,17 +8,32 @@
 
 import Foundation
 
+func delay(delay:Double, closure:()->()) {
+    dispatch_after(
+        dispatch_time(
+            DISPATCH_TIME_NOW,
+            Int64(delay * Double(NSEC_PER_SEC))
+        ),
+        dispatch_get_main_queue(), closure)
+}
+
 
 class Network {
-
+    
     func getURL(url: NSURL, completion: (data: NSData?, error: NSError?) -> ()) {
         
-        guard let data = NSData(contentsOfFile: "hotels_sample.json") else {
+        let file = NSBundle.mainBundle().pathForResource("hotels_sample", ofType: "json")
+        
+        guard let data = NSData(contentsOfFile: file!) else {
             let error = NSError(domain: "hotels.com", code: 1, userInfo: nil)
             completion(data: nil, error: error)
             return
         }
         
-        completion(data: data, error: nil)
+        delay(1) { () -> () in
+            completion(data: data, error: nil)
+        }
+        
+        
     }
 }

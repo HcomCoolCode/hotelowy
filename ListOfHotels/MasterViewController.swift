@@ -11,13 +11,18 @@ import UIKit
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
-    var hotels = [Hotel]()
+    var hotels = [Hotel]() {
+        didSet {
+            self.reloadData()
+        }
+    }
     lazy var fetcher: HotelFetcher = {
         HotelFetcher(network: Network())
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.estimatedRowHeight = 100
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Update", style: .Plain, target: self, action: Selector("fetch"))
 
         if let split = self.splitViewController {
@@ -26,9 +31,15 @@ class MasterViewController: UITableViewController {
         }
     }
     
+    func reloadData() {
+        tableView.reloadData()
+    }
+    
     func fetch() {
-        fetcher.fetchHotels { (hotels, error) -> () in
-            
+        fetcher.fetchHotels {[unowned self] (hotels, error) -> () in
+            if let hotels = hotels {
+                self.hotels = hotels
+            }
         }
     }
 
@@ -52,9 +63,6 @@ class MasterViewController: UITableViewController {
 
     // MARK: - Table View
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
-    }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return hotels.count
@@ -63,6 +71,7 @@ class MasterViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
         let hotel = hotels[indexPath.row]
+        cell.textLabel!.numberOfLines = 0
         cell.textLabel!.text = hotel.name
         return cell
     }
