@@ -10,6 +10,7 @@ import Foundation
 
 
 class Network {
+
     func getURL(url: NSURL, completion: (data: NSData?, error: NSError?) -> ()) {
         
         guard let data = NSData(contentsOfFile: "hotels_sample.json") else {

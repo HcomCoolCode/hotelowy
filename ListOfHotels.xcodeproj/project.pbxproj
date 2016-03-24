@@ -21,6 +21,7 @@
 		0429EDBD1CA41EC000428AFB /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
 		0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC01CA426F500428AFB /* HotelFetcher.swift */; };
 		0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC21CA4273600428AFB /* HotelParser.swift */; };
+		0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		0429EDBC1CA41EC000428AFB /* hotels_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels_sample.json; sourceTree = "<group>"; };
 		0429EDC01CA426F500428AFB /* HotelFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelFetcher.swift; sourceTree = "<group>"; };
 		0429EDC21CA4273600428AFB /* HotelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelParser.swift; sourceTree = "<group>"; };
+		0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelFetcherTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				0429ED9D1CA413B600428AFB /* ListOfHotelsTests.swift */,
 				0429EDB81CA4154300428AFB /* HotelTests.swift */,
+				0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */,
 				0429ED9F1CA413B600428AFB /* Info.plist */,
 			);
 			path = ListOfHotelsTests;
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */,
 				0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */,
 				0429ED9E1CA413B600428AFB /* ListOfHotelsTests.swift in Sources */,
 			);
