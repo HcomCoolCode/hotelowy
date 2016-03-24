@@ -17,6 +17,10 @@
 		0429EDA91CA413B600428AFB /* ListOfHotelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDA81CA413B600428AFB /* ListOfHotelsUITests.swift */; };
 		0429EDB71CA4146800428AFB /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB61CA4146800428AFB /* Hotel.swift */; };
 		0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB81CA4154300428AFB /* HotelTests.swift */; };
+		0429EDBB1CA41D6A00428AFB /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDBA1CA41D6A00428AFB /* Network.swift */; };
+		0429EDBD1CA41EC000428AFB /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
+		0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC01CA426F500428AFB /* HotelFetcher.swift */; };
+		0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC21CA4273600428AFB /* HotelParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		0429EDAA1CA413B600428AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0429EDB61CA4146800428AFB /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
 		0429EDB81CA4154300428AFB /* HotelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelTests.swift; sourceTree = "<group>"; };
+		0429EDBA1CA41D6A00428AFB /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0429EDBC1CA41EC000428AFB /* hotels_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels_sample.json; sourceTree = "<group>"; };
+		0429EDC01CA426F500428AFB /* HotelFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelFetcher.swift; sourceTree = "<group>"; };
+		0429EDC21CA4273600428AFB /* HotelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 				0429ED881CA413B500428AFB /* MasterViewController.swift */,
 				0429ED8A1CA413B600428AFB /* DetailViewController.swift */,
 				0429EDB61CA4146800428AFB /* Hotel.swift */,
+				0429EDC01CA426F500428AFB /* HotelFetcher.swift */,
+				0429EDC21CA4273600428AFB /* HotelParser.swift */,
+				0429EDBA1CA41D6A00428AFB /* Network.swift */,
+				0429EDBC1CA41EC000428AFB /* hotels_sample.json */,
 				0429ED8C1CA413B600428AFB /* Main.storyboard */,
 				0429ED8F1CA413B600428AFB /* Assets.xcassets */,
 				0429ED911CA413B600428AFB /* LaunchScreen.storyboard */,
@@ -240,6 +252,7 @@
 			files = (
 				0429ED931CA413B600428AFB /* LaunchScreen.storyboard in Resources */,
 				0429ED901CA413B600428AFB /* Assets.xcassets in Resources */,
+				0429EDBD1CA41EC000428AFB /* hotels_sample.json in Resources */,
 				0429ED8E1CA413B600428AFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0429EDBB1CA41D6A00428AFB /* Network.swift in Sources */,
 				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
 				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
+				0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */,
+				0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */,
 				0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

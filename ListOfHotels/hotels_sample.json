@@ -1,0 +1,1662 @@
+{
+    "viewType": "SUCCESS",
+    "result": {
+        "omniture": {
+            "eVar9": "UBS",
+            "eVar34": "H927:007.001,H1293.0,H1294.0,H1423:009.099,H1464:010.099,H2178:003.002,H2179:004.001",
+            "eVar63": "91ed6875-a35d-4ad7-a2df-ebf0ec9ee3b5",
+            "prop7": "242",
+            "prop8": "0",
+            "prop9": "242"
+        },
+        "destinationId": 1504033,
+        "resolvedLocation": "CITY:1504033:PROVIDED:PROVIDED",
+        "resolvedDestination": "Las Vegas, Nevada, United States of America",
+        "baseLandmark": "city center",
+        "lat": 36.11466598510742,
+        "lon": -115.1728744506836,
+        "matchingHotels": 242,
+        "unavailableMatchingHotels": 0,
+        "sortOrder": "BEST_SELLER",
+        "resultsPerPage": 25,
+        "page": 1,
+        "moreResultsAvailable": true,
+        "hotels": [{
+                   "hotelId": 129410,
+                   "supplierId": 13,
+                   "hotelName": "SLS Las Vegas a Tribute Portfolio Resort",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "2535 Las Vegas Blvd S",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.142852,
+                   "lon": -115.157754,
+                   "starRating": 4,
+                   "guestReviewRating": 3.9,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 3345,
+                   "roomsLeft": 2,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/30000/20200/20194/20194_400_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/30000/20200/20194/20194_400_t.jpg",
+                   "location": "The Strip / Las Vegas",
+                   "accommodationType": "Hotel",
+                   "typesThemes": ["Spa Hotel", "Business"],
+                   "distanceFromBaseLandmark": "2.1 mi",
+                   "avgPrice": "$198",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "198",
+                   "postfix": "",
+                   "value": "198"
+                   },
+                   "promoPrice": "$99",
+                   "promoPriceDescription": "24 hour deal: save 50%",
+                   "promoPriceId": "438",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "99",
+                   "postfix": "",
+                   "value": "99"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": true,
+                   "message": "2 rooms left"
+                   },
+                   "dealOfTheDay": true,
+                   "dealOfTheDayEndDate": "2016-03-24T15:59:00Z",
+                   "facilityIds": "[128, 134234112, 256, 513, 1, 2, 515, 519, 537, 539, 527]",
+                   "accessibilityIds": "[1048576, 131072]"
+                   }, {
+                   "hotelId": 199782,
+                   "supplierId": 13,
+                   "hotelName": "Tuscany Suites & Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "255 E Flamingo Rd",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89169",
+                   "region": "NV",
+                   "lat": 36.114344,
+                   "lon": -115.161827,
+                   "starRating": 3,
+                   "guestReviewRating": 4.3,
+                   "qualitativeBadgeText": "Excellent",
+                   "numberOfGuestReviews": 5041,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/860000/853000/852937/852937_6_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/860000/853000/852937/852937_6_t.jpg",
+                   "location": "East of The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly", "Business"],
+                   "distanceFromBaseLandmark": "0.6 mi",
+                   "avgPrice": "$98",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "98",
+                   "postfix": "",
+                   "value": "98"
+                   },
+                   "promoPrice": "$49",
+                   "promoPriceDescription": "Sale! Save 50% on this Stay.",
+                   "promoPriceId": "6",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "49",
+                   "postfix": "",
+                   "value": "49"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 256, 1, 2, 515, 517, 519, 539, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 147594,
+                   "supplierId": 13,
+                   "hotelName": "The Venetian Resort Hotel & Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "3355 Las Vegas Blvd S",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.12209,
+                   "lon": -115.17139,
+                   "starRating": 5,
+                   "guestReviewRating": 4.6,
+                   "qualitativeBadgeText": "Outstanding",
+                   "numberOfGuestReviews": 8406,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/10000/1500/1443/1443_364_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/10000/1500/1443/1443_364_t.jpg",
+                   "location": "The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Romantic", "Shopping", "Casino", "Spa Hotel", "Business", "Luxury"],
+                   "distanceFromBaseLandmark": "0.5 mi",
+                   "avgPrice": "$159",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "159",
+                   "postfix": "",
+                   "value": "159"
+                   },
+                   "promoPrice": "$127",
+                   "promoPriceDescription": "Private sale: save 20%",
+                   "promoPriceId": "443",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "127",
+                   "postfix": "",
+                   "value": "127"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 256, 1, 513, 2, 515, 517, 519, 8, 525, 527, 539]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 235986,
+                   "supplierId": 13,
+                   "hotelName": "South Point Hotel, Casino, and Spa",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "9777 Las Vegas Blvd S",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89183",
+                   "region": "NV",
+                   "lat": 36.011975,
+                   "lon": -115.17254,
+                   "starRating": 4,
+                   "guestReviewRating": 4.3,
+                   "qualitativeBadgeText": "Excellent",
+                   "numberOfGuestReviews": 8169,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/2000000/1310000/1309600/1309521/1309521_161_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/2000000/1310000/1309600/1309521/1309521_161_t.jpg",
+                   "location": "South of The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly", "Spa Hotel", "Business"],
+                   "distanceFromBaseLandmark": "7.1 mi",
+                   "avgPrice": "$159",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "159",
+                   "postfix": "",
+                   "value": "159"
+                   },
+                   "promoPrice": "$99",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "99",
+                   "postfix": "",
+                   "value": "99"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[134234112, 128, 256, 513, 1, 2, 515, 517, 519, 8, 525, 537, 539]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 112915,
+                   "supplierId": 13,
+                   "hotelName": "Westgate Las Vegas Resort & Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "3000 Paradise Road",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.136033,
+                   "lon": -115.154706,
+                   "starRating": 4,
+                   "guestReviewRating": 3.5,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 8443,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/20000/19600/19558/19558_410_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/20000/19600/19558/19558_410_t.jpg",
+                   "location": "East of The Strip / Las Vegas",
+                   "accommodationType": "Hotel",
+                   "typesThemes": ["Casino", "Spa Hotel", "Business"],
+                   "distanceFromBaseLandmark": "1.8 mi",
+                   "avgPrice": "$163",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "163",
+                   "postfix": "",
+                   "value": "163"
+                   },
+                   "promoPrice": "$63",
+                   "promoPriceDescription": "Private sale: save 61%",
+                   "promoPriceId": "443",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "63",
+                   "postfix": "",
+                   "value": "63"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[134234112, 128, 256, 1, 2, 515, 517, 519, 8, 523]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 259462,
+                   "supplierId": 13,
+                   "hotelName": "The Palazzo Resort Hotel & Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "3325 Las Vegas Blvd. South",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.124777,
+                   "lon": -115.169646,
+                   "starRating": 5,
+                   "guestReviewRating": 4.6,
+                   "qualitativeBadgeText": "Outstanding",
+                   "numberOfGuestReviews": 3832,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/2000000/1770000/1770000/1769973/1769973_137_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/2000000/1770000/1770000/1769973/1769973_137_t.jpg",
+                   "location": "The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Romantic", "Shopping", "Casino", "Spa Hotel", "Luxury"],
+                   "distanceFromBaseLandmark": "0.7 mi",
+                   "avgPrice": "$159",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "159",
+                   "postfix": "",
+                   "value": "159"
+                   },
+                   "promoPrice": "$127",
+                   "promoPriceDescription": "Private sale: save 20%",
+                   "promoPriceId": "443",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "127",
+                   "postfix": "",
+                   "value": "127"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 513, 2, 515, 517, 519, 8, 539, 525]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 193216,
+                   "supplierId": 13,
+                   "hotelName": "El Cortez Hotel and Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "600 Fremont St",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89101",
+                   "region": "NV",
+                   "lat": 36.16868,
+                   "lon": -115.139357,
+                   "starRating": 3,
+                   "guestReviewRating": 3.5,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 3481,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/910000/906000/905990/905990_103_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/910000/906000/905990/905990_103_t.jpg",
+                   "location": "Downtown Las Vegas / Las Vegas",
+                   "accommodationType": "Hotel",
+                   "typesThemes": ["Casino", "Family-friendly"],
+                   "distanceFromBaseLandmark": "4.2 mi",
+                   "avgPrice": "$35",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "35",
+                   "postfix": "",
+                   "value": "35"
+                   },
+                   "avgPriceDescription": "nightly price",
+                   "promoPriceDescription": "Mobile exclusive price",
+                   "promoPriceId": "467",
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[256, 134234112, 513, 515, 519, 537, 527]",
+                   "accessibilityIds": "[1048576, 131072]"
+                   }, {
+                   "hotelId": 163443,
+                   "supplierId": 13,
+                   "hotelName": "Hard Rock Hotel & Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "4455 Paradise Rd",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89169",
+                   "region": "NV",
+                   "lat": 36.10897,
+                   "lon": -115.152376,
+                   "starRating": 4,
+                   "guestReviewRating": 3.8,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 5473,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/200000/198300/198225/198225_141_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/200000/198300/198225/198225_141_t.jpg",
+                   "location": "East of The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly", "Spa Hotel", "Business"],
+                   "distanceFromBaseLandmark": "1.2 mi",
+                   "avgPrice": "$169",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "169",
+                   "postfix": "",
+                   "value": "169"
+                   },
+                   "promoPrice": "$99",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "99",
+                   "postfix": "",
+                   "value": "99"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 2 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 256, 1, 2, 515, 519, 8, 539, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072]"
+                   }, {
+                   "hotelId": 193218,
+                   "supplierId": 13,
+                   "hotelName": "Silver Sevens Hotel & Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "4100 Paradise Rd",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89169",
+                   "region": "NV",
+                   "lat": 36.113214,
+                   "lon": -115.153625,
+                   "starRating": 3,
+                   "guestReviewRating": 3.5,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 4209,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/470000/460500/460434/460434_73_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/470000/460500/460434/460434_73_t.jpg",
+                   "location": "East of The Strip / Las Vegas",
+                   "accommodationType": "Hotel",
+                   "typesThemes": ["Casino", "Family-friendly"],
+                   "distanceFromBaseLandmark": "1.1 mi",
+                   "avgPrice": "$60",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "60",
+                   "postfix": "",
+                   "value": "60"
+                   },
+                   "promoPrice": "$45",
+                   "promoPriceDescription": "Limited Time Offer!",
+                   "promoPriceId": "329",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "45",
+                   "postfix": "",
+                   "value": "45"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 5 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[256, 134234112, 128, 16384, 513, 2, 515, 519, 523, 525, 527]",
+                   "accessibilityIds": "[131072, 262144]"
+                   }, {
+                   "hotelId": 128176,
+                   "supplierId": 13,
+                   "hotelName": "Rumor Boutique Hotel",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "455 E Harmon Ave",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89169",
+                   "region": "NV",
+                   "lat": 36.107997,
+                   "lon": -115.153924,
+                   "starRating": 3,
+                   "guestReviewRating": 3.4,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 1166,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/40800/40734/40734_97_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/40800/40734/40734_97_t.jpg",
+                   "location": "East of The Strip / Las Vegas",
+                   "accommodationType": "Hotel",
+                   "typesThemes": ["Romantic", "Boutique"],
+                   "distanceFromBaseLandmark": "1.2 mi",
+                   "avgPrice": "$89",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "89",
+                   "postfix": "",
+                   "value": "89"
+                   },
+                   "promoPrice": "$62",
+                   "promoPriceDescription": "Save 30%",
+                   "promoPriceId": "446",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "62",
+                   "postfix": "",
+                   "value": "62"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 7 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 256, 134234112, 64, 1, 529, 515, 517, 519, 8]",
+                   "accessibilityIds": "[1048576, 131072]"
+                   }, {
+                   "hotelId": 236148,
+                   "supplierId": 13,
+                   "hotelName": "Hooters Casino Hotel",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "115 East Tropicana Avenue",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.100773,
+                   "lon": -115.167508,
+                   "starRating": 3,
+                   "guestReviewRating": 3,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 6646,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/2000000/1360000/1353500/1353440/1353440_80_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/2000000/1360000/1353500/1353440/1353440_80_t.jpg",
+                   "location": "East of The Strip / Las Vegas",
+                   "accommodationType": "Hotel",
+                   "typesThemes": ["Casino"],
+                   "distanceFromBaseLandmark": "1 mi",
+                   "avgPrice": "$59",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "59",
+                   "postfix": "",
+                   "value": "59"
+                   },
+                   "promoPrice": "$53",
+                   "promoPriceDescription": "Private sale: save 10%",
+                   "promoPriceId": "443",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "53",
+                   "postfix": "",
+                   "value": "53"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 256, 1, 2, 515, 517, 519, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 117354,
+                   "supplierId": 13,
+                   "hotelName": "Palace Station Hotel and Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "2411 W Sahara Ave",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89102",
+                   "region": "NV",
+                   "lat": 36.144199,
+                   "lon": -115.175396,
+                   "starRating": 3,
+                   "guestReviewRating": 3.1,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 4137,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/40800/40797/40797_105_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/40800/40797/40797_105_t.jpg",
+                   "location": "West of The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly", "Business"],
+                   "distanceFromBaseLandmark": "2 mi",
+                   "avgPrice": "$150",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "150",
+                   "postfix": "",
+                   "value": "150"
+                   },
+                   "promoPrice": "$60",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "60",
+                   "postfix": "",
+                   "value": "60"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 256, 513, 1, 2, 515, 517, 519, 537, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 116021,
+                   "supplierId": 13,
+                   "hotelName": "Boulder Station Hotel and Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "4111 Boulder Hwy",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89121",
+                   "region": "NV",
+                   "lat": 36.131586,
+                   "lon": -115.085295,
+                   "starRating": 3,
+                   "guestReviewRating": 3.9,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 1327,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/40900/40820/40820_62_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/40900/40820/40820_62_t.jpg",
+                   "location": "East Las Vegas / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly", "Business"],
+                   "distanceFromBaseLandmark": "5 mi",
+                   "avgPrice": "$130",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "130",
+                   "postfix": "",
+                   "value": "130"
+                   },
+                   "promoPrice": "$60",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "60",
+                   "postfix": "",
+                   "value": "60"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 7 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[134234112, 128, 16384, 256, 1, 2, 515, 517, 519, 521, 523, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 220421,
+                   "supplierId": 13,
+                   "hotelName": "Club De Soleil All-Suite Resort",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "5625 W Tropicana Ave",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89102",
+                   "region": "NV",
+                   "lat": 36.100287,
+                   "lon": -115.21777,
+                   "starRating": 3,
+                   "guestReviewRating": 3.9,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 469,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/220000/215800/215776/215776_7_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/220000/215800/215776/215776_7_t.jpg",
+                   "location": "West of The Strip / Las Vegas",
+                   "accommodationType": "Vacation home / Condo",
+                   "distanceFromBaseLandmark": "2.7 mi",
+                   "avgPrice": "$189",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "189",
+                   "postfix": "",
+                   "value": "189"
+                   },
+                   "promoPrice": "$69",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "69",
+                   "postfix": "",
+                   "value": "69"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 12 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[134234112, 128, 1, 2, 517, 519, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 118903,
+                   "supplierId": 13,
+                   "hotelName": "Stratosphere Hotel - Casino & Resort Hotel",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "2000 Las Vegas Blvd S",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89104",
+                   "region": "NV",
+                   "lat": 36.146989,
+                   "lon": -115.155298,
+                   "starRating": 3.5,
+                   "guestReviewRating": 3.5,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 15918,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/41100/41081/41081_206_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/41100/41081/41081_206_t.jpg",
+                   "location": "The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly", "Spa Hotel"],
+                   "distanceFromBaseLandmark": "2.4 mi",
+                   "avgPrice": "$130",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "130",
+                   "postfix": "",
+                   "value": "130"
+                   },
+                   "promoPrice": "$91",
+                   "promoPriceDescription": "Member’s price: 30%",
+                   "promoPriceId": "445",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "91",
+                   "postfix": "",
+                   "value": "91"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[134234112, 128, 16384, 256, 1, 2, 515, 519, 8, 539, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 152693,
+                   "supplierId": 13,
+                   "hotelName": "Plaza Hotel and Casino - Las Vegas",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "1 Main Street",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89101",
+                   "region": "NV",
+                   "lat": 36.171617,
+                   "lon": -115.146375,
+                   "starRating": 3,
+                   "guestReviewRating": 3.6,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 5291,
+                   "roomsLeft": 2,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/10000/100/19/19_38_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/10000/100/19/19_38_t.jpg",
+                   "location": "Downtown Las Vegas / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly"],
+                   "distanceFromBaseLandmark": "4.2 mi",
+                   "avgPrice": "$155",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "155",
+                   "postfix": "",
+                   "value": "155"
+                   },
+                   "promoPrice": "$55",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "55",
+                   "postfix": "",
+                   "value": "55"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": true,
+                   "message": "2 rooms left"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[256, 134234112, 128, 1, 2, 519, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072]"
+                   }, {
+                   "hotelId": 118583,
+                   "supplierId": 13,
+                   "hotelName": "Circus Circus Hotel and Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "2880 Las Vegas Blvd S",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.136361,
+                   "lon": -115.162247,
+                   "starRating": 3,
+                   "guestReviewRating": 3.4,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 18073,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/30000/24800/24715/24715_183_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/30000/24800/24715/24715_183_t.jpg",
+                   "location": "The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly"],
+                   "distanceFromBaseLandmark": "1.6 mi",
+                   "avgPrice": "$65",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "65",
+                   "postfix": "",
+                   "value": "65"
+                   },
+                   "promoPrice": "$39",
+                   "promoPriceDescription": "Special deal: save 40%",
+                   "promoPriceId": "442",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "39",
+                   "postfix": "",
+                   "value": "39"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 2 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 256, 1, 529, 2, 515, 517, 519, 523, 527]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 266151,
+                   "supplierId": 13,
+                   "hotelName": "Trump International Hotel Las Vegas",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "2000 Fashion Show Drive",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.128837,
+                   "lon": -115.17244,
+                   "starRating": 5,
+                   "guestReviewRating": 4.5,
+                   "qualitativeBadgeText": "Excellent",
+                   "numberOfGuestReviews": 3701,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/2000000/1860000/1857300/1857289/1857289_193_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/2000000/1860000/1857300/1857289/1857289_193_t.jpg",
+                   "location": "West of The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Romantic", "Shopping", "LGBT Welcoming", "Spa Hotel", "Business", "Luxury"],
+                   "distanceFromBaseLandmark": "1 mi",
+                   "avgPrice": "$400",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "400",
+                   "postfix": "",
+                   "value": "400"
+                   },
+                   "promoPrice": "$179",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "179",
+                   "postfix": "",
+                   "value": "179"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[256, 134234112, 64, 128, 1, 2, 515, 517, 519, 521, 525, 527, 529, 539]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 108790,
+                   "supplierId": 13,
+                   "hotelName": "Sunset Station Hotel & Casino",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "1301 W Sunset Rd",
+                   "address2": "",
+                   "locality": "Henderson",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89014",
+                   "region": "NV",
+                   "lat": 36.063629,
+                   "lon": -115.04035,
+                   "starRating": 3,
+                   "guestReviewRating": 4.1,
+                   "qualitativeBadgeText": "Excellent",
+                   "numberOfGuestReviews": 1813,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/42700/42630/42630_64_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/50000/42700/42630/42630_64_t.jpg",
+                   "location": "Henderson / Henderson",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Shopping", "Casino", "Family-friendly"],
+                   "distanceFromBaseLandmark": "8.2 mi",
+                   "avgPrice": "$172",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "172",
+                   "postfix": "",
+                   "value": "172"
+                   },
+                   "promoPrice": "$160",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "160",
+                   "postfix": "",
+                   "value": "160"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 7 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[134234112, 128, 256, 1, 2, 517, 519, 8, 521, 525, 527]",
+                   "accessibilityIds": "[]"
+                   }, {
+                   "hotelId": 196532,
+                   "supplierId": 13,
+                   "hotelName": "The Palms Casino Resort",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "4321 W Flamingo Rd",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89103",
+                   "region": "NV",
+                   "lat": 36.115437,
+                   "lon": -115.194823,
+                   "starRating": 4,
+                   "guestReviewRating": 4,
+                   "qualitativeBadgeText": "Excellent",
+                   "numberOfGuestReviews": 2391,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/800000/792500/792446/792446_94_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/800000/792500/792446/792446_94_t.jpg",
+                   "location": "West of The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Casino", "Family-friendly", "Spa Hotel", "Business"],
+                   "distanceFromBaseLandmark": "1.2 mi",
+                   "avgPrice": "$249",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "249",
+                   "postfix": "",
+                   "value": "249"
+                   },
+                   "promoPrice": "$99",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "99",
+                   "postfix": "",
+                   "value": "99"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 256, 1, 2, 515, 517, 519, 8, 539, 525, 527]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 136353,
+                   "supplierId": 13,
+                   "hotelName": "The Westin Las Vegas Hotel, Casino & Spa",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "160 E Flamingo Rd",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.114599,
+                   "lon": -115.165369,
+                   "starRating": 4,
+                   "guestReviewRating": 4,
+                   "qualitativeBadgeText": "Excellent",
+                   "numberOfGuestReviews": 1467,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/10000/7300/7293/7293_193_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/10000/7300/7293/7293_193_t.jpg",
+                   "location": "East of The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Shopping", "Casino", "Family-friendly", "Spa Hotel", "Business"],
+                   "distanceFromBaseLandmark": "0.4 mi",
+                   "avgPrice": "$139",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "139",
+                   "postfix": "",
+                   "value": "139"
+                   },
+                   "promoPrice": "$118",
+                   "promoPriceDescription": "Mobile exclusive: save 15%",
+                   "promoPriceId": "444",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "118",
+                   "postfix": "",
+                   "value": "118"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Booked 1 hour ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[256, 134234112, 128, 64, 1, 2, 515, 517, 519, 8, 523, 525, 527, 537, 539]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 206650,
+                   "supplierId": 13,
+                   "hotelName": "Oasis at Gold Spike",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "217 Las Vegas Blvd North",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89101",
+                   "region": "NV",
+                   "lat": 36.170736,
+                   "lon": -115.140679,
+                   "starRating": 3,
+                   "guestReviewRating": 3.6,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 451,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/910000/907500/907494/907494_19_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/910000/907500/907494/907494_19_t.jpg",
+                   "location": "Downtown Las Vegas / Las Vegas",
+                   "accommodationType": "Hotel",
+                   "typesThemes": ["Boutique", "Casino"],
+                   "distanceFromBaseLandmark": "4.3 mi",
+                   "avgPrice": "$59",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "59",
+                   "postfix": "",
+                   "value": "59"
+                   },
+                   "promoPrice": "$47",
+                   "promoPriceDescription": "Save 20%",
+                   "promoPriceId": "446",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "47",
+                   "postfix": "",
+                   "value": "47"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 5 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[256, 134234112, 128, 64, 2, 515, 519, 8, 537]",
+                   "accessibilityIds": "[1048576, 131072]"
+                   }, {
+                   "hotelId": 140206,
+                   "supplierId": 13,
+                   "hotelName": "Arizona Charlie's Boulder - Casino Hotel, Suites, & RV Park",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "4575 Boulder Hwy",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89121",
+                   "region": "NV",
+                   "lat": 36.122765,
+                   "lon": -115.075334,
+                   "starRating": 2,
+                   "guestReviewRating": 3.2,
+                   "qualitativeBadgeText": "Good",
+                   "numberOfGuestReviews": 885,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/1000000/70000/63100/63082/63082_31_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/1000000/70000/63100/63082/63082_31_t.jpg",
+                   "location": "East Las Vegas / Las Vegas",
+                   "accommodationType": "Hotel",
+                   "typesThemes": ["Casino", "Family-friendly"],
+                   "distanceFromBaseLandmark": "5.5 mi",
+                   "avgPrice": "$80",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "80",
+                   "postfix": "",
+                   "value": "80"
+                   },
+                   "promoPrice": "$40",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "40",
+                   "postfix": "",
+                   "value": "40"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 3 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[134234112, 128, 16384, 256, 515, 517, 519, 8, 525]",
+                   "accessibilityIds": "[1048576, 131072]"
+                   }, {
+                   "hotelId": 273427,
+                   "supplierId": 13,
+                   "hotelName": "Encore at Wynn Las Vegas",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "3121 Las Vegas Blvd",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89109",
+                   "region": "NV",
+                   "lat": 36.12759,
+                   "lon": -115.16774,
+                   "starRating": 5,
+                   "guestReviewRating": 4.7,
+                   "qualitativeBadgeText": "Outstanding",
+                   "numberOfGuestReviews": 2918,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/3000000/2230000/2223800/2223789/2223789_214_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/3000000/2230000/2223800/2223789/2223789_214_t.jpg",
+                   "location": "The Strip / Las Vegas",
+                   "accommodationType": "Resort",
+                   "typesThemes": ["Romantic", "Shopping", "LGBT Welcoming", "Casino", "Golf", "Spa Hotel", "Luxury"],
+                   "distanceFromBaseLandmark": "0.9 mi",
+                   "avgPrice": "$210",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "210",
+                   "postfix": "",
+                   "value": "210"
+                   },
+                   "promoPrice": "$178",
+                   "promoPriceDescription": "Flash sale: save 15%",
+                   "promoPriceId": "441",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "178",
+                   "postfix": "",
+                   "value": "178"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 6 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[134234112, 128, 256, 1, 515, 517, 519, 8, 539]",
+                   "accessibilityIds": "[1048576, 131072, 262144]"
+                   }, {
+                   "hotelId": 259632,
+                   "supplierId": 13,
+                   "hotelName": "Tahiti All-Suite Resort",
+                   "localizedCountryName": "United States of America",
+                   "isMerchant": true,
+                   "address1": "5101 W Tropicana Ave",
+                   "address2": "",
+                   "locality": "Las Vegas",
+                   "country": "US",
+                   "countryAlpha3Code": "USA",
+                   "postalCode": "89103",
+                   "region": "NV",
+                   "lat": 36.100676,
+                   "lon": -115.210489,
+                   "starRating": 3,
+                   "guestReviewRating": 4.3,
+                   "qualitativeBadgeText": "Excellent",
+                   "numberOfGuestReviews": 352,
+                   "imageUrl": "http://exp.cdn-hotels.com/hotels/2000000/1160000/1156000/1155984/1155984_48_b.jpg",
+                   "thumbnailUrl": "http://exp.cdn-hotels.com/hotels/2000000/1160000/1156000/1155984/1155984_48_t.jpg",
+                   "location": "West of The Strip / Las Vegas",
+                   "accommodationType": "Vacation home / Condo",
+                   "typesThemes": ["Family-friendly"],
+                   "distanceFromBaseLandmark": "2.3 mi",
+                   "avgPrice": "$249",
+                   "avgPriceDescription": "nightly price",
+                   "avgPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "249",
+                   "postfix": "",
+                   "value": "249"
+                   },
+                   "promoPrice": "$79",
+                   "promoPriceDescription": "",
+                   "promoPriceId": "",
+                   "promoPriceDetails": {
+                   "prefix": "$",
+                   "formattedValue": "79",
+                   "postfix": "",
+                   "value": "79"
+                   },
+                   "inExpandedArea": false,
+                   "urgencyMessage": {
+                   "roomsLeftUrgency": false,
+                   "message": "Last booked 10 hours ago"
+                   },
+                   "dealOfTheDay": false,
+                   "dealOfTheDayEndDate": "",
+                   "facilityIds": "[128, 134234112, 1, 2, 517, 519, 525, 527]",
+                   "accessibilityIds": "[]"
+                   }],
+        "sortOptions": [{
+                        "title": "Our Favorites",
+                        "url": "/mobile/search.html?cd=03-24-16&children[0]=0&dd=03-25-16&fromHotelDetails=false&numberOfRooms=1&pn=1&pointName=&rl=CITY%3A1504033%3APROVIDED%3APROVIDED&roomInfoList[0].numberOfAdults=2&so=BEST_SELLER&vt=LIST",
+                        "selected": true
+                        }, {
+                        "title": "Price - low to high",
+                        "url": "/mobile/search.html?cd=03-24-16&children[0]=0&dd=03-25-16&fromHotelDetails=false&numberOfRooms=1&pn=1&pointName=&rl=CITY%3A1504033%3APROVIDED%3APROVIDED&roomInfoList[0].numberOfAdults=2&so=PRICE&vt=LIST",
+                        "selected": false
+                        }, {
+                        "title": "Price - high to low",
+                        "url": "/mobile/search.html?cd=03-24-16&children[0]=0&dd=03-25-16&fromHotelDetails=false&numberOfRooms=1&pn=1&pointName=&rl=CITY%3A1504033%3APROVIDED%3APROVIDED&roomInfoList[0].numberOfAdults=2&so=PRICE_HIGHEST_FIRST&vt=LIST",
+                        "selected": false
+                        }, {
+                        "title": "Star rating - high to low",
+                        "url": "/mobile/search.html?cd=03-24-16&children[0]=0&dd=03-25-16&fromHotelDetails=false&numberOfRooms=1&pn=1&pointName=&rl=CITY%3A1504033%3APROVIDED%3APROVIDED&roomInfoList[0].numberOfAdults=2&so=STAR_RATING_HIGHEST_FIRST&vt=LIST",
+                        "selected": false
+                        }, {
+                        "title": "Star rating - low to high",
+                        "url": "/mobile/search.html?cd=03-24-16&children[0]=0&dd=03-25-16&fromHotelDetails=false&numberOfRooms=1&pn=1&pointName=&rl=CITY%3A1504033%3APROVIDED%3APROVIDED&roomInfoList[0].numberOfAdults=2&so=STAR_RATING_LOWEST_FIRST&vt=LIST",
+                        "selected": false
+                        }, {
+                        "title": "Guest rating",
+                        "url": "/mobile/search.html?cd=03-24-16&children[0]=0&dd=03-25-16&fromHotelDetails=false&numberOfRooms=1&pn=1&pointName=&rl=CITY%3A1504033%3APROVIDED%3APROVIDED&roomInfoList[0].numberOfAdults=2&so=GUEST_RATING&vt=LIST",
+                        "selected": false
+                        }, {
+                        "title": "Special Deals",
+                        "url": "/mobile/search.html?cd=03-24-16&children[0]=0&dd=03-25-16&fromHotelDetails=false&numberOfRooms=1&pn=1&pointName=&rl=CITY%3A1504033%3APROVIDED%3APROVIDED&roomInfoList[0].numberOfAdults=2&so=SPECIAL_DEALS&vt=LIST",
+                        "selected": false
+                        }, {
+                        "title": "Distance to city center - near to far",
+                        "url": "/mobile/search.html?cd=03-24-16&children[0]=0&dd=03-25-16&fromHotelDetails=false&numberOfRooms=1&pn=1&pointName=&rl=CITY%3A1504033%3APROVIDED%3APROVIDED&roomInfoList[0].numberOfAdults=2&so=DISTANCE&vt=LIST",
+                        "selected": false
+                        }],
+        "priceFilter": {
+            "priceFilterMultiplier": 1
+        },
+        "accommodations": [{
+                           "id": 20,
+                           "title": "Apart-hotel",
+                           "checked": false
+                           }, {
+                           "id": 15,
+                           "title": "Apartment",
+                           "checked": false
+                           }, {
+                           "id": 9,
+                           "title": "Cabin / Lodge",
+                           "checked": false
+                           }, {
+                           "id": 12,
+                           "title": "Hostel",
+                           "checked": false
+                           }, {
+                           "id": 1,
+                           "title": "Hotel",
+                           "checked": false
+                           }, {
+                           "id": 7,
+                           "title": "Motel",
+                           "checked": false
+                           }, {
+                           "id": 3,
+                           "title": "Resort",
+                           "checked": false
+                           }, {
+                           "id": 4,
+                           "title": "Vacation home / Condo",
+                           "checked": false
+                           }],
+        "amenities": [{
+                      "id": 513,
+                      "title": "Airport transfers",
+                      "checked": false
+                      }, {
+                      "id": 515,
+                      "title": "Bar",
+                      "checked": false
+                      }, {
+                      "id": 517,
+                      "title": "Bathtub in room",
+                      "checked": false
+                      }, {
+                      "id": 519,
+                      "title": "Business facilities",
+                      "checked": false
+                      }, {
+                      "id": 521,
+                      "title": "Childcare",
+                      "checked": false
+                      }, {
+                      "id": 523,
+                      "title": "Connecting rooms available",
+                      "checked": false
+                      }, {
+                      "id": 525,
+                      "title": "Cribs available",
+                      "checked": false
+                      }, {
+                      "id": 2048,
+                      "title": "Free Breakfast",
+                      "checked": false
+                      }, {
+                      "id": 134234112,
+                      "title": "Free Parking",
+                      "checked": false
+                      }, {
+                      "id": 527,
+                      "title": "Free wifi",
+                      "checked": false
+                      }, {
+                      "id": 2,
+                      "title": "Gym",
+                      "checked": false
+                      }, {
+                      "id": 8,
+                      "title": "Internet Access",
+                      "checked": false
+                      }, {
+                      "id": 1,
+                      "title": "Meeting Facilities",
+                      "checked": false
+                      }, {
+                      "id": 529,
+                      "title": "Non-smoking",
+                      "checked": false
+                      }, {
+                      "id": 16384,
+                      "title": "Parking available",
+                      "checked": false
+                      }, {
+                      "id": 64,
+                      "title": "Pet Friendly",
+                      "checked": false
+                      }, {
+                      "id": 128,
+                      "title": "Pool",
+                      "checked": false
+                      }, {
+                      "id": 256,
+                      "title": "Restaurant",
+                      "checked": false
+                      }, {
+                      "id": 537,
+                      "title": "Smoking areas",
+                      "checked": false
+                      }, {
+                      "id": 539,
+                      "title": "Spa",
+                      "checked": false
+                      }],
+        "themes": [{
+                   "id": 18,
+                   "title": "Adventure",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 6,
+                   "title": "Beach",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 4,
+                   "title": "Boutique",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 14,
+                   "title": "Business",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 8,
+                   "title": "Casino",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 25,
+                   "title": "Family-friendly",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 26,
+                   "title": "Golf",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 21,
+                   "title": "LGBT Welcoming",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 15,
+                   "title": "Luxury",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 1,
+                   "title": "Romantic",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 17,
+                   "title": "Shopping",
+                   "theme": true,
+                   "checked": false
+                   }, {
+                   "id": 27,
+                   "title": "Spa Hotel",
+                   "theme": true,
+                   "checked": false
+                   }],
+        "landmarks": [{
+                      "id": 1504033,
+                      "title": "City center",
+                      "checked": false
+                      }, {
+                      "id": 1461570,
+                      "title": "Las Vegas, NV (LAS-McCarran Intl.)",
+                      "checked": false
+                      }, {
+                      "id": 1719596,
+                      "title": "Bellagio Casino",
+                      "checked": false
+                      }, {
+                      "id": 1407965,
+                      "title": "Las Vegas Convention Center",
+                      "checked": false
+                      }, {
+                      "id": 1716074,
+                      "title": "Fremont Street Experience",
+                      "checked": false
+                      }, {
+                      "id": 1719616,
+                      "title": "The Cosmopolitan Casino",
+                      "checked": false
+                      }, {
+                      "id": 1713838,
+                      "title": "Mandalay Bay Convention Center",
+                      "checked": false
+                      }, {
+                      "id": 1800701,
+                      "title": "The Linq",
+                      "checked": false
+                      }, {
+                      "id": 1713787,
+                      "title": "Fountains of Bellagio",
+                      "checked": false
+                      }, {
+                      "id": 1713845,
+                      "title": "Colosseum at Caesars Palace",
+                      "checked": false
+                      }, {
+                      "id": 1725439,
+                      "title": "Flamingo - Caesars Palace Monorail Station",
+                      "checked": false
+                      }, {
+                      "id": 1633028,
+                      "title": "Las Vegas Motor Speedway",
+                      "checked": false
+                      }, {
+                      "id": 1750964,
+                      "title": "Mirage Volcano",
+                      "checked": false
+                      }, {
+                      "id": 1750966,
+                      "title": "Orleans Arena",
+                      "checked": false
+                      }, {
+                      "id": 1637363,
+                      "title": "Sam Boyd Stadium",
+                      "checked": false
+                      }, {
+                      "id": 1639531,
+                      "title": "Sands Expo Convention Center",
+                      "checked": false
+                      }, {
+                      "id": 1713954,
+                      "title": "Stratosphere Tower",
+                      "checked": false
+                      }, {
+                      "id": 1651565,
+                      "title": "Cashman Field Convention Center",
+                      "checked": false
+                      }, {
+                      "id": 1716941,
+                      "title": "Green Valley Ranch Casino",
+                      "checked": false
+                      }, {
+                      "id": 1717213,
+                      "title": "Mandalay Bay Events Center",
+                      "checked": false
+                      }],
+        "landmarkDistances": [{
+                              "value": "0.5",
+                              "title": "0.5 miles",
+                              "selected": false
+                              }, {
+                              "value": "1.0",
+                              "title": "1 mile",
+                              "selected": false
+                              }, {
+                              "value": "2.0",
+                              "title": "2 miles",
+                              "selected": false
+                              }, {
+                              "value": "5.0",
+                              "title": "5 miles",
+                              "selected": false
+                              }, {
+                              "value": "10.0",
+                              "title": "10 miles",
+                              "selected": false
+                              }, {
+                              "value": "25.0",
+                              "title": "25 miles",
+                              "selected": false
+                              }],
+        "neighborhoods": [{
+                          "id": 1808627,
+                          "title": "Downtown Las Vegas",
+                          "checked": false
+                          }, {
+                          "id": 1705324,
+                          "title": "East of The Strip",
+                          "checked": false
+                          }, {
+                          "id": 1689372,
+                          "title": "South of The Strip",
+                          "checked": false
+                          }, {
+                          "id": 1688611,
+                          "title": "The Strip",
+                          "checked": false
+                          }, {
+                          "id": 1713776,
+                          "title": "West of The Strip",
+                          "checked": false
+                          }, {
+                          "id": 1471512,
+                          "title": "East Las Vegas",
+                          "checked": false
+                          }, {
+                          "id": 1808630,
+                          "title": "Henderson",
+                          "checked": false
+                          }, {
+                          "id": 1648714,
+                          "title": "Lake Las Vegas",
+                          "checked": false
+                          }, {
+                          "id": 1808629,
+                          "title": "North Las Vegas",
+                          "checked": false
+                          }, {
+                          "id": 1808628,
+                          "title": "Summerlin",
+                          "checked": false
+                          }],
+        "adxReportingResult": "NOT_REQUIRED"
+    },
+    "omniture": {
+        "eVar9": "UBS",
+        "eVar34": "H927:007.001,H1293.0,H1294.0,H1423:009.099,H1464:010.099,H2178:003.002,H2179:004.001",
+        "eVar63": "91ed6875-a35d-4ad7-a2df-ebf0ec9ee3b5",
+        "prop7": "242",
+        "prop8": "0",
+        "prop9": "242"
+    }
+}
