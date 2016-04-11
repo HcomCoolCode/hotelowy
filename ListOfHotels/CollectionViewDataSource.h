@@ -15,4 +15,5 @@
 - (void)announceWillAppearForItemInCell:(UICollectionViewCell *)cell;
 - (void)announceDidDisappearForItemInCell:(UICollectionViewCell *)cell;
 - (void)displayObjects:(NSArray *)objects;
+- (id)modelForItemAtIndexPath:(NSIndexPath *)indexPath;
 @end

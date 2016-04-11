@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 @class HotelFetcher;
+@class Hotel;
 
 NS_ASSUME_NONNULL_BEGIN
 @class UICollectionView;
+
 @interface DataSource : NSObject
 - (instancetype)initWithCollectionView:(UICollectionView *)collectionView
                           hotelFetcher:(HotelFetcher *)hotelFetcher;

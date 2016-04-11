@@ -28,14 +28,13 @@ class ListOfHotelsUITests: XCTestCase {
     }
     
     func testTappingUpdateLoadsHotelsIntoTableView() {
-        
         app.navigationBars["Master"].buttons["Update"].tap()
         
-        let label = app.tables.staticTexts["SLS Las Vegas a Tribute Portfolio Resort"]
+        let label = app.collectionViews.otherElements["SLS Las Vegas a Tribute Portfolio Resort"]
         let exists = NSPredicate(format: "exists == true")
 
         expectationForPredicate(exists, evaluatedWithObject: label, handler: nil)
-        waitForExpectationsWithTimeout(1.1, handler: nil)
+        waitForExpectationsWithTimeout(2.1, handler: nil)
         
     }
     

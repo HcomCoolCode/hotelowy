@@ -10,26 +10,27 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
-    var hotel: Hotel? {
-        didSet {
-            self.configureView()
-        }
+    private var detailDescriptionLabel: UILabel!
+    private let hotel : Hotel
+    
+    init(hotel: Hotel) {
+        self.hotel = hotel
+        super.init(nibName: nil, bundle: nil)
     }
-
-    func configureView() {
-        // Update the user interface for the detail item.
-        if let hotel = self.hotel {
-            if let label = self.detailDescriptionLabel {
-                label.text = hotel.name
-            }
-        }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.configureView()
+        detailDescriptionLabel = UILabel(frame: view.bounds)
+        detailDescriptionLabel.autoresizingMask = [.FlexibleHeight,.FlexibleWidth]
+        detailDescriptionLabel.backgroundColor = UIColor.whiteColor()
+        detailDescriptionLabel.textAlignment = .Center
+        detailDescriptionLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline)
+        view.addSubview(detailDescriptionLabel)
+        detailDescriptionLabel.text = hotel.name
     }
 }
 

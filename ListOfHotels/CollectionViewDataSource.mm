@@ -67,6 +67,10 @@
     [_ckDataSource announceDidDisappearForItemInCell:cell];
 }
 
+- (id)modelForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return [_ckDataSource modelForItemAtIndexPath:indexPath];
+}
+
 + (CKComponent *)componentForModel:(id<NSObject>)model context:(id<NSObject>)context{
     NSAssert([model isKindOfClass:[Hotel class]], @"must of hotel class");
     return [HotelComponent newWithHotel:(Hotel *)model];
