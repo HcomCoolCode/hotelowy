@@ -23,8 +23,8 @@ class ListOfHotelsUITests: XCTestCase {
         XCTAssertTrue(app.navigationBars["Master"].buttons["Update"].exists)
     }
     
-    func testTableViewExists() {
-        XCTAssertTrue(app.tables["Empty list"].exists)
+    func testCollectionViewExists() {
+        XCTAssertTrue(app.collectionViews.elementBoundByIndex(0).exists)
     }
     
     func testTappingUpdateLoadsHotelsIntoTableView() {

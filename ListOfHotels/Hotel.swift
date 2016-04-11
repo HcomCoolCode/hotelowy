@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Hotel : Equatable{
+public class Hotel : NSObject{
     let name : String
     let id : UInt64
     let imageURL : NSURL
@@ -21,7 +21,7 @@ struct Hotel : Equatable{
 
 }
 
-func ==(lhs: Hotel, rhs: Hotel) -> Bool {
+public func ==(lhs: Hotel, rhs: Hotel) -> Bool {
     guard lhs.name == rhs.name else {return false}
     guard lhs.id == rhs.id else {return false}
     guard lhs.imageURL == rhs.imageURL else {return false}

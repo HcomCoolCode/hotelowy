@@ -18,7 +18,7 @@ func delay(delay:Double, closure:()->()) {
 }
 
 
-class Network {
+public class Network : NSObject {
     
     func getURL(url: NSURL, completion: (data: NSData?, error: NSError?) -> ()) {
         

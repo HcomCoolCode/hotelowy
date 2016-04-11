@@ -8,7 +8,10 @@
 
 import UIKit
 
-class MasterViewController: UITableViewController {
+class MasterViewController: UIViewController {
+    
+    var collectionView: UICollectionView!
+    var dataSource: DataSource!
 
     var detailViewController: DetailViewController? = nil
     var hotels = [Hotel]() {
@@ -21,9 +24,15 @@ class MasterViewController: UITableViewController {
     }()
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        tableView.estimatedRowHeight = 100
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Update", style: .Plain, target: self, action: Selector("fetch"))
+        
+        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UICollectionViewFlowLayout())
+        collectionView.backgroundColor = UIColor.whiteColor()
+        dataSource = DataSource(collectionView: collectionView, hotelFetcher: fetcher)
+        view .addSubview(collectionView);
+        
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Update", style: .Plain, target: self, action: #selector(MasterViewController.reloadData))
 
         if let split = self.splitViewController {
             let controllers = split.viewControllers
@@ -32,50 +41,22 @@ class MasterViewController: UITableViewController {
     }
     
     func reloadData() {
-        tableView.reloadData()
+        dataSource.reload()
     }
     
-    func fetch() {
-        fetcher.fetchHotels {[unowned self] (hotels, error) -> () in
-            if let hotels = hotels {
-                self.hotels = hotels
-            }
-        }
-    }
-
-    override func viewWillAppear(animated: Bool) {
-        self.clearsSelectionOnViewWillAppear = self.splitViewController!.collapsed
-        super.viewWillAppear(animated)
-    }
+    
     // MARK: - Segues
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
-            if let indexPath = self.tableView.indexPathForSelectedRow {
-                let hotel = hotels[indexPath.row]
-                let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
-                controller.hotel = hotel
-                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
-                controller.navigationItem.leftItemsSupplementBackButton = true
-            }
+//            if let indexPath = self.tableView.indexPathForSelectedRow {
+//                let hotel = hotels[indexPath.row]
+//                let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
+//                controller.hotel = hotel
+//                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
+//                controller.navigationItem.leftItemsSupplementBackButton = true
+//            }
         }
     }
-
-    // MARK: - Table View
-
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return hotels.count
-    }
-
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
-        let hotel = hotels[indexPath.row]
-        cell.textLabel!.numberOfLines = 0
-        cell.textLabel!.text = hotel.name
-        return cell
-    }
-
-
 }
 

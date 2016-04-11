@@ -12,9 +12,10 @@ func hotelsURL() -> NSURL {
     return NSURL(string: "http://www.hotels.com/hotels.json")!
 }
 
-class HotelFetcher {
+public class HotelFetcher : NSObject {
     
     private let network: Network
+    
     init(network: Network) {
         self.network = network
     }
