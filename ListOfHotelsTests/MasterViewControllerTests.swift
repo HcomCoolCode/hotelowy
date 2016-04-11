@@ -59,26 +59,13 @@ class MasterViewControllerTests: XCTestCase {
     }
     
     func createViewControllerStack(fetcher: HotelFetcher) -> (UINavigationController, MasterViewController) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewControllerWithIdentifier("MasterViewController") as! MasterViewController
-        vc.fetcher = fetcher
-        let nc = UINavigationController(rootViewController: vc)
-        vc.loadViewIfNeeded()
-        return (nc, vc)
+        let master = MasterViewController()
+        master.fetcher = fetcher
+        let nc = UINavigationController(rootViewController: master)
+        return (nc, master)
     }
     
     func testViewControllerExists() {
         XCTAssertNotNil(viewController)
     }
-    
-    func testUpdateExists() {
-        XCTAssertNotNil(viewController.navigationItem.leftBarButtonItem)
-    }
-    
-    func testTappingUpdateCallsFetchHotels() {
-        let update = viewController.navigationItem.leftBarButtonItem
-        update!.target!.performSelector(update!.action)
-        XCTAssertTrue(fetcher.fetchHotelsCalled)
-    }
-    
 }
