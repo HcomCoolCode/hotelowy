@@ -20,10 +20,27 @@ class ListOfHotelsUITests: XCTestCase {
     }
     
     func testUpdateButtonExists() {
-        XCTAssertTrue(app.navigationBars["ListOfHotels.MasterView"].buttons["Update"].exists)
+        XCTAssertTrue(updateButton(app).exists)
+    }
+    
+    func updateButton(app: XCUIApplication) -> XCUIElement {
+        return app.navigationBars["ListOfHotels.MasterView"].buttons["Update"]
     }
     
     func testCollectionViewExists() {
         XCTAssertTrue(app.collectionViews.elementBoundByIndex(0).exists)
+    }
+    
+    func testTappingUpdateLoadsCells() {
+        
+        updateButton(app).tap()
+        updateButton(app).tap()
+        
+        let predicate = NSPredicate(format: "self.count > 0")
+        let _ = expectationForPredicate(predicate,
+                                        evaluatedWithObject: app.collectionViews.cells,
+                                        handler: nil)
+        waitForExpectationsWithTimeout(10, handler: nil)
+        
     }
 }
