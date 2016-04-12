@@ -15,7 +15,7 @@ class MasterViewControllerTests: XCTestCase {
     
     class MockFetcher : HotelFetcher {
         class MockNetwork: Network {
-            override func getURL(url: NSURL, completion: (data: NSData?, error: NSError?) -> ()) {
+            func getURL(url: NSURL, completion: (data: NSData?, error: NSError?) -> ()) {
                 
             }
         }
@@ -23,7 +23,7 @@ class MasterViewControllerTests: XCTestCase {
         var network: MockNetwork?
         init () {
             self.network = MockNetwork()
-            super.init(network: network!)
+            super.init(network: network!, parser: HotelParser())
         }
         
         var fetchHotelsCalled: Bool = false

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+NS_ASSUME_NONNULL_BEGIN
 @interface CollectionViewDataSource : NSObject
 - (instancetype)initWithCollectionView:(UICollectionView *)collectionView
                  componentMappingBlock:(id (^)(id model))block;
@@ -17,3 +17,4 @@
 - (void)displayObjects:(NSArray *)objects;
 - (id)modelForItemAtIndexPath:(NSIndexPath *)indexPath;
 @end
+NS_ASSUME_NONNULL_END

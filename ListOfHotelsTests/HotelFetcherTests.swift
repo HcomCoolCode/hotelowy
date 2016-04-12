@@ -16,7 +16,7 @@ class HotelFetcherTests: XCTestCase {
         var getURLcalled: Bool = false
         var passedURL: NSURL?
         var passedCompletion: ((data: NSData?, error: NSError?) -> ())?
-        override func getURL(url: NSURL, completion: (data: NSData?, error: NSError?) -> ()) {
+        func getURL(url: NSURL, completion: (data: NSData?, error: NSError?) -> ()) {
             getURLcalled = true
             passedURL = url
             passedCompletion = completion
@@ -29,7 +29,7 @@ class HotelFetcherTests: XCTestCase {
     override func setUp() {
         super.setUp()
         network = MockNetwork()
-        fetcher = HotelFetcher(network: network)
+        fetcher = HotelFetcher(network: network, parser: HotelParser())
     }
     
     override func tearDown() {

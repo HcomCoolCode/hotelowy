@@ -14,7 +14,7 @@ class MasterViewController: UIViewController{
     var dataSource: DataSource!
     
     lazy var fetcher: HotelFetcher = {
-        HotelFetcher(network: Network())
+        HotelFetcher(network: FakeNetwork(), parser: HotelParser())
     }()
     
     func showDetails(hotel: Hotel) {

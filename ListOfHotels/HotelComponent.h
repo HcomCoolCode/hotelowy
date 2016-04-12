@@ -7,7 +7,9 @@
 //
 
 #import <ComponentKit/ComponentKit.h>
+NS_ASSUME_NONNULL_BEGIN
 @class Hotel;
 @interface HotelComponent : CKCompositeComponent
 + (instancetype)newWithHotel:(Hotel *)hotel;
 @end
+NS_ASSUME_NONNULL_END

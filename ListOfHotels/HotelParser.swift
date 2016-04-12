@@ -8,7 +8,7 @@
 
 import Foundation
 
-class HotelParser {
+class HotelParser : HotelParsing{
     func parseHotelData(data: NSData) -> [Hotel]? {
         let json: Any?
         

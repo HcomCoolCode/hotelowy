@@ -17,8 +17,6 @@ public class Hotel : NSObject{
         self.id = id
         self.imageURL = imageURL
     }
-    
-
 }
 
 public func ==(lhs: Hotel, rhs: Hotel) -> Bool {

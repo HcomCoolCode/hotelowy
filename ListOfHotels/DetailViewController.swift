@@ -27,6 +27,7 @@ class DetailViewController: UIViewController {
         detailDescriptionLabel = UILabel(frame: view.bounds)
         detailDescriptionLabel.autoresizingMask = [.FlexibleHeight,.FlexibleWidth]
         detailDescriptionLabel.backgroundColor = UIColor.whiteColor()
+        detailDescriptionLabel.numberOfLines = 0
         detailDescriptionLabel.textAlignment = .Center
         detailDescriptionLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline)
         view.addSubview(detailDescriptionLabel)

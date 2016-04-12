@@ -24,6 +24,9 @@
 		0429EDC91CA43CF400428AFB /* HotelParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC81CA43CF400428AFB /* HotelParserTests.swift */; };
 		0429EDCA1CA43EAB00428AFB /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
 		042EF6D41CBBE49D00E300DE /* HotelComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 042EF6D31CBBE49D00E300DE /* HotelComponent.mm */; };
+		04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */; };
+		04758CBA1CBCFBCA00F5C286 /* RealNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */; };
+		04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
 		048F46A01CB813B600CABDCF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F469F1CB813B600CABDCF /* DataSource.m */; };
 		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
 		554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CC89F23F45A2D98CC849E /* libPods.a */; };
@@ -70,6 +73,9 @@
 		0429EDC81CA43CF400428AFB /* HotelParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelParserTests.swift; sourceTree = "<group>"; };
 		042EF6D21CBBE49D00E300DE /* HotelComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelComponent.h; sourceTree = "<group>"; };
 		042EF6D31CBBE49D00E300DE /* HotelComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HotelComponent.mm; sourceTree = "<group>"; };
+		04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeNetwork.swift; sourceTree = "<group>"; };
+		04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealNetwork.swift; sourceTree = "<group>"; };
+		04758CBE1CBD01C900F5C286 /* HotelParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelParsing.swift; sourceTree = "<group>"; };
 		048F469D1CB813B600CABDCF /* ListOfHotels-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ListOfHotels-Bridging-Header.h"; sourceTree = "<group>"; };
 		048F469E1CB813B600CABDCF /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		048F469F1CB813B600CABDCF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
@@ -135,11 +141,7 @@
 				042EF6DB1CBC023200E300DE /* Backend */,
 				042EF6DC1CBC024700E300DE /* Middle Layer */,
 				042EF6DD1CBC025100E300DE /* Front End */,
-				0429EDBC1CA41EC000428AFB /* hotels_sample.json */,
-				0429ED8F1CA413B600428AFB /* Assets.xcassets */,
-				0429ED911CA413B600428AFB /* LaunchScreen.storyboard */,
-				0429ED941CA413B600428AFB /* Info.plist */,
-				048F469D1CB813B600CABDCF /* ListOfHotels-Bridging-Header.h */,
+				04758CBB1CBCFD9800F5C286 /* Misc */,
 			);
 			path = ListOfHotels;
 			sourceTree = "<group>";
@@ -168,10 +170,11 @@
 		042EF6DB1CBC023200E300DE /* Backend */ = {
 			isa = PBXGroup;
 			children = (
+				0429EDBC1CA41EC000428AFB /* hotels_sample.json */,
 				0429EDB61CA4146800428AFB /* Hotel.swift */,
 				0429EDC01CA426F500428AFB /* HotelFetcher.swift */,
-				0429EDC21CA4273600428AFB /* HotelParser.swift */,
-				0429EDBA1CA41D6A00428AFB /* Network.swift */,
+				04758CBD1CBD01A300F5C286 /* Parser */,
+				04758CBC1CBD018400F5C286 /* Network */,
 			);
 			name = Backend;
 			sourceTree = "<group>";
@@ -196,6 +199,36 @@
 				042EF6D31CBBE49D00E300DE /* HotelComponent.mm */,
 			);
 			name = "Front End";
+			sourceTree = "<group>";
+		};
+		04758CBB1CBCFD9800F5C286 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				0429ED8F1CA413B600428AFB /* Assets.xcassets */,
+				0429ED911CA413B600428AFB /* LaunchScreen.storyboard */,
+				0429ED941CA413B600428AFB /* Info.plist */,
+				048F469D1CB813B600CABDCF /* ListOfHotels-Bridging-Header.h */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		04758CBC1CBD018400F5C286 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0429EDBA1CA41D6A00428AFB /* Network.swift */,
+				04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */,
+				04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		04758CBD1CBD01A300F5C286 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				0429EDC21CA4273600428AFB /* HotelParser.swift */,
+				04758CBE1CBD01C900F5C286 /* HotelParsing.swift */,
+			);
+			name = Parser;
 			sourceTree = "<group>";
 		};
 		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
@@ -403,10 +436,13 @@
 				048F46A01CB813B600CABDCF /* DataSource.m in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
+				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
 				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
+				04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */,
 				0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */,
 				0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */,
 				042EF6D41CBBE49D00E300DE /* HotelComponent.mm in Sources */,
+				04758CBA1CBCFBCA00F5C286 /* RealNetwork.swift in Sources */,
 				0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
