@@ -1,5 +1,5 @@
 language: objective-c  
 osx_image: xcode7.3
-xcode_project: ListOfHotels.xcodeproj
+xcode_workspace: ListOfHotels.xcworkspace
 xcode_scheme: ListOfHotels
 xcode_sdk: iphonesimulator9.3
