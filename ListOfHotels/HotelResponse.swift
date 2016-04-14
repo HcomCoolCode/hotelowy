@@ -9,15 +9,25 @@
 import Foundation
 import ObjectMapper
 
-public class HotelResponse : NSObject, Mappable {
-    var hotels : [Hotel]?
+// Generated using http://parse-amol.rhcloud.com/
+class HotelResponse: Mappable {
+    var neighborhoods: [Neighborhood]?
+    var adxReportingResult: String?
+    var landmarks: [Landmark]?
+    var accommodations: [Accommodation]?
+    var themes: [Theme]?
+    var amenities: [Amenity]?
+    var hotels: [Hotel]?
     
-    required public init?(_ map: Map) {
-        
+    required init?(_ map: Map) {
     }
     
-    public func mapping(map: Map) {
+    func mapping(map: Map) {
+        neighborhoods <- map["result.neighborhoods"]
+        landmarks <- map["result.landmarks"]
+        accommodations <- map["result.accommodations"]
+        themes <- map["result.themes"]
+        amenities <- map["result.amenities"]
         hotels <- map["result.hotels"]
     }
 }
-

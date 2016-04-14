@@ -30,6 +30,14 @@
 		048F46A01CB813B600CABDCF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F469F1CB813B600CABDCF /* DataSource.m */; };
 		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
 		279DA8911CC01503004701D3 /* HotelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8901CC01503004701D3 /* HotelResponse.swift */; };
+		279DA8931CC02837004701D3 /* UrgencyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8921CC02837004701D3 /* UrgencyMessage.swift */; };
+		279DA8951CC02859004701D3 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8941CC02859004701D3 /* Landmark.swift */; };
+		279DA8971CC02865004701D3 /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8961CC02865004701D3 /* Accommodation.swift */; };
+		279DA8991CC02878004701D3 /* Neighbourhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8981CC02878004701D3 /* Neighbourhood.swift */; };
+		279DA89B1CC02884004701D3 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89A1CC02884004701D3 /* Amenity.swift */; };
+		279DA89D1CC02890004701D3 /* PromoPriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */; };
+		279DA89F1CC02899004701D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89E1CC02899004701D3 /* Theme.swift */; };
+		279DA8A11CC028B6004701D3 /* AveragePriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */; };
 		A36106DA751DE4BF516F1156 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC27361B34641BF83A76E5A /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +92,14 @@
 		04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewDataSource.mm; sourceTree = "<group>"; };
 		1BC27361B34641BF83A76E5A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		279DA8901CC01503004701D3 /* HotelResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelResponse.swift; sourceTree = "<group>"; };
+		279DA8921CC02837004701D3 /* UrgencyMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrgencyMessage.swift; sourceTree = "<group>"; };
+		279DA8941CC02859004701D3 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		279DA8961CC02865004701D3 /* Accommodation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accommodation.swift; sourceTree = "<group>"; };
+		279DA8981CC02878004701D3 /* Neighbourhood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neighbourhood.swift; sourceTree = "<group>"; };
+		279DA89A1CC02884004701D3 /* Amenity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amenity.swift; sourceTree = "<group>"; };
+		279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoPriceDetail.swift; sourceTree = "<group>"; };
+		279DA89E1CC02899004701D3 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AveragePriceDetail.swift; sourceTree = "<group>"; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,12 +188,11 @@
 		042EF6DB1CBC023200E300DE /* Backend */ = {
 			isa = PBXGroup;
 			children = (
+				279DA8A21CC02A35004701D3 /* Model Objects */,
 				0429EDBC1CA41EC000428AFB /* hotels_sample.json */,
-				0429EDB61CA4146800428AFB /* Hotel.swift */,
 				0429EDC01CA426F500428AFB /* HotelFetcher.swift */,
 				04758CBD1CBD01A300F5C286 /* Parser */,
 				04758CBC1CBD018400F5C286 /* Network */,
-				279DA8901CC01503004701D3 /* HotelResponse.swift */,
 			);
 			name = Backend;
 			sourceTree = "<group>";
@@ -232,6 +247,23 @@
 				04758CBE1CBD01C900F5C286 /* HotelParsing.swift */,
 			);
 			name = Parser;
+			sourceTree = "<group>";
+		};
+		279DA8A21CC02A35004701D3 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				279DA8901CC01503004701D3 /* HotelResponse.swift */,
+				279DA8961CC02865004701D3 /* Accommodation.swift */,
+				279DA89A1CC02884004701D3 /* Amenity.swift */,
+				279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */,
+				0429EDB61CA4146800428AFB /* Hotel.swift */,
+				279DA8941CC02859004701D3 /* Landmark.swift */,
+				279DA8981CC02878004701D3 /* Neighbourhood.swift */,
+				279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */,
+				279DA89E1CC02899004701D3 /* Theme.swift */,
+				279DA8921CC02837004701D3 /* UrgencyMessage.swift */,
+			);
+			name = "Model Objects";
 			sourceTree = "<group>";
 		};
 		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
@@ -437,9 +469,17 @@
 				0429EDBB1CA41D6A00428AFB /* Network.swift in Sources */,
 				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
 				048F46A01CB813B600CABDCF /* DataSource.m in Sources */,
+				279DA8951CC02859004701D3 /* Landmark.swift in Sources */,
+				279DA89D1CC02890004701D3 /* PromoPriceDetail.swift in Sources */,
 				279DA8911CC01503004701D3 /* HotelResponse.swift in Sources */,
+				279DA89F1CC02899004701D3 /* Theme.swift in Sources */,
+				279DA8991CC02878004701D3 /* Neighbourhood.swift in Sources */,
+				279DA8A11CC028B6004701D3 /* AveragePriceDetail.swift in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
+				279DA8931CC02837004701D3 /* UrgencyMessage.swift in Sources */,
+				279DA8971CC02865004701D3 /* Accommodation.swift in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
+				279DA89B1CC02884004701D3 /* Amenity.swift in Sources */,
 				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
 				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
 				04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */,
