@@ -1,15 +1,18 @@
 PODS:
   - ComponentKit (0.14)
+  - ObjectMapper (1.2.0)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
 
 DEPENDENCIES:
   - ComponentKit (~> 0.13)
+  - ObjectMapper (~> 1.2)
   - SDWebImage (~> 3.7)
 
 SPEC CHECKSUMS:
   ComponentKit: 11d9177b5e9940c456e7486d8f5a25c26d9ca5f2
+  ObjectMapper: b1e9c7c8a9f6400b72690c80072c131504caa66f
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
 
 COCOAPODS: 0.39.0

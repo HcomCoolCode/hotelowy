@@ -7,21 +7,20 @@
 //
 
 import Foundation
+import ObjectMapper
 
-public class Hotel : NSObject{
-    let name : String
-    let id : UInt64
-    let imageURL : NSURL
-    init(name : String, id: UInt64, imageURL: NSURL) {
-        self.name = name
-        self.id = id
-        self.imageURL = imageURL
+public class Hotel : NSObject, Mappable {
+    var name : String?
+    var id : Int?
+    var imageURL : NSURL?
+    
+    required public init?(_ map: Map) {
+        
     }
-}
-
-public func ==(lhs: Hotel, rhs: Hotel) -> Bool {
-    guard lhs.name == rhs.name else {return false}
-    guard lhs.id == rhs.id else {return false}
-    guard lhs.imageURL == rhs.imageURL else {return false}
-    return true
+    
+    public func mapping(map: Map) {
+        name <- map["hotelName"]
+        id <- map["hotelId"]
+        imageURL <- (map["imageUrl"], URLTransform())
+    }
 }

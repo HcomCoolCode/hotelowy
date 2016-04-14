@@ -37,12 +37,12 @@ public class HotelFetcher : NSObject {
             return
         }
         
-        guard let parsedHotels = parser.parseHotelData(data) else {
+        do {
+            let response = try parser.parseHotelData(data)
+            completion(hotels: response?.hotels, error: nil)
+        } catch {
             let parseError = NSError(domain: "hotels.com", code: 2, userInfo: nil)
             completion(hotels: nil, error: parseError)
-            return
         }
-        
-        completion(hotels: parsedHotels, error: nil)
     }
 }
