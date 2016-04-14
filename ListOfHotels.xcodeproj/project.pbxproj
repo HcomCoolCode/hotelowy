@@ -29,6 +29,23 @@
 		04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
 		048F46A01CB813B600CABDCF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F469F1CB813B600CABDCF /* DataSource.m */; };
 		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
+		4DFFBF7C1CBFDBF000632795 /* EntityMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF781CBFDBF000632795 /* EntityMapping.swift */; };
+		4DFFBF7D1CBFDBF000632795 /* EntityMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF781CBFDBF000632795 /* EntityMapping.swift */; };
+		4DFFBF7E1CBFDBF000632795 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF791CBFDBF000632795 /* JSONParser.swift */; };
+		4DFFBF7F1CBFDBF000632795 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF791CBFDBF000632795 /* JSONParser.swift */; };
+		4DFFBF801CBFDBF000632795 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF7A1CBFDBF000632795 /* Schema.swift */; };
+		4DFFBF811CBFDBF000632795 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF7A1CBFDBF000632795 /* Schema.swift */; };
+		4DFFBF821CBFDBF000632795 /* SchemaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF7B1CBFDBF000632795 /* SchemaFactory.swift */; };
+		4DFFBF831CBFDBF000632795 /* SchemaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF7B1CBFDBF000632795 /* SchemaFactory.swift */; };
+		4DFFBF891CBFDC0500632795 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF851CBFDC0500632795 /* Image.swift */; };
+		4DFFBF8A1CBFDC0500632795 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF851CBFDC0500632795 /* Image.swift */; };
+		4DFFBF8B1CBFDC0500632795 /* ImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF861CBFDC0500632795 /* ImageSize.swift */; };
+		4DFFBF8C1CBFDC0500632795 /* ImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF861CBFDC0500632795 /* ImageSize.swift */; };
+		4DFFBF8D1CBFDC0500632795 /* ImagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF871CBFDC0500632795 /* ImagesResponse.swift */; };
+		4DFFBF8E1CBFDC0500632795 /* ImagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF871CBFDC0500632795 /* ImagesResponse.swift */; };
+		4DFFBF8F1CBFDC0500632795 /* ImagesSchemaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF881CBFDC0500632795 /* ImagesSchemaFactory.swift */; };
+		4DFFBF901CBFDC0500632795 /* ImagesSchemaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF881CBFDC0500632795 /* ImagesSchemaFactory.swift */; };
+		4DFFBF921CBFDC1200632795 /* MappingArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFBF911CBFDC1200632795 /* MappingArchitectureTests.swift */; };
 		554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CC89F23F45A2D98CC849E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +98,15 @@
 		048F469F1CB813B600CABDCF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		04C67BC91CBB9B10007968F2 /* CollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDataSource.h; sourceTree = "<group>"; };
 		04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewDataSource.mm; sourceTree = "<group>"; };
+		4DFFBF781CBFDBF000632795 /* EntityMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityMapping.swift; sourceTree = "<group>"; };
+		4DFFBF791CBFDBF000632795 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		4DFFBF7A1CBFDBF000632795 /* Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schema.swift; sourceTree = "<group>"; };
+		4DFFBF7B1CBFDBF000632795 /* SchemaFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaFactory.swift; sourceTree = "<group>"; };
+		4DFFBF851CBFDC0500632795 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		4DFFBF861CBFDC0500632795 /* ImageSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSize.swift; sourceTree = "<group>"; };
+		4DFFBF871CBFDC0500632795 /* ImagesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesResponse.swift; sourceTree = "<group>"; };
+		4DFFBF881CBFDC0500632795 /* ImagesSchemaFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesSchemaFactory.swift; sourceTree = "<group>"; };
+		4DFFBF911CBFDC1200632795 /* MappingArchitectureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingArchitectureTests.swift; sourceTree = "<group>"; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C86CC89F23F45A2D98CC849E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +175,7 @@
 		0429ED9C1CA413B600428AFB /* ListOfHotelsTests */ = {
 			isa = PBXGroup;
 			children = (
+				4DFFBF911CBFDC1200632795 /* MappingArchitectureTests.swift */,
 				0429EDB81CA4154300428AFB /* HotelTests.swift */,
 				0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */,
 				0429EDC61CA4392900428AFB /* MasterViewControllerTests.swift */,
@@ -225,10 +252,34 @@
 		04758CBD1CBD01A300F5C286 /* Parser */ = {
 			isa = PBXGroup;
 			children = (
+				4DFFBF841CBFDBFD00632795 /* Example */,
+				4DFFBF771CBFDBE200632795 /* Framework */,
 				0429EDC21CA4273600428AFB /* HotelParser.swift */,
 				04758CBE1CBD01C900F5C286 /* HotelParsing.swift */,
 			);
 			name = Parser;
+			sourceTree = "<group>";
+		};
+		4DFFBF771CBFDBE200632795 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4DFFBF781CBFDBF000632795 /* EntityMapping.swift */,
+				4DFFBF791CBFDBF000632795 /* JSONParser.swift */,
+				4DFFBF7A1CBFDBF000632795 /* Schema.swift */,
+				4DFFBF7B1CBFDBF000632795 /* SchemaFactory.swift */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		4DFFBF841CBFDBFD00632795 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				4DFFBF851CBFDC0500632795 /* Image.swift */,
+				4DFFBF861CBFDC0500632795 /* ImageSize.swift */,
+				4DFFBF871CBFDC0500632795 /* ImagesResponse.swift */,
+				4DFFBF881CBFDC0500632795 /* ImagesSchemaFactory.swift */,
+			);
+			name = Example;
 			sourceTree = "<group>";
 		};
 		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
@@ -432,17 +483,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				0429EDBB1CA41D6A00428AFB /* Network.swift in Sources */,
+				4DFFBF891CBFDC0500632795 /* Image.swift in Sources */,
 				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
 				048F46A01CB813B600CABDCF /* DataSource.m in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
+				4DFFBF8F1CBFDC0500632795 /* ImagesSchemaFactory.swift in Sources */,
 				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
 				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
 				04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */,
+				4DFFBF801CBFDBF000632795 /* Schema.swift in Sources */,
+				4DFFBF821CBFDBF000632795 /* SchemaFactory.swift in Sources */,
 				0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */,
+				4DFFBF7C1CBFDBF000632795 /* EntityMapping.swift in Sources */,
 				0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */,
+				4DFFBF7E1CBFDBF000632795 /* JSONParser.swift in Sources */,
 				042EF6D41CBBE49D00E300DE /* HotelComponent.mm in Sources */,
+				4DFFBF8D1CBFDC0500632795 /* ImagesResponse.swift in Sources */,
 				04758CBA1CBCFBCA00F5C286 /* RealNetwork.swift in Sources */,
+				4DFFBF8B1CBFDC0500632795 /* ImageSize.swift in Sources */,
 				0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,10 +510,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFFBF7D1CBFDBF000632795 /* EntityMapping.swift in Sources */,
+				4DFFBF8E1CBFDC0500632795 /* ImagesResponse.swift in Sources */,
+				4DFFBF8A1CBFDC0500632795 /* Image.swift in Sources */,
+				4DFFBF901CBFDC0500632795 /* ImagesSchemaFactory.swift in Sources */,
 				0429EDC71CA4392900428AFB /* MasterViewControllerTests.swift in Sources */,
+				4DFFBF7F1CBFDBF000632795 /* JSONParser.swift in Sources */,
+				4DFFBF921CBFDC1200632795 /* MappingArchitectureTests.swift in Sources */,
 				0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */,
 				0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */,
+				4DFFBF811CBFDBF000632795 /* Schema.swift in Sources */,
 				0429EDC91CA43CF400428AFB /* HotelParserTests.swift in Sources */,
+				4DFFBF8C1CBFDC0500632795 /* ImageSize.swift in Sources */,
+				4DFFBF831CBFDBF000632795 /* SchemaFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
