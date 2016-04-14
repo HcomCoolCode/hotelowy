@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol SchemaFactory {
+protocol SchemaFactory {
     associatedtype T: NSObject
     
     func schema() -> Schema<T>

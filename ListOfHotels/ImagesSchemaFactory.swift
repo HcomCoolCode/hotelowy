@@ -8,10 +8,10 @@
 
 import Foundation
 
-public class ImagesSchemaFactory : NSObject, SchemaFactory {
-    public typealias T = ImagesResponse
+class ImagesSchemaFactory : NSObject, SchemaFactory {
+    typealias T = ImagesResponse
     
-    public func schema() -> Schema<ImagesResponse> {
+    func schema() -> Schema<ImagesResponse> {
         let imageSizeMapping = EntityMapping<ImageSize>()
             .withPropertyMapping("type") { $0.type = $1 }
             .withPropertyMapping("suffix") { $0.suffix = $1 }

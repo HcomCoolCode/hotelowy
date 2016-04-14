@@ -8,20 +8,19 @@
 
 import Foundation
 
-public typealias SetterClosure = (object: AnyObject, value: AnyObject) -> Void
+typealias SetterClosure = (object: AnyObject, value: AnyObject) -> Void
+typealias RelationshipMappingEntry = (keyPath: String, mapping: EntityMappingProtocol, setter: SetterClosure)
 
-public protocol EntityMappingProtocol {
+protocol EntityMappingProtocol {
     var propertySetters: [String: SetterClosure] { get }
-    var relationshipMappings: [String: EntityMappingProtocol] { get }
-    var relationshipSetters: [String: SetterClosure] { get }
+    var relationshipMappings: [RelationshipMappingEntry] { get }
 }
 
-public class EntityMapping<E: NSObject> : EntityMappingProtocol {
+class EntityMapping<E: NSObject> : EntityMappingProtocol {
     typealias EntityType = E
     
-    public var propertySetters = [String: SetterClosure]()
-    public var relationshipMappings = [String: EntityMappingProtocol]()
-    public var relationshipSetters = [String: SetterClosure]()
+    private(set) var propertySetters = [String: SetterClosure]()
+    private(set) var relationshipMappings = [RelationshipMappingEntry]()
     
     func withPropertyMapping<T>(fromKeyPath: String, propertySetter: (object: E, value: T) -> Void) -> Self {
         propertySetters[fromKeyPath] = { object, value in
@@ -34,7 +33,13 @@ public class EntityMapping<E: NSObject> : EntityMappingProtocol {
     }
     
     func withRelationshipMapping<T>(fromKeyPath: String, mapping: EntityMappingProtocol, relationshipSetter: (object: E, value: T) -> Void) -> Self {
-        relationshipMappings[fromKeyPath] = mapping
+        let mapping: RelationshipMappingEntry = (keyPath: fromKeyPath, mapping: mapping, setter: { object, value in
+            if let object = object as? E, value = value as? T {
+                relationshipSetter(object: object, value: value)
+            }
+        })
+        
+        relationshipMappings.append(mapping)
         
         return self
     }

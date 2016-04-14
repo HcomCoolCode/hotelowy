@@ -8,18 +8,18 @@
 
 import Foundation
 
-public protocol TransformableString {
+protocol TransformableString {
     
 }
 
-public protocol TransformableInteger {
+protocol TransformableInteger {
     
 }
 
 extension String: TransformableString { }
 extension Int: TransformableInteger { }
 
-public class JSONTransformer<F, T> {
+class JSONTransformer<F, T> {
     func transform<F: TransformableString, T: TransformableString>(value: F) -> T? {
         return value as? T
     }
@@ -43,10 +43,10 @@ public class JSONTransformer<F, T> {
     }
 }
 
-public class Schema<R: NSObject> {
-    public let mapping: EntityMapping<R>
+class Schema<R: NSObject> {
+    let mapping: EntityMapping<R>
     
-    public init(mapping: EntityMapping<R>) {
+    init(mapping: EntityMapping<R>) {
         self.mapping = mapping
     }
 }

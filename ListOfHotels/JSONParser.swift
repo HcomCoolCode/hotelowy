@@ -18,22 +18,23 @@ class JSONParser<T: NSObject> {
     }
     
     func parse() -> T {
+        let object = T()
+        
         for setter in mapping.propertySetters {
             let value = json.valueForKeyPath(setter.0)
             print("Found value for path: \(setter.0): \(value)")
         }
         
-        for keyValue in mapping.relationshipSetters {
-            if let relationshipMapping = mapping.relationshipMappings[keyValue.0] {
-                if let value = json.valueForKeyPath(keyValue.0) {
-                    print("Found relationship value for path: \(keyValue.0): \(value)")
-                    
-                    let relationshipValue = JSONParser(json: value, mapping: relationshipMapping).parse()
-                    print(relationshipValue)
-                }
+        for relationship in mapping.relationshipMappings {
+            if let value = json.valueForKeyPath(relationship.keyPath) {
+                print("Found relationship value for path: \(relationship.keyPath): \(value)")
+                
+                let relationshipValue = JSONParser(json: value, mapping: relationship.mapping).parse()
+                relationship.setter(object: object, value: relationshipValue)
+                print(relationshipValue)
             }
         }
         
-        return T()
+        return object
     }
 }
