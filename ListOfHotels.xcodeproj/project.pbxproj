@@ -29,6 +29,9 @@
 		04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
 		048F46A01CB813B600CABDCF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F469F1CB813B600CABDCF /* DataSource.m */; };
 		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
+		078311811CC4CBFC00E3AB9F /* EANAPIKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */; };
+		078311841CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */; };
+		078311851CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */; };
 		554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CC89F23F45A2D98CC849E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +84,8 @@
 		048F469F1CB813B600CABDCF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		04C67BC91CBB9B10007968F2 /* CollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDataSource.h; sourceTree = "<group>"; };
 		04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewDataSource.mm; sourceTree = "<group>"; };
+		078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeyTests.swift; sourceTree = "<group>"; };
+		078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeys.swift; sourceTree = "<group>"; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C86CC89F23F45A2D98CC849E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +154,7 @@
 		0429ED9C1CA413B600428AFB /* ListOfHotelsTests */ = {
 			isa = PBXGroup;
 			children = (
+				0783117F1CC4CBA500E3AB9F /* EANAPINetworkTests */,
 				0429EDB81CA4154300428AFB /* HotelTests.swift */,
 				0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */,
 				0429EDC61CA4392900428AFB /* MasterViewControllerTests.swift */,
@@ -215,6 +221,7 @@
 		04758CBC1CBD018400F5C286 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				078311821CC4D16D00E3AB9F /* EAN */,
 				0429EDBA1CA41D6A00428AFB /* Network.swift */,
 				04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */,
 				04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */,
@@ -229,6 +236,22 @@
 				04758CBE1CBD01C900F5C286 /* HotelParsing.swift */,
 			);
 			name = Parser;
+			sourceTree = "<group>";
+		};
+		0783117F1CC4CBA500E3AB9F /* EANAPINetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */,
+			);
+			name = EANAPINetworkTests;
+			sourceTree = "<group>";
+		};
+		078311821CC4D16D00E3AB9F /* EAN */ = {
+			isa = PBXGroup;
+			children = (
+				078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */,
+			);
+			name = EAN;
 			sourceTree = "<group>";
 		};
 		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
@@ -435,6 +458,7 @@
 				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
 				048F46A01CB813B600CABDCF /* DataSource.m in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
+				078311841CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
 				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
 				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
@@ -452,9 +476,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0429EDC71CA4392900428AFB /* MasterViewControllerTests.swift in Sources */,
+				078311851CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */,
 				0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */,
 				0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */,
 				0429EDC91CA43CF400428AFB /* HotelParserTests.swift in Sources */,
+				078311811CC4CBFC00E3AB9F /* EANAPIKeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
