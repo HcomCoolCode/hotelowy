@@ -31,4 +31,8 @@ class EANAPIKeyTests: XCTestCase {
         XCTAssertNotNil(keys.getClientId())
     }
 
+    func testEANAPIKeysReadsFile() {
+        let keys = EANAPIKeys(fileNamed: "MockEANAPIKeys")
+        XCTAssertEqual(keys.secret, "IAMSECRET")
+    }
 }
