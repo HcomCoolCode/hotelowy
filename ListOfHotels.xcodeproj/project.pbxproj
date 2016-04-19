@@ -34,6 +34,7 @@
 		078311851CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */; };
 		078311871CC5329300E3AB9F /* MockEANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */; };
 		078311881CC53F8300E3AB9F /* MockEANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */; };
+		0783118A1CC6522B00E3AB9F /* EANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311891CC6522B00E3AB9F /* EANAPIKeys.plist */; };
 		554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CC89F23F45A2D98CC849E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeyTests.swift; sourceTree = "<group>"; };
 		078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeys.swift; sourceTree = "<group>"; };
 		078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MockEANAPIKeys.plist; sourceTree = "<group>"; };
+		078311891CC6522B00E3AB9F /* EANAPIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EANAPIKeys.plist; sourceTree = "<group>"; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C86CC89F23F45A2D98CC849E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */,
+				078311891CC6522B00E3AB9F /* EANAPIKeys.plist */,
 			);
 			name = EAN;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0783118A1CC6522B00E3AB9F /* EANAPIKeys.plist in Resources */,
 				0429ED931CA413B600428AFB /* LaunchScreen.storyboard in Resources */,
 				0429ED901CA413B600428AFB /* Assets.xcassets in Resources */,
 				078311881CC53F8300E3AB9F /* MockEANAPIKeys.plist in Resources */,

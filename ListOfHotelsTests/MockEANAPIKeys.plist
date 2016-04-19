@@ -7,6 +7,6 @@
 	<key>KEY</key>
 	<string>IAMAPIKEY</string>
 	<key>CID</key>
-	<string>IAMCLIENTID</string>
+	<integer>42</integer>
 </dict>
 </plist>

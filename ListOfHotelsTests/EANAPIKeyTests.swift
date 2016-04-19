@@ -21,18 +21,29 @@ class EANAPIKeyTests: XCTestCase {
     }
 
     func testEANAPIKeyExists() {
-        let keys = EANAPIKeys(fileNamed: "")
-        let clientID = keys.getClientId();
-        XCTAssertNotNil(clientID);
+        let fixed: String? = "static string for testing"
+        let keys = EANAPIKeys(fileNamed: fixed)
+        
+        if let cid = keys.clientId ?? fixed {
+            XCTAssertEqual(cid, fixed)
+        }
     }
 
     func testEANAPIKeysAcceptsFile() {
-        let keys = EANAPIKeys(fileNamed: "some-file.plist");
-        XCTAssertNotNil(keys.getClientId())
+        let invalidFileName: String? = "some-file.plist"
+        let keys = EANAPIKeys(fileNamed: invalidFileName);
+        XCTAssertNil(keys.apiKey)
     }
 
     func testEANAPIKeysReadsFile() {
         let keys = EANAPIKeys(fileNamed: "MockEANAPIKeys")
         XCTAssertEqual(keys.secret, "IAMSECRET")
+    }
+    
+    func testRealAPIKEY() {
+        let keys = EANAPIKeys(fileNamed: "EANAPIKeys")
+        XCTAssertNotEqual(keys.apiKey!, "IAMAPIKEY")
+        XCTAssertTrue(keys.apiKey!.hasPrefix("5q"))
+        XCTAssertTrue(keys.apiKey!.hasSuffix("shc"))
     }
 }
