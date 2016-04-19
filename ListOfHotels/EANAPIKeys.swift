@@ -10,7 +10,7 @@ import Foundation
 
 public struct EANAPIKeys {
     
-    let clientId: String?
+    let clientId: Int?
     let apiKey: String?
     let secret: String?
     
@@ -19,8 +19,10 @@ public struct EANAPIKeys {
         let path = NSBundle.mainBundle().pathForResource(fileNamed, ofType: "plist")
         let keys = NSDictionary(contentsOfFile: path ?? "")
         
-        clientId = keys?["CID"] as? String
+        clientId = keys?["CID"] as? Int
         apiKey = keys?["APIKEY"] as? String
         secret = keys?["SECRET"] as? String
-    }    
+    }
+    
+    
 }

@@ -31,10 +31,11 @@
 		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
 		078311811CC4CBFC00E3AB9F /* EANAPIKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */; };
 		078311841CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */; };
-		078311851CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */; };
 		078311871CC5329300E3AB9F /* MockEANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */; };
 		078311881CC53F8300E3AB9F /* MockEANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */; };
 		0783118A1CC6522B00E3AB9F /* EANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311891CC6522B00E3AB9F /* EANAPIKeys.plist */; };
+		0783118C1CC656EA00E3AB9F /* EANAPINetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0783118B1CC656EA00E3AB9F /* EANAPINetwork.swift */; };
+		0783118F1CC6571700E3AB9F /* EANAPINetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0783118E1CC6571700E3AB9F /* EANAPINetworkTests.swift */; };
 		554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CC89F23F45A2D98CC849E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,8 @@
 		078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeys.swift; sourceTree = "<group>"; };
 		078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MockEANAPIKeys.plist; sourceTree = "<group>"; };
 		078311891CC6522B00E3AB9F /* EANAPIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EANAPIKeys.plist; sourceTree = "<group>"; };
+		0783118B1CC656EA00E3AB9F /* EANAPINetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPINetwork.swift; sourceTree = "<group>"; };
+		0783118E1CC6571700E3AB9F /* EANAPINetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPINetworkTests.swift; sourceTree = "<group>"; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C86CC89F23F45A2D98CC849E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +251,7 @@
 			children = (
 				078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */,
 				078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */,
+				0783118E1CC6571700E3AB9F /* EANAPINetworkTests.swift */,
 			);
 			name = EANAPINetworkTests;
 			sourceTree = "<group>";
@@ -257,6 +261,7 @@
 			children = (
 				078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */,
 				078311891CC6522B00E3AB9F /* EANAPIKeys.plist */,
+				0783118B1CC656EA00E3AB9F /* EANAPINetwork.swift */,
 			);
 			name = EAN;
 			sourceTree = "<group>";
@@ -468,6 +473,7 @@
 				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
 				048F46A01CB813B600CABDCF /* DataSource.m in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
+				0783118C1CC656EA00E3AB9F /* EANAPINetwork.swift in Sources */,
 				078311841CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
 				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
@@ -486,10 +492,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0429EDC71CA4392900428AFB /* MasterViewControllerTests.swift in Sources */,
-				078311851CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */,
 				0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */,
 				0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */,
 				0429EDC91CA43CF400428AFB /* HotelParserTests.swift in Sources */,
+				0783118F1CC6571700E3AB9F /* EANAPINetworkTests.swift in Sources */,
 				078311811CC4CBFC00E3AB9F /* EANAPIKeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import ListOfHotels
 
 class EANAPIKeyTests: XCTestCase {
 
@@ -23,10 +24,7 @@ class EANAPIKeyTests: XCTestCase {
     func testEANAPIKeyExists() {
         let fixed: String? = "static string for testing"
         let keys = EANAPIKeys(fileNamed: fixed)
-        
-        if let cid = keys.clientId ?? fixed {
-            XCTAssertEqual(cid, fixed)
-        }
+        XCTAssertNil(keys.apiKey)
     }
 
     func testEANAPIKeysAcceptsFile() {
@@ -46,4 +44,6 @@ class EANAPIKeyTests: XCTestCase {
         XCTAssertTrue(keys.apiKey!.hasPrefix("5q"))
         XCTAssertTrue(keys.apiKey!.hasSuffix("shc"))
     }
+    
+    
 }
