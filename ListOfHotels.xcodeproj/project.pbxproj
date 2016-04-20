@@ -30,6 +30,11 @@
 		048F46A01CB813B600CABDCF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F469F1CB813B600CABDCF /* DataSource.m */; };
 		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
 		554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CC89F23F45A2D98CC849E /* libPods.a */; };
+		62D2D53C1CC680790050A2ED /* MapComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D53B1CC680790050A2ED /* MapComponent.mm */; };
+		62D2D53E1CC69BF30050A2ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2D53D1CC69BF30050A2ED /* MapKit.framework */; };
+		62D2D5411CC770FF0050A2ED /* HotelDetailView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */; };
+		62D2D5441CC7D3550050A2ED /* MapComponentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5431CC7D3550050A2ED /* MapComponentController.mm */; };
+		62D2D5491CC7DBF80050A2ED /* HotelComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +86,14 @@
 		048F469F1CB813B600CABDCF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		04C67BC91CBB9B10007968F2 /* CollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDataSource.h; sourceTree = "<group>"; };
 		04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewDataSource.mm; sourceTree = "<group>"; };
+		62D2D53A1CC680790050A2ED /* MapComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapComponent.h; sourceTree = "<group>"; };
+		62D2D53B1CC680790050A2ED /* MapComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MapComponent.mm; sourceTree = "<group>"; };
+		62D2D53D1CC69BF30050A2ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		62D2D53F1CC770FF0050A2ED /* HotelDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailView.h; sourceTree = "<group>"; };
+		62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HotelDetailView.mm; sourceTree = "<group>"; };
+		62D2D5421CC7D3550050A2ED /* MapComponentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapComponentController.h; sourceTree = "<group>"; };
+		62D2D5431CC7D3550050A2ED /* MapComponentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MapComponentController.mm; sourceTree = "<group>"; };
+		62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelComponentModel.swift; sourceTree = "<group>"; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C86CC89F23F45A2D98CC849E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D2D53E1CC69BF30050A2ED /* MapKit.framework in Frameworks */,
 				554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +211,13 @@
 			children = (
 				042EF6D21CBBE49D00E300DE /* HotelComponent.h */,
 				042EF6D31CBBE49D00E300DE /* HotelComponent.mm */,
+				62D2D53F1CC770FF0050A2ED /* HotelDetailView.h */,
+				62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */,
+				62D2D53A1CC680790050A2ED /* MapComponent.h */,
+				62D2D53B1CC680790050A2ED /* MapComponent.mm */,
+				62D2D5421CC7D3550050A2ED /* MapComponentController.h */,
+				62D2D5431CC7D3550050A2ED /* MapComponentController.mm */,
+				62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */,
 			);
 			name = "Front End";
 			sourceTree = "<group>";
@@ -234,6 +255,7 @@
 		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62D2D53D1CC69BF30050A2ED /* MapKit.framework */,
 				C86CC89F23F45A2D98CC849E /* libPods.a */,
 			);
 			name = Frameworks;
@@ -435,14 +457,18 @@
 				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
 				048F46A01CB813B600CABDCF /* DataSource.m in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
+				62D2D5411CC770FF0050A2ED /* HotelDetailView.mm in Sources */,
+				62D2D53C1CC680790050A2ED /* MapComponent.mm in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
 				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
+				62D2D5441CC7D3550050A2ED /* MapComponentController.mm in Sources */,
 				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
 				04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */,
 				0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */,
 				0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */,
 				042EF6D41CBBE49D00E300DE /* HotelComponent.mm in Sources */,
 				04758CBA1CBCFBCA00F5C286 /* RealNetwork.swift in Sources */,
+				62D2D5491CC7DBF80050A2ED /* HotelComponentModel.swift in Sources */,
 				0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

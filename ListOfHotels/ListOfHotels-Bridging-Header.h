@@ -3,3 +3,4 @@
 //
 
 #import "DataSource.h"
+#import "HotelDetailView.h"
