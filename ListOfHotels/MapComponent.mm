@@ -49,6 +49,23 @@ static NSValue *_boxedMKCoordinateRegionForRegion(const MapComponentCoordinateRe
     return self;
 }
 
+- (NSUInteger)hash
+{
+    return (NSUInteger)(self.coordinate.latitude + self.coordinate.longitude);
+}
+
+- (BOOL)isEqual:(const id)object
+{
+    if (![object isKindOfClass:[MapComponentAnnotation class]])
+    {
+        return NO;
+    }
+    
+    MapComponentAnnotation *const otherAnnotation = object;
+    return    otherAnnotation.coordinate.latitude == self.coordinate.latitude
+           && otherAnnotation.coordinate.longitude == self.coordinate.longitude;
+}
+
 @end
 
 @implementation MapComponent
@@ -60,18 +77,27 @@ static id<MKAnnotation> _annotationForCoordinate(const MapComponentCoordinate co
 
 + (instancetype)newWithRegion:(const MapComponentCoordinateRegion)region
 {
-    // Still don't understand what a scope is, but I need it in order to have a component controller, and I believe I need a component controller in order to be able to remove old annotations from the map when a different component is used with the view (don't know what the correct ComponentKit terminology for that is).
-    CKComponentScope scope(self);
     return [super newWithComponent:
             [CKComponent
              newWithView:{
                  [MKMapView class],
                  {
                      {@selector(setRegion:), _boxedMKCoordinateRegionForRegion(region)},
-                     // TODO Investigate how to avoid an accumulation of annotations.
-                     // void AttributeApplicator::apply(UIView *view, const CKComponentViewConfiguration &config)
-                     // http://componentkit.org/docs/views.html
-                     {@selector(addAnnotation:), _annotationForCoordinate(region.center)}
+
+                     {
+                         {
+                             "MapComponentAnnotations",
+                             // See CKComponentViewAttribute docs: we are providing a custom `applicator`
+                             // to manipulate the map view's annotations, since its `annotation` property
+                             // is readonly.
+                             ^(MKMapView *const view, const id<MKAnnotation> annotation)
+                             {
+                                 [view removeAnnotations:view.annotations];
+                                 [view addAnnotation:annotation];
+                             }
+                         },
+                         _annotationForCoordinate(region.center)
+                     }
                  }
              }
              size:{}]];
