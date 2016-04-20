@@ -33,14 +33,15 @@ class EANAPINetworkTests: XCTestCase {
 
         let n: Network = EANAPINetwork(keys: EANAPIKeys(fileNamed: "MockEANAPIKeys"))
         let url = NSURL(string:"http://qz.com")
+        
         n.getURL(url!, completion: {
             XCTAssertNil($0)
             XCTAssertNotNil($1)
             expect.fulfill()
         })
 
-        self.waitForExpectationsWithTimeout(2) { error in
-            XCTAssertNotNil(error)
+        self.waitForExpectationsWithTimeout(1) { error in
+            XCTAssertNil(error)
         }
     }
 }
