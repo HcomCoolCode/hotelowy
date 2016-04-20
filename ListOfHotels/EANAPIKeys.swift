@@ -12,7 +12,7 @@ public struct EANAPIKeys {
     
     let clientId: Int?
     let apiKey: String?
-    let secret: String?
+    private let secret: String?
     
     init(fileNamed: String?) {
      

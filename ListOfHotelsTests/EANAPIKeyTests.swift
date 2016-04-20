@@ -36,7 +36,6 @@ class EANAPIKeyTests: XCTestCase {
     func testEANAPIKeysReadsFile() {
         let keys = EANAPIKeys(fileNamed: "MockEANAPIKeys")
         XCTAssertEqual(keys.apiKey, "IAMAPIKEY")
-        XCTAssertEqual(keys.secret, "IAMSECRET")
     }
     
     func testRealAPIKEY() {
