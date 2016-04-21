@@ -1,0 +1,10 @@
+PROJECT=Benji
+SCHEME=AcceptanceTests
+MYPATH=$(dirname $0)
+
+
+echo "== Reseting iOS simulators =="
+osascript -e 'tell application "iOS Simulator" to quit'
+xcrun simctl list devices | grep -v '^[-=]' | cut -d "(" -f2 | cut -d ")" -f1 | xargs -I {} xcrun simctl erase "{}"
+
+xcodebuild -workspace "$MYPATH/../../${PROJECT}.xcworkspace" -derivedDataPath  "${MYPATH}/../../build/derivedData" -scheme "${SCHEME}" -sdk iphonesimulator -arch i386 -configuration Test install

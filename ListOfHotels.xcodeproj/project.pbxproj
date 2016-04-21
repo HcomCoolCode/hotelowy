@@ -38,7 +38,29 @@
 		279DA89D1CC02890004701D3 /* PromoPriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */; };
 		279DA89F1CC02899004701D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89E1CC02899004701D3 /* Theme.swift */; };
 		279DA8A11CC028B6004701D3 /* AveragePriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */; };
-		A36106DA751DE4BF516F1156 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC27361B34641BF83A76E5A /* Pods.framework */; };
+		3049D3AD1CC7593300CAE898 /* FITPresentedHotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */; };
+		3049D3AF1CC75C3200CAE898 /* HotelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC01CA426F500428AFB /* HotelFetcher.swift */; };
+		3049D3B01CC75C3600CAE898 /* HotelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC21CA4273600428AFB /* HotelParser.swift */; };
+		3049D3B11CC75C3600CAE898 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
+		3049D3B21CC75C3A00CAE898 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDBA1CA41D6A00428AFB /* Network.swift */; };
+		3049D3B31CC75C3A00CAE898 /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */; };
+		3049D3B41CC75C3A00CAE898 /* RealNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */; };
+		3049D3B51CC75DA600CAE898 /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
+		30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */; };
+		30E172831CC527220080E797 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E172821CC527220080E797 /* AcceptanceTests.m */; };
+		30E172861CC527220080E797 /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E172851CC527220080E797 /* FixtureExample.swift */; };
+		4DDAB46D1CC8F0CA0072C037 /* HotelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8901CC01503004701D3 /* HotelResponse.swift */; };
+		4DDAB46E1CC8F0CA0072C037 /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8961CC02865004701D3 /* Accommodation.swift */; };
+		4DDAB46F1CC8F0CA0072C037 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89A1CC02884004701D3 /* Amenity.swift */; };
+		4DDAB4701CC8F0CA0072C037 /* AveragePriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */; };
+		4DDAB4711CC8F0CA0072C037 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB61CA4146800428AFB /* Hotel.swift */; };
+		4DDAB4721CC8F0CA0072C037 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8941CC02859004701D3 /* Landmark.swift */; };
+		4DDAB4731CC8F0CA0072C037 /* Neighbourhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8981CC02878004701D3 /* Neighbourhood.swift */; };
+		4DDAB4741CC8F0CA0072C037 /* PromoPriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */; };
+		4DDAB4751CC8F0CA0072C037 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89E1CC02899004701D3 /* Theme.swift */; };
+		4DDAB4761CC8F0CA0072C037 /* UrgencyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8921CC02837004701D3 /* UrgencyMessage.swift */; };
+		5EE26D4B6F30BBE329BE207E /* Pods_AcceptanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */; };
+		C8CE054E696D9F5E168F0C78 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B460BFFF587956F6C117F2 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +112,6 @@
 		048F469F1CB813B600CABDCF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		04C67BC91CBB9B10007968F2 /* CollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDataSource.h; sourceTree = "<group>"; };
 		04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewDataSource.mm; sourceTree = "<group>"; };
-		1BC27361B34641BF83A76E5A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		279DA8901CC01503004701D3 /* HotelResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelResponse.swift; sourceTree = "<group>"; };
 		279DA8921CC02837004701D3 /* UrgencyMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrgencyMessage.swift; sourceTree = "<group>"; };
 		279DA8941CC02859004701D3 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -100,8 +121,20 @@
 		279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoPriceDetail.swift; sourceTree = "<group>"; };
 		279DA89E1CC02899004701D3 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AveragePriceDetail.swift; sourceTree = "<group>"; };
+		3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITPresentedHotels.swift; sourceTree = "<group>"; };
+		30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITHotelDataSet.swift; sourceTree = "<group>"; };
+		30E1727F1CC527220080E797 /* AcceptanceTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptanceTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E172821CC527220080E797 /* AcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTests.m; sourceTree = "<group>"; };
+		30E172851CC527220080E797 /* FixtureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureExample.swift; sourceTree = "<group>"; };
+		30E172871CC527220080E797 /* SlimTables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimTables.h; sourceTree = "<group>"; };
+		30E172881CC527220080E797 /* AcceptanceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceptanceTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		30E172891CC527220080E797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C36D8202309F3A33EE25C081 /* Pods-AcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B460BFFF587956F6C117F2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36106DA751DE4BF516F1156 /* Pods.framework in Frameworks */,
+				C8CE054E696D9F5E168F0C78 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +160,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30E1727B1CC527220080E797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE26D4B6F30BBE329BE207E /* Pods_AcceptanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -136,6 +177,8 @@
 				0429ED851CA413B500428AFB /* ListOfHotels */,
 				0429ED9C1CA413B600428AFB /* ListOfHotelsTests */,
 				0429EDA71CA413B600428AFB /* ListOfHotelsUITests */,
+				30E172761CC527050080E797 /* def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests */,
+				30E172801CC527220080E797 /* AcceptanceTests */,
 				0429ED841CA413B500428AFB /* Products */,
 				E32DDB44387993664232A279 /* Pods */,
 				6D3E82D199E8905ABB6F0831 /* Frameworks */,
@@ -148,6 +191,7 @@
 				0429ED831CA413B500428AFB /* ListOfHotels.app */,
 				0429ED991CA413B600428AFB /* ListOfHotelsTests.xctest */,
 				0429EDA41CA413B600428AFB /* ListOfHotelsUITests.xctest */,
+				30E1727F1CC527220080E797 /* AcceptanceTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,10 +310,56 @@
 			name = "Model Objects";
 			sourceTree = "<group>";
 		};
+		3049D3AB1CC7591A00CAE898 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */,
+			);
+			name = Inputs;
+			sourceTree = "<group>";
+		};
+		30E172761CC527050080E797 /* def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests";
+			sourceTree = "<group>";
+		};
+		30E172801CC527220080E797 /* AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E172891CC527220080E797 /* Info.plist */,
+				3049D3AB1CC7591A00CAE898 /* Inputs */,
+				30E172841CC527220080E797 /* Fixtures */,
+				30E172811CC527220080E797 /* Supporting Files */,
+			);
+			path = AcceptanceTests;
+			sourceTree = "<group>";
+		};
+		30E172811CC527220080E797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E172821CC527220080E797 /* AcceptanceTests.m */,
+				30E172871CC527220080E797 /* SlimTables.h */,
+				30E172881CC527220080E797 /* AcceptanceTests-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30E172841CC527220080E797 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				30E172851CC527220080E797 /* FixtureExample.swift */,
+				3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
 		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1BC27361B34641BF83A76E5A /* Pods.framework */,
+				D5B460BFFF587956F6C117F2 /* Pods.framework */,
+				4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -279,6 +369,8 @@
 			children = (
 				831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */,
 				689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */,
+				C36D8202309F3A33EE25C081 /* Pods-AcceptanceTests.debug.xcconfig */,
+				3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -342,13 +434,34 @@
 			productReference = 0429EDA41CA413B600428AFB /* ListOfHotelsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		30E1727E1CC527220080E797 /* AcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E1728A1CC527220080E797 /* Build configuration list for PBXNativeTarget "AcceptanceTests" */;
+			buildPhases = (
+				51892DD49E8A205CDA97555F /* Check Pods Manifest.lock */,
+				30E1727A1CC527220080E797 /* Sources */,
+				30E1727B1CC527220080E797 /* Frameworks */,
+				30E1727C1CC527220080E797 /* Resources */,
+				30E1727D1CC527220080E797 /* ShellScript */,
+				1A9DAFD8FABE41DF06069085 /* Embed Pods Frameworks */,
+				306D81E6DF62CAF4DE8BE306 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcceptanceTests;
+			productName = AcceptanceTests;
+			productReference = 30E1727F1CC527220080E797 /* AcceptanceTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0429ED7B1CA413B500428AFB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Expedia;
 				TargetAttributes = {
@@ -362,6 +475,9 @@
 					0429EDA31CA413B600428AFB = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = 0429ED821CA413B500428AFB;
+					};
+					30E1727E1CC527220080E797 = {
+						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
@@ -381,6 +497,7 @@
 				0429ED821CA413B500428AFB /* ListOfHotels */,
 				0429ED981CA413B600428AFB /* ListOfHotelsTests */,
 				0429EDA31CA413B600428AFB /* ListOfHotelsUITests */,
+				30E1727E1CC527220080E797 /* AcceptanceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -411,9 +528,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30E1727C1CC527220080E797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049D3B51CC75DA600CAE898 /* hotels_sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1A9DAFD8FABE41DF06069085 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1B0251541570F89782F18200 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +567,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		306D81E6DF62CAF4DE8BE306 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30E1727D1CC527220080E797 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Validate Project Build Settings\nif [ -z \"${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}\" ]; then\n   echo \"Missing expected OCSlimProject build settings. Running '$ pod update' may fix this problem\"\n   exit 1\nfi\n\n# Export Build Environment to Bundle Location\nENV_TARGET=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/env.sh\n\nfunction exportTestRunnerEnv {\n    mkdir -p \"$(dirname \"$ENV_TARGET\")\" && touch \"$ENV_TARGET\"\n    export | egrep '(INSTALL_DIR)|(PRODUCT_NAME)|(TARGET_BUILD_DIR)|(EXECUTABLE_FOLDER_PATH)|(DEPLOYMENT_TARGET_SUGGESTED_VALUES)|(EXECUTABLE_PATH)' > $ENV_TARGET\n}\n\n\n\n# Write Test Runner Script To Project Root\nTESTRUNNER_SOURCE=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/RunTestsTargetWithSlimPort\nTESTRUNNER_TARGET=${PROJECT_DIR}/OCSlimProjectTestRunner.sh\n\nfunction writeTestRunnerScript {\n    \n    if [ -f \"$TESTRUNNER_TARGET\" ]; then\n        rm $TESTRUNNER_TARGET\n    fi\n    \n    echo '#!/bin/sh' > $TESTRUNNER_TARGET\n    echo $TESTRUNNER_SOURCE '$1' >> $TESTRUNNER_TARGET\n    chmod +x $TESTRUNNER_TARGET\n    \n}\n\n# Symbolic Link LaunchFitnesse to Project Root\nLAUNCHFITNESSE_SCRIPTNAME=LaunchFitnesse\nLAUNCHFITNESSE_SOURCE=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/$LAUNCHFITNESSE_SCRIPTNAME\nLAUNCHFITNESSE_TARGET=${PROJECT_DIR}/$LAUNCHFITNESSE_SCRIPTNAME\n\nfunction linkFitnesseScript {\n    \n    if [ -L $LAUNCHFITNESSE_TARGET ]; then\n        unlink $LAUNCHFITNESSE_TARGET\n    fi\n    \n    ln -s $LAUNCHFITNESSE_SOURCE $(dirname \"$LAUNCHFITNESSE_TARGET\")\n}\n\n\n###\n\nexportTestRunnerEnv\nwriteTestRunnerScript\nlinkFitnesseScript";
+		};
+		51892DD49E8A205CDA97555F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		93684CAE5C82769122935C76 /* Embed Pods Frameworks */ = {
@@ -507,6 +690,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				0429EDA91CA413B600428AFB /* ListOfHotelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E1727A1CC527220080E797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAB4711CC8F0CA0072C037 /* Hotel.swift in Sources */,
+				3049D3B31CC75C3A00CAE898 /* FakeNetwork.swift in Sources */,
+				30E172861CC527220080E797 /* FixtureExample.swift in Sources */,
+				4DDAB4721CC8F0CA0072C037 /* Landmark.swift in Sources */,
+				30E172831CC527220080E797 /* AcceptanceTests.m in Sources */,
+				4DDAB4761CC8F0CA0072C037 /* UrgencyMessage.swift in Sources */,
+				30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */,
+				3049D3AF1CC75C3200CAE898 /* HotelFetcher.swift in Sources */,
+				3049D3B21CC75C3A00CAE898 /* Network.swift in Sources */,
+				4DDAB4741CC8F0CA0072C037 /* PromoPriceDetail.swift in Sources */,
+				4DDAB46D1CC8F0CA0072C037 /* HotelResponse.swift in Sources */,
+				3049D3B41CC75C3A00CAE898 /* RealNetwork.swift in Sources */,
+				4DDAB46E1CC8F0CA0072C037 /* Accommodation.swift in Sources */,
+				3049D3B11CC75C3600CAE898 /* HotelParsing.swift in Sources */,
+				4DDAB4751CC8F0CA0072C037 /* Theme.swift in Sources */,
+				4DDAB4731CC8F0CA0072C037 /* Neighbourhood.swift in Sources */,
+				3049D3B01CC75C3600CAE898 /* HotelParser.swift in Sources */,
+				3049D3AD1CC7593300CAE898 /* FITPresentedHotels.swift in Sources */,
+				4DDAB4701CC8F0CA0072C037 /* AveragePriceDetail.swift in Sources */,
+				4DDAB46F1CC8F0CA0072C037 /* Amenity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,6 +909,30 @@
 			};
 			name = Release;
 		};
+		30E1728B1CC527220080E797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36D8202309F3A33EE25C081 /* Pods-AcceptanceTests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trickysquirrel.AcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcceptanceTests/AcceptanceTests-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		30E1728C1CC527220080E797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trickysquirrel.AcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcceptanceTests/AcceptanceTests-Bridging-Header.h";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -734,6 +968,15 @@
 			buildConfigurations = (
 				0429EDB41CA413B600428AFB /* Debug */,
 				0429EDB51CA413B600428AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E1728A1CC527220080E797 /* Build configuration list for PBXNativeTarget "AcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E1728B1CC527220080E797 /* Debug */,
+				30E1728C1CC527220080E797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

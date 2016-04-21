@@ -4,5 +4,8 @@ platform :ios, '9.0'
 use_frameworks!
 
 pod 'ComponentKit', '~> 0.13'
-pod 'SDWebImage', '~> 3.7'
-pod 'ObjectMapper', '~> 1.2'
+pod 'SDWebImage', '~>3.7'
+
+target 'AcceptanceTests' do
+    pod 'OCSlimProject'
+end

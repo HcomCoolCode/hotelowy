@@ -21,7 +21,7 @@ public class Hotel : NSObject, Mappable {
     var promoPrice: String?
     var locality: String?
     var lon: Float?
-    var starRating: Int?
+    var starRating: Float?
     var avgPriceDescription: String?
     var location: String?
     var postalCode: String?
