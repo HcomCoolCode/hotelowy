@@ -1,2170 +1,925 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0429ED7A1CA413B500428AFB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429ED851CA413B500428AFB</string>
-				<string>0429ED9C1CA413B600428AFB</string>
-				<string>0429EDA71CA413B600428AFB</string>
-				<string>30E172761CC527050080E797</string>
-				<string>30E172801CC527220080E797</string>
-				<string>0429ED841CA413B500428AFB</string>
-				<string>E32DDB44387993664232A279</string>
-				<string>6D3E82D199E8905ABB6F0831</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED7B1CA413B500428AFB</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0720</string>
-				<key>LastUpgradeCheck</key>
-				<string>0720</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Expedia</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>0429ED821CA413B500428AFB</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.2.1</string>
-					</dict>
-					<key>0429ED981CA413B600428AFB</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.2.1</string>
-						<key>TestTargetID</key>
-						<string>0429ED821CA413B500428AFB</string>
-					</dict>
-					<key>0429EDA31CA413B600428AFB</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.2.1</string>
-						<key>TestTargetID</key>
-						<string>0429ED821CA413B500428AFB</string>
-					</dict>
-					<key>30E1727E1CC527220080E797</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.2.1</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>0429ED7E1CA413B500428AFB</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>0429ED7A1CA413B500428AFB</string>
-			<key>productRefGroup</key>
-			<string>0429ED841CA413B500428AFB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>0429ED821CA413B500428AFB</string>
-				<string>0429ED981CA413B600428AFB</string>
-				<string>0429EDA31CA413B600428AFB</string>
-				<string>30E1727E1CC527220080E797</string>
-			</array>
-		</dict>
-		<key>0429ED7E1CA413B500428AFB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0429EDAB1CA413B600428AFB</string>
-				<string>0429EDAC1CA413B600428AFB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0429ED7F1CA413B500428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0429EDBB1CA41D6A00428AFB</string>
-				<string>0429ED8B1CA413B600428AFB</string>
-				<string>048F46A01CB813B600CABDCF</string>
-				<string>0429ED891CA413B500428AFB</string>
-				<string>04C67BCB1CBB9B10007968F2</string>
-				<string>04758CB81CBCFBC400F5C286</string>
-				<string>0429EDB71CA4146800428AFB</string>
-				<string>04758CBF1CBD01C900F5C286</string>
-				<string>0429EDC11CA426F500428AFB</string>
-				<string>0429EDC31CA4273600428AFB</string>
-				<string>042EF6D41CBBE49D00E300DE</string>
-				<string>04758CBA1CBCFBCA00F5C286</string>
-				<string>0429ED871CA413B500428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429ED801CA413B500428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C8CE054E696D9F5E168F0C78</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429ED811CA413B500428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0429ED931CA413B600428AFB</string>
-				<string>0429ED901CA413B600428AFB</string>
-				<string>0429EDBD1CA41EC000428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429ED821CA413B500428AFB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0429EDAD1CA413B600428AFB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A283CBFDB5C7CC580348BE0A</string>
-				<string>0429ED7F1CA413B500428AFB</string>
-				<string>0429ED801CA413B500428AFB</string>
-				<string>0429ED811CA413B500428AFB</string>
-				<string>93684CAE5C82769122935C76</string>
-				<string>1B0251541570F89782F18200</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ListOfHotels</string>
-			<key>productName</key>
-			<string>ListOfHotels</string>
-			<key>productReference</key>
-			<string>0429ED831CA413B500428AFB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>0429ED831CA413B500428AFB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ListOfHotels.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0429ED841CA413B500428AFB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429ED831CA413B500428AFB</string>
-				<string>0429ED991CA413B600428AFB</string>
-				<string>0429EDA41CA413B600428AFB</string>
-				<string>30E1727F1CC527220080E797</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED851CA413B500428AFB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429ED861CA413B500428AFB</string>
-				<string>042EF6DB1CBC023200E300DE</string>
-				<string>042EF6DC1CBC024700E300DE</string>
-				<string>042EF6DD1CBC025100E300DE</string>
-				<string>04758CBB1CBCFD9800F5C286</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ListOfHotels</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED861CA413B500428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED871CA413B500428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429ED861CA413B500428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429ED881CA413B500428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MasterViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED891CA413B500428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429ED881CA413B500428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429ED8A1CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>DetailViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED8B1CA413B600428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429ED8A1CA413B600428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429ED8F1CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED901CA413B600428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429ED8F1CA413B600428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429ED911CA413B600428AFB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429ED921CA413B600428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED921CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED931CA413B600428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429ED911CA413B600428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429ED941CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED951CA413B600428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0429EDC71CA4392900428AFB</string>
-				<string>0429EDC51CA434E100428AFB</string>
-				<string>0429EDB91CA4154300428AFB</string>
-				<string>0429EDC91CA43CF400428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429ED961CA413B600428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429ED971CA413B600428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0429EDCA1CA43EAB00428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429ED981CA413B600428AFB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0429EDB01CA413B600428AFB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0429ED951CA413B600428AFB</string>
-				<string>0429ED961CA413B600428AFB</string>
-				<string>0429ED971CA413B600428AFB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>0429ED9B1CA413B600428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ListOfHotelsTests</string>
-			<key>productName</key>
-			<string>ListOfHotelsTests</string>
-			<key>productReference</key>
-			<string>0429ED991CA413B600428AFB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>0429ED991CA413B600428AFB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ListOfHotelsTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0429ED9A1CA413B600428AFB</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>0429ED7B1CA413B500428AFB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>0429ED821CA413B500428AFB</string>
-			<key>remoteInfo</key>
-			<string>ListOfHotels</string>
-		</dict>
-		<key>0429ED9B1CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>0429ED821CA413B500428AFB</string>
-			<key>targetProxy</key>
-			<string>0429ED9A1CA413B600428AFB</string>
-		</dict>
-		<key>0429ED9C1CA413B600428AFB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429EDB81CA4154300428AFB</string>
-				<string>0429EDC41CA434E100428AFB</string>
-				<string>0429EDC61CA4392900428AFB</string>
-				<string>0429EDC81CA43CF400428AFB</string>
-				<string>0429ED9F1CA413B600428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ListOfHotelsTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429ED9F1CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDA01CA413B600428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0429EDA91CA413B600428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429EDA11CA413B600428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429EDA21CA413B600428AFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0429EDA31CA413B600428AFB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0429EDB31CA413B600428AFB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0429EDA01CA413B600428AFB</string>
-				<string>0429EDA11CA413B600428AFB</string>
-				<string>0429EDA21CA413B600428AFB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>0429EDA61CA413B600428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ListOfHotelsUITests</string>
-			<key>productName</key>
-			<string>ListOfHotelsUITests</string>
-			<key>productReference</key>
-			<string>0429EDA41CA413B600428AFB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>0429EDA41CA413B600428AFB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ListOfHotelsUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0429EDA51CA413B600428AFB</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>0429ED7B1CA413B500428AFB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>0429ED821CA413B500428AFB</string>
-			<key>remoteInfo</key>
-			<string>ListOfHotels</string>
-		</dict>
-		<key>0429EDA61CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>0429ED821CA413B500428AFB</string>
-			<key>targetProxy</key>
-			<string>0429EDA51CA413B600428AFB</string>
-		</dict>
-		<key>0429EDA71CA413B600428AFB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429EDA81CA413B600428AFB</string>
-				<string>0429EDAA1CA413B600428AFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ListOfHotelsUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDA81CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ListOfHotelsUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDA91CA413B600428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDA81CA413B600428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDAA1CA413B600428AFB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDAB1CA413B600428AFB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0429EDAC1CA413B600428AFB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0429EDAD1CA413B600428AFB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0429EDAE1CA413B600428AFB</string>
-				<string>0429EDAF1CA413B600428AFB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0429EDAE1CA413B600428AFB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>831DF2ACE9D48C330DC17A4D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ListOfHotels/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>hotels.ListOfHotels</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>ListOfHotels/ListOfHotels-Bridging-Header.h</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0429EDAF1CA413B600428AFB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>689B61EB35E373241BEC84A6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ListOfHotels/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>hotels.ListOfHotels</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>ListOfHotels/ListOfHotels-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0429EDB01CA413B600428AFB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0429EDB11CA413B600428AFB</string>
-				<string>0429EDB21CA413B600428AFB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0429EDB11CA413B600428AFB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ListOfHotelsTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>hotels.ListOfHotelsTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ListOfHotels.app/ListOfHotels</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0429EDB21CA413B600428AFB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ListOfHotelsTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>hotels.ListOfHotelsTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ListOfHotels.app/ListOfHotels</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0429EDB31CA413B600428AFB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0429EDB41CA413B600428AFB</string>
-				<string>0429EDB51CA413B600428AFB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0429EDB41CA413B600428AFB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>ListOfHotelsUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>hotels.ListOfHotelsUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>ListOfHotels</string>
-				<key>USES_XCTRUNNER</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0429EDB51CA413B600428AFB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>ListOfHotelsUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>hotels.ListOfHotelsUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>ListOfHotels</string>
-				<key>USES_XCTRUNNER</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0429EDB61CA4146800428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Hotel.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDB71CA4146800428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDB61CA4146800428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDB81CA4154300428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HotelTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDB91CA4154300428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDB81CA4154300428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDBA1CA41D6A00428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Network.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDBB1CA41D6A00428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDBA1CA41D6A00428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDBC1CA41EC000428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.json</string>
-			<key>path</key>
-			<string>hotels_sample.json</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDBD1CA41EC000428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDBC1CA41EC000428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDC01CA426F500428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HotelFetcher.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDC11CA426F500428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDC01CA426F500428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDC21CA4273600428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HotelParser.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDC31CA4273600428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDC21CA4273600428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDC41CA434E100428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HotelFetcherTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDC51CA434E100428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDC41CA434E100428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDC61CA4392900428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MasterViewControllerTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDC71CA4392900428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDC61CA4392900428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDC81CA43CF400428AFB</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HotelParserTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0429EDC91CA43CF400428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDC81CA43CF400428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0429EDCA1CA43EAB00428AFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDBC1CA41EC000428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>042EF6D21CBBE49D00E300DE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HotelComponent.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>042EF6D31CBBE49D00E300DE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>HotelComponent.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>042EF6D41CBBE49D00E300DE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>042EF6D31CBBE49D00E300DE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>042EF6DB1CBC023200E300DE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429EDBC1CA41EC000428AFB</string>
-				<string>0429EDB61CA4146800428AFB</string>
-				<string>0429EDC01CA426F500428AFB</string>
-				<string>04758CBD1CBD01A300F5C286</string>
-				<string>04758CBC1CBD018400F5C286</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Backend</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>042EF6DC1CBC024700E300DE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429ED8A1CA413B600428AFB</string>
-				<string>0429ED881CA413B500428AFB</string>
-				<string>048F469E1CB813B600CABDCF</string>
-				<string>048F469F1CB813B600CABDCF</string>
-				<string>04C67BC91CBB9B10007968F2</string>
-				<string>04C67BCA1CBB9B10007968F2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Middle Layer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>042EF6DD1CBC025100E300DE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>042EF6D21CBBE49D00E300DE</string>
-				<string>042EF6D31CBBE49D00E300DE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Front End</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04758CB71CBCFBC400F5C286</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FakeNetwork.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04758CB81CBCFBC400F5C286</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04758CB71CBCFBC400F5C286</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04758CB91CBCFBCA00F5C286</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RealNetwork.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04758CBA1CBCFBCA00F5C286</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04758CB91CBCFBCA00F5C286</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04758CBB1CBCFD9800F5C286</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429ED8F1CA413B600428AFB</string>
-				<string>0429ED911CA413B600428AFB</string>
-				<string>0429ED941CA413B600428AFB</string>
-				<string>048F469D1CB813B600CABDCF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Misc</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04758CBC1CBD018400F5C286</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429EDBA1CA41D6A00428AFB</string>
-				<string>04758CB71CBCFBC400F5C286</string>
-				<string>04758CB91CBCFBCA00F5C286</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Network</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04758CBD1CBD01A300F5C286</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0429EDC21CA4273600428AFB</string>
-				<string>04758CBE1CBD01C900F5C286</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Parser</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04758CBE1CBD01C900F5C286</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HotelParsing.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04758CBF1CBD01C900F5C286</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04758CBE1CBD01C900F5C286</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>048F469D1CB813B600CABDCF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ListOfHotels-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>048F469E1CB813B600CABDCF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>048F469F1CB813B600CABDCF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DataSource.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>048F46A01CB813B600CABDCF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>048F469F1CB813B600CABDCF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04C67BC91CBB9B10007968F2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CollectionViewDataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04C67BCA1CBB9B10007968F2</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.cpp.objcpp</string>
-			<key>path</key>
-			<string>CollectionViewDataSource.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04C67BCB1CBB9B10007968F2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04C67BCA1CBB9B10007968F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1A9DAFD8FABE41DF06069085</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>1B0251541570F89782F18200</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>3046C82DC8F90DFB9B84DBCF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-AcceptanceTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3049D3AB1CC7591A00CAE898</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>30D44B9F1CC6652100CE225E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Inputs</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3049D3AC1CC7593300CAE898</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FITPresentedHotels.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3049D3AD1CC7593300CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3049D3AC1CC7593300CAE898</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3049D3AE1CC75C3200CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDB61CA4146800428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3049D3AF1CC75C3200CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDC01CA426F500428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3049D3B01CC75C3600CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDC21CA4273600428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3049D3B11CC75C3600CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04758CBE1CBD01C900F5C286</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3049D3B21CC75C3A00CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDBA1CA41D6A00428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3049D3B31CC75C3A00CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04758CB71CBCFBC400F5C286</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3049D3B41CC75C3A00CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04758CB91CBCFBCA00F5C286</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3049D3B51CC75DA600CAE898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0429EDBC1CA41EC000428AFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>306D81E6DF62CAF4DE8BE306</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>30D44B9F1CC6652100CE225E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FITHotelDataSet.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30D44BA01CC6652100CE225E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30D44B9F1CC6652100CE225E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>30E172761CC527050080E797</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>def import_pods     pod 'ComponentKit', '~&gt; 0.13'     pod 'SDWebImage', '~&gt;3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E1727A1CC527220080E797</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3049D3AE1CC75C3200CAE898</string>
-				<string>3049D3B31CC75C3A00CAE898</string>
-				<string>30E172861CC527220080E797</string>
-				<string>30E172831CC527220080E797</string>
-				<string>30D44BA01CC6652100CE225E</string>
-				<string>3049D3AF1CC75C3200CAE898</string>
-				<string>3049D3B21CC75C3A00CAE898</string>
-				<string>3049D3B41CC75C3A00CAE898</string>
-				<string>3049D3B11CC75C3600CAE898</string>
-				<string>3049D3B01CC75C3600CAE898</string>
-				<string>3049D3AD1CC7593300CAE898</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>30E1727B1CC527220080E797</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5EE26D4B6F30BBE329BE207E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>30E1727C1CC527220080E797</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3049D3B51CC75DA600CAE898</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>30E1727D1CC527220080E797</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string># Validate Project Build Settings
-if [ -z "${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}" ]; then
-   echo "Missing expected OCSlimProject build settings. Running '$ pod update' may fix this problem"
-   exit 1
-fi
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
 
-# Export Build Environment to Bundle Location
-ENV_TARGET=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/env.sh
+/* Begin PBXBuildFile section */
+		0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429ED861CA413B500428AFB /* AppDelegate.swift */; };
+		0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429ED881CA413B500428AFB /* MasterViewController.swift */; };
+		0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429ED8A1CA413B600428AFB /* DetailViewController.swift */; };
+		0429ED901CA413B600428AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0429ED8F1CA413B600428AFB /* Assets.xcassets */; };
+		0429ED931CA413B600428AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0429ED911CA413B600428AFB /* LaunchScreen.storyboard */; };
+		0429EDA91CA413B600428AFB /* ListOfHotelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDA81CA413B600428AFB /* ListOfHotelsUITests.swift */; };
+		0429EDB71CA4146800428AFB /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB61CA4146800428AFB /* Hotel.swift */; };
+		0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB81CA4154300428AFB /* HotelTests.swift */; };
+		0429EDBB1CA41D6A00428AFB /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDBA1CA41D6A00428AFB /* Network.swift */; };
+		0429EDBD1CA41EC000428AFB /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
+		0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC01CA426F500428AFB /* HotelFetcher.swift */; };
+		0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC21CA4273600428AFB /* HotelParser.swift */; };
+		0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */; };
+		0429EDC71CA4392900428AFB /* MasterViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC61CA4392900428AFB /* MasterViewControllerTests.swift */; };
+		0429EDC91CA43CF400428AFB /* HotelParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC81CA43CF400428AFB /* HotelParserTests.swift */; };
+		0429EDCA1CA43EAB00428AFB /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
+		042EF6D41CBBE49D00E300DE /* HotelComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 042EF6D31CBBE49D00E300DE /* HotelComponent.mm */; };
+		04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */; };
+		04758CBA1CBCFBCA00F5C286 /* RealNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */; };
+		04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
+		048F46A01CB813B600CABDCF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F469F1CB813B600CABDCF /* DataSource.m */; };
+		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
+		3049D3AD1CC7593300CAE898 /* FITPresentedHotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */; };
+		3049D3AE1CC75C3200CAE898 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB61CA4146800428AFB /* Hotel.swift */; };
+		3049D3AF1CC75C3200CAE898 /* HotelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC01CA426F500428AFB /* HotelFetcher.swift */; };
+		3049D3B01CC75C3600CAE898 /* HotelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC21CA4273600428AFB /* HotelParser.swift */; };
+		3049D3B11CC75C3600CAE898 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
+		3049D3B21CC75C3A00CAE898 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDBA1CA41D6A00428AFB /* Network.swift */; };
+		3049D3B31CC75C3A00CAE898 /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */; };
+		3049D3B41CC75C3A00CAE898 /* RealNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */; };
+		3049D3B51CC75DA600CAE898 /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
+		30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */; };
+		30E172831CC527220080E797 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E172821CC527220080E797 /* AcceptanceTests.m */; };
+		30E172861CC527220080E797 /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E172851CC527220080E797 /* FixtureExample.swift */; };
+		5EE26D4B6F30BBE329BE207E /* Pods_AcceptanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */; };
+		C8CE054E696D9F5E168F0C78 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B460BFFF587956F6C117F2 /* Pods.framework */; };
+/* End PBXBuildFile section */
 
-function exportTestRunnerEnv {
-    mkdir -p "$(dirname "$ENV_TARGET")" &amp;&amp; touch "$ENV_TARGET"
-    export | egrep '(INSTALL_DIR)|(PRODUCT_NAME)|(TARGET_BUILD_DIR)|(EXECUTABLE_FOLDER_PATH)|(DEPLOYMENT_TARGET_SUGGESTED_VALUES)|(EXECUTABLE_PATH)' &gt; $ENV_TARGET
+/* Begin PBXContainerItemProxy section */
+		0429ED9A1CA413B600428AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0429ED7B1CA413B500428AFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0429ED821CA413B500428AFB;
+			remoteInfo = ListOfHotels;
+		};
+		0429EDA51CA413B600428AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0429ED7B1CA413B500428AFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0429ED821CA413B500428AFB;
+			remoteInfo = ListOfHotels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0429ED831CA413B500428AFB /* ListOfHotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfHotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0429ED861CA413B500428AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0429ED881CA413B500428AFB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		0429ED8A1CA413B600428AFB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0429ED8F1CA413B600428AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0429ED921CA413B600428AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0429ED941CA413B600428AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0429ED991CA413B600428AFB /* ListOfHotelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListOfHotelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0429ED9F1CA413B600428AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0429EDA41CA413B600428AFB /* ListOfHotelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListOfHotelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0429EDA81CA413B600428AFB /* ListOfHotelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfHotelsUITests.swift; sourceTree = "<group>"; };
+		0429EDAA1CA413B600428AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0429EDB61CA4146800428AFB /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		0429EDB81CA4154300428AFB /* HotelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelTests.swift; sourceTree = "<group>"; };
+		0429EDBA1CA41D6A00428AFB /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0429EDBC1CA41EC000428AFB /* hotels_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels_sample.json; sourceTree = "<group>"; };
+		0429EDC01CA426F500428AFB /* HotelFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelFetcher.swift; sourceTree = "<group>"; };
+		0429EDC21CA4273600428AFB /* HotelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelParser.swift; sourceTree = "<group>"; };
+		0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelFetcherTests.swift; sourceTree = "<group>"; };
+		0429EDC61CA4392900428AFB /* MasterViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewControllerTests.swift; sourceTree = "<group>"; };
+		0429EDC81CA43CF400428AFB /* HotelParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelParserTests.swift; sourceTree = "<group>"; };
+		042EF6D21CBBE49D00E300DE /* HotelComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelComponent.h; sourceTree = "<group>"; };
+		042EF6D31CBBE49D00E300DE /* HotelComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HotelComponent.mm; sourceTree = "<group>"; };
+		04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeNetwork.swift; sourceTree = "<group>"; };
+		04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealNetwork.swift; sourceTree = "<group>"; };
+		04758CBE1CBD01C900F5C286 /* HotelParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelParsing.swift; sourceTree = "<group>"; };
+		048F469D1CB813B600CABDCF /* ListOfHotels-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ListOfHotels-Bridging-Header.h"; sourceTree = "<group>"; };
+		048F469E1CB813B600CABDCF /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		048F469F1CB813B600CABDCF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		04C67BC91CBB9B10007968F2 /* CollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDataSource.h; sourceTree = "<group>"; };
+		04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewDataSource.mm; sourceTree = "<group>"; };
+		3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITPresentedHotels.swift; sourceTree = "<group>"; };
+		30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITHotelDataSet.swift; sourceTree = "<group>"; };
+		30E1727F1CC527220080E797 /* AcceptanceTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptanceTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E172821CC527220080E797 /* AcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTests.m; sourceTree = "<group>"; };
+		30E172851CC527220080E797 /* FixtureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureExample.swift; sourceTree = "<group>"; };
+		30E172871CC527220080E797 /* SlimTables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimTables.h; sourceTree = "<group>"; };
+		30E172881CC527220080E797 /* AcceptanceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceptanceTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		30E172891CC527220080E797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C36D8202309F3A33EE25C081 /* Pods-AcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B460BFFF587956F6C117F2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0429ED801CA413B500428AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CE054E696D9F5E168F0C78 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429ED961CA413B600428AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429EDA11CA413B600428AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E1727B1CC527220080E797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE26D4B6F30BBE329BE207E /* Pods_AcceptanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0429ED7A1CA413B500428AFB = {
+			isa = PBXGroup;
+			children = (
+				0429ED851CA413B500428AFB /* ListOfHotels */,
+				0429ED9C1CA413B600428AFB /* ListOfHotelsTests */,
+				0429EDA71CA413B600428AFB /* ListOfHotelsUITests */,
+				30E172761CC527050080E797 /* def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests */,
+				30E172801CC527220080E797 /* AcceptanceTests */,
+				0429ED841CA413B500428AFB /* Products */,
+				E32DDB44387993664232A279 /* Pods */,
+				6D3E82D199E8905ABB6F0831 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0429ED841CA413B500428AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0429ED831CA413B500428AFB /* ListOfHotels.app */,
+				0429ED991CA413B600428AFB /* ListOfHotelsTests.xctest */,
+				0429EDA41CA413B600428AFB /* ListOfHotelsUITests.xctest */,
+				30E1727F1CC527220080E797 /* AcceptanceTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0429ED851CA413B500428AFB /* ListOfHotels */ = {
+			isa = PBXGroup;
+			children = (
+				0429ED861CA413B500428AFB /* AppDelegate.swift */,
+				042EF6DB1CBC023200E300DE /* Backend */,
+				042EF6DC1CBC024700E300DE /* Middle Layer */,
+				042EF6DD1CBC025100E300DE /* Front End */,
+				04758CBB1CBCFD9800F5C286 /* Misc */,
+			);
+			path = ListOfHotels;
+			sourceTree = "<group>";
+		};
+		0429ED9C1CA413B600428AFB /* ListOfHotelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0429EDB81CA4154300428AFB /* HotelTests.swift */,
+				0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */,
+				0429EDC61CA4392900428AFB /* MasterViewControllerTests.swift */,
+				0429EDC81CA43CF400428AFB /* HotelParserTests.swift */,
+				0429ED9F1CA413B600428AFB /* Info.plist */,
+			);
+			path = ListOfHotelsTests;
+			sourceTree = "<group>";
+		};
+		0429EDA71CA413B600428AFB /* ListOfHotelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0429EDA81CA413B600428AFB /* ListOfHotelsUITests.swift */,
+				0429EDAA1CA413B600428AFB /* Info.plist */,
+			);
+			path = ListOfHotelsUITests;
+			sourceTree = "<group>";
+		};
+		042EF6DB1CBC023200E300DE /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				0429EDBC1CA41EC000428AFB /* hotels_sample.json */,
+				0429EDB61CA4146800428AFB /* Hotel.swift */,
+				0429EDC01CA426F500428AFB /* HotelFetcher.swift */,
+				04758CBD1CBD01A300F5C286 /* Parser */,
+				04758CBC1CBD018400F5C286 /* Network */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		042EF6DC1CBC024700E300DE /* Middle Layer */ = {
+			isa = PBXGroup;
+			children = (
+				0429ED8A1CA413B600428AFB /* DetailViewController.swift */,
+				0429ED881CA413B500428AFB /* MasterViewController.swift */,
+				048F469E1CB813B600CABDCF /* DataSource.h */,
+				048F469F1CB813B600CABDCF /* DataSource.m */,
+				04C67BC91CBB9B10007968F2 /* CollectionViewDataSource.h */,
+				04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */,
+			);
+			name = "Middle Layer";
+			sourceTree = "<group>";
+		};
+		042EF6DD1CBC025100E300DE /* Front End */ = {
+			isa = PBXGroup;
+			children = (
+				042EF6D21CBBE49D00E300DE /* HotelComponent.h */,
+				042EF6D31CBBE49D00E300DE /* HotelComponent.mm */,
+			);
+			name = "Front End";
+			sourceTree = "<group>";
+		};
+		04758CBB1CBCFD9800F5C286 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				0429ED8F1CA413B600428AFB /* Assets.xcassets */,
+				0429ED911CA413B600428AFB /* LaunchScreen.storyboard */,
+				0429ED941CA413B600428AFB /* Info.plist */,
+				048F469D1CB813B600CABDCF /* ListOfHotels-Bridging-Header.h */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		04758CBC1CBD018400F5C286 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0429EDBA1CA41D6A00428AFB /* Network.swift */,
+				04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */,
+				04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		04758CBD1CBD01A300F5C286 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				0429EDC21CA4273600428AFB /* HotelParser.swift */,
+				04758CBE1CBD01C900F5C286 /* HotelParsing.swift */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		3049D3AB1CC7591A00CAE898 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */,
+			);
+			name = Inputs;
+			sourceTree = "<group>";
+		};
+		30E172761CC527050080E797 /* def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests";
+			sourceTree = "<group>";
+		};
+		30E172801CC527220080E797 /* AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E172891CC527220080E797 /* Info.plist */,
+				3049D3AB1CC7591A00CAE898 /* Inputs */,
+				30E172841CC527220080E797 /* Fixtures */,
+				30E172811CC527220080E797 /* Supporting Files */,
+			);
+			path = AcceptanceTests;
+			sourceTree = "<group>";
+		};
+		30E172811CC527220080E797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E172821CC527220080E797 /* AcceptanceTests.m */,
+				30E172871CC527220080E797 /* SlimTables.h */,
+				30E172881CC527220080E797 /* AcceptanceTests-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30E172841CC527220080E797 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				30E172851CC527220080E797 /* FixtureExample.swift */,
+				3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B460BFFF587956F6C117F2 /* Pods.framework */,
+				4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E32DDB44387993664232A279 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */,
+				689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */,
+				C36D8202309F3A33EE25C081 /* Pods-AcceptanceTests.debug.xcconfig */,
+				3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0429ED821CA413B500428AFB /* ListOfHotels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0429EDAD1CA413B600428AFB /* Build configuration list for PBXNativeTarget "ListOfHotels" */;
+			buildPhases = (
+				A283CBFDB5C7CC580348BE0A /* Check Pods Manifest.lock */,
+				0429ED7F1CA413B500428AFB /* Sources */,
+				0429ED801CA413B500428AFB /* Frameworks */,
+				0429ED811CA413B500428AFB /* Resources */,
+				93684CAE5C82769122935C76 /* Embed Pods Frameworks */,
+				1B0251541570F89782F18200 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListOfHotels;
+			productName = ListOfHotels;
+			productReference = 0429ED831CA413B500428AFB /* ListOfHotels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0429ED981CA413B600428AFB /* ListOfHotelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0429EDB01CA413B600428AFB /* Build configuration list for PBXNativeTarget "ListOfHotelsTests" */;
+			buildPhases = (
+				0429ED951CA413B600428AFB /* Sources */,
+				0429ED961CA413B600428AFB /* Frameworks */,
+				0429ED971CA413B600428AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0429ED9B1CA413B600428AFB /* PBXTargetDependency */,
+			);
+			name = ListOfHotelsTests;
+			productName = ListOfHotelsTests;
+			productReference = 0429ED991CA413B600428AFB /* ListOfHotelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0429EDA31CA413B600428AFB /* ListOfHotelsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0429EDB31CA413B600428AFB /* Build configuration list for PBXNativeTarget "ListOfHotelsUITests" */;
+			buildPhases = (
+				0429EDA01CA413B600428AFB /* Sources */,
+				0429EDA11CA413B600428AFB /* Frameworks */,
+				0429EDA21CA413B600428AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0429EDA61CA413B600428AFB /* PBXTargetDependency */,
+			);
+			name = ListOfHotelsUITests;
+			productName = ListOfHotelsUITests;
+			productReference = 0429EDA41CA413B600428AFB /* ListOfHotelsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		30E1727E1CC527220080E797 /* AcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E1728A1CC527220080E797 /* Build configuration list for PBXNativeTarget "AcceptanceTests" */;
+			buildPhases = (
+				51892DD49E8A205CDA97555F /* Check Pods Manifest.lock */,
+				30E1727A1CC527220080E797 /* Sources */,
+				30E1727B1CC527220080E797 /* Frameworks */,
+				30E1727C1CC527220080E797 /* Resources */,
+				30E1727D1CC527220080E797 /* ShellScript */,
+				1A9DAFD8FABE41DF06069085 /* Embed Pods Frameworks */,
+				306D81E6DF62CAF4DE8BE306 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcceptanceTests;
+			productName = AcceptanceTests;
+			productReference = 30E1727F1CC527220080E797 /* AcceptanceTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0429ED7B1CA413B500428AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Expedia;
+				TargetAttributes = {
+					0429ED821CA413B500428AFB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0429ED981CA413B600428AFB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0429ED821CA413B500428AFB;
+					};
+					0429EDA31CA413B600428AFB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0429ED821CA413B500428AFB;
+					};
+					30E1727E1CC527220080E797 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0429ED7E1CA413B500428AFB /* Build configuration list for PBXProject "ListOfHotels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0429ED7A1CA413B500428AFB;
+			productRefGroup = 0429ED841CA413B500428AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0429ED821CA413B500428AFB /* ListOfHotels */,
+				0429ED981CA413B600428AFB /* ListOfHotelsTests */,
+				0429EDA31CA413B600428AFB /* ListOfHotelsUITests */,
+				30E1727E1CC527220080E797 /* AcceptanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0429ED811CA413B500428AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429ED931CA413B600428AFB /* LaunchScreen.storyboard in Resources */,
+				0429ED901CA413B600428AFB /* Assets.xcassets in Resources */,
+				0429EDBD1CA41EC000428AFB /* hotels_sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429ED971CA413B600428AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429EDCA1CA43EAB00428AFB /* hotels_sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429EDA21CA413B600428AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E1727C1CC527220080E797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049D3B51CC75DA600CAE898 /* hotels_sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A9DAFD8FABE41DF06069085 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B0251541570F89782F18200 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		306D81E6DF62CAF4DE8BE306 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30E1727D1CC527220080E797 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Validate Project Build Settings\nif [ -z \"${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}\" ]; then\n   echo \"Missing expected OCSlimProject build settings. Running '$ pod update' may fix this problem\"\n   exit 1\nfi\n\n# Export Build Environment to Bundle Location\nENV_TARGET=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/env.sh\n\nfunction exportTestRunnerEnv {\n    mkdir -p \"$(dirname \"$ENV_TARGET\")\" && touch \"$ENV_TARGET\"\n    export | egrep '(INSTALL_DIR)|(PRODUCT_NAME)|(TARGET_BUILD_DIR)|(EXECUTABLE_FOLDER_PATH)|(DEPLOYMENT_TARGET_SUGGESTED_VALUES)|(EXECUTABLE_PATH)' > $ENV_TARGET\n}\n\n\n\n# Write Test Runner Script To Project Root\nTESTRUNNER_SOURCE=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/RunTestsTargetWithSlimPort\nTESTRUNNER_TARGET=${PROJECT_DIR}/OCSlimProjectTestRunner.sh\n\nfunction writeTestRunnerScript {\n    \n    if [ -f \"$TESTRUNNER_TARGET\" ]; then\n        rm $TESTRUNNER_TARGET\n    fi\n    \n    echo '#!/bin/sh' > $TESTRUNNER_TARGET\n    echo $TESTRUNNER_SOURCE '$1' >> $TESTRUNNER_TARGET\n    chmod +x $TESTRUNNER_TARGET\n    \n}\n\n# Symbolic Link LaunchFitnesse to Project Root\nLAUNCHFITNESSE_SCRIPTNAME=LaunchFitnesse\nLAUNCHFITNESSE_SOURCE=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/$LAUNCHFITNESSE_SCRIPTNAME\nLAUNCHFITNESSE_TARGET=${PROJECT_DIR}/$LAUNCHFITNESSE_SCRIPTNAME\n\nfunction linkFitnesseScript {\n    \n    if [ -L $LAUNCHFITNESSE_TARGET ]; then\n        unlink $LAUNCHFITNESSE_TARGET\n    fi\n    \n    ln -s $LAUNCHFITNESSE_SOURCE $(dirname \"$LAUNCHFITNESSE_TARGET\")\n}\n\n\n###\n\nexportTestRunnerEnv\nwriteTestRunnerScript\nlinkFitnesseScript";
+		};
+		51892DD49E8A205CDA97555F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93684CAE5C82769122935C76 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A283CBFDB5C7CC580348BE0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0429ED7F1CA413B500428AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429EDBB1CA41D6A00428AFB /* Network.swift in Sources */,
+				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
+				048F46A01CB813B600CABDCF /* DataSource.m in Sources */,
+				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
+				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
+				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
+				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
+				04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */,
+				0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */,
+				0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */,
+				042EF6D41CBBE49D00E300DE /* HotelComponent.mm in Sources */,
+				04758CBA1CBCFBCA00F5C286 /* RealNetwork.swift in Sources */,
+				0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429ED951CA413B600428AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429EDC71CA4392900428AFB /* MasterViewControllerTests.swift in Sources */,
+				0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */,
+				0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */,
+				0429EDC91CA43CF400428AFB /* HotelParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429EDA01CA413B600428AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429EDA91CA413B600428AFB /* ListOfHotelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E1727A1CC527220080E797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049D3AE1CC75C3200CAE898 /* Hotel.swift in Sources */,
+				3049D3B31CC75C3A00CAE898 /* FakeNetwork.swift in Sources */,
+				30E172861CC527220080E797 /* FixtureExample.swift in Sources */,
+				30E172831CC527220080E797 /* AcceptanceTests.m in Sources */,
+				30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */,
+				3049D3AF1CC75C3200CAE898 /* HotelFetcher.swift in Sources */,
+				3049D3B21CC75C3A00CAE898 /* Network.swift in Sources */,
+				3049D3B41CC75C3A00CAE898 /* RealNetwork.swift in Sources */,
+				3049D3B11CC75C3600CAE898 /* HotelParsing.swift in Sources */,
+				3049D3B01CC75C3600CAE898 /* HotelParser.swift in Sources */,
+				3049D3AD1CC7593300CAE898 /* FITPresentedHotels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0429ED9B1CA413B600428AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0429ED821CA413B500428AFB /* ListOfHotels */;
+			targetProxy = 0429ED9A1CA413B600428AFB /* PBXContainerItemProxy */;
+		};
+		0429EDA61CA413B600428AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0429ED821CA413B500428AFB /* ListOfHotels */;
+			targetProxy = 0429EDA51CA413B600428AFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0429ED911CA413B600428AFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0429ED921CA413B600428AFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0429EDAB1CA413B600428AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0429EDAC1CA413B600428AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0429EDAE1CA413B600428AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = ListOfHotels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hotels.ListOfHotels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ListOfHotels/ListOfHotels-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0429EDAF1CA413B600428AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = ListOfHotels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hotels.ListOfHotels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ListOfHotels/ListOfHotels-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		0429EDB11CA413B600428AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ListOfHotelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hotels.ListOfHotelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListOfHotels.app/ListOfHotels";
+			};
+			name = Debug;
+		};
+		0429EDB21CA413B600428AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ListOfHotelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hotels.ListOfHotelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListOfHotels.app/ListOfHotels";
+			};
+			name = Release;
+		};
+		0429EDB41CA413B600428AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ListOfHotelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hotels.ListOfHotelsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ListOfHotels;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0429EDB51CA413B600428AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ListOfHotelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hotels.ListOfHotelsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ListOfHotels;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		30E1728B1CC527220080E797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36D8202309F3A33EE25C081 /* Pods-AcceptanceTests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trickysquirrel.AcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcceptanceTests/AcceptanceTests-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		30E1728C1CC527220080E797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trickysquirrel.AcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcceptanceTests/AcceptanceTests-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0429ED7E1CA413B500428AFB /* Build configuration list for PBXProject "ListOfHotels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429EDAB1CA413B600428AFB /* Debug */,
+				0429EDAC1CA413B600428AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0429EDAD1CA413B600428AFB /* Build configuration list for PBXNativeTarget "ListOfHotels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429EDAE1CA413B600428AFB /* Debug */,
+				0429EDAF1CA413B600428AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0429EDB01CA413B600428AFB /* Build configuration list for PBXNativeTarget "ListOfHotelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429EDB11CA413B600428AFB /* Debug */,
+				0429EDB21CA413B600428AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0429EDB31CA413B600428AFB /* Build configuration list for PBXNativeTarget "ListOfHotelsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429EDB41CA413B600428AFB /* Debug */,
+				0429EDB51CA413B600428AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E1728A1CC527220080E797 /* Build configuration list for PBXNativeTarget "AcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E1728B1CC527220080E797 /* Debug */,
+				30E1728C1CC527220080E797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0429ED7B1CA413B500428AFB /* Project object */;
 }
-
-
-
-# Write Test Runner Script To Project Root
-TESTRUNNER_SOURCE=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/RunTestsTargetWithSlimPort
-TESTRUNNER_TARGET=${PROJECT_DIR}/OCSlimProjectTestRunner.sh
-
-function writeTestRunnerScript {
-    
-    if [ -f "$TESTRUNNER_TARGET" ]; then
-        rm $TESTRUNNER_TARGET
-    fi
-    
-    echo '#!/bin/sh' &gt; $TESTRUNNER_TARGET
-    echo $TESTRUNNER_SOURCE '$1' &gt;&gt; $TESTRUNNER_TARGET
-    chmod +x $TESTRUNNER_TARGET
-    
-}
-
-# Symbolic Link LaunchFitnesse to Project Root
-LAUNCHFITNESSE_SCRIPTNAME=LaunchFitnesse
-LAUNCHFITNESSE_SOURCE=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/$LAUNCHFITNESSE_SCRIPTNAME
-LAUNCHFITNESSE_TARGET=${PROJECT_DIR}/$LAUNCHFITNESSE_SCRIPTNAME
-
-function linkFitnesseScript {
-    
-    if [ -L $LAUNCHFITNESSE_TARGET ]; then
-        unlink $LAUNCHFITNESSE_TARGET
-    fi
-    
-    ln -s $LAUNCHFITNESSE_SOURCE $(dirname "$LAUNCHFITNESSE_TARGET")
-}
-
-
-###
-
-exportTestRunnerEnv
-writeTestRunnerScript
-linkFitnesseScript</string>
-		</dict>
-		<key>30E1727E1CC527220080E797</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>30E1728A1CC527220080E797</string>
-			<key>buildPhases</key>
-			<array>
-				<string>51892DD49E8A205CDA97555F</string>
-				<string>30E1727A1CC527220080E797</string>
-				<string>30E1727B1CC527220080E797</string>
-				<string>30E1727C1CC527220080E797</string>
-				<string>30E1727D1CC527220080E797</string>
-				<string>1A9DAFD8FABE41DF06069085</string>
-				<string>306D81E6DF62CAF4DE8BE306</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>AcceptanceTests</string>
-			<key>productName</key>
-			<string>AcceptanceTests</string>
-			<key>productReference</key>
-			<string>30E1727F1CC527220080E797</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>30E1727F1CC527220080E797</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>AcceptanceTests.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>30E172801CC527220080E797</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>30E172891CC527220080E797</string>
-				<string>3049D3AB1CC7591A00CAE898</string>
-				<string>30E172841CC527220080E797</string>
-				<string>30E172811CC527220080E797</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>AcceptanceTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E172811CC527220080E797</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>30E172821CC527220080E797</string>
-				<string>30E172871CC527220080E797</string>
-				<string>30E172881CC527220080E797</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E172821CC527220080E797</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AcceptanceTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E172831CC527220080E797</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30E172821CC527220080E797</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>30E172841CC527220080E797</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>30E172851CC527220080E797</string>
-				<string>3049D3AC1CC7593300CAE898</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Fixtures</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E172851CC527220080E797</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FixtureExample.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E172861CC527220080E797</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30E172851CC527220080E797</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>30E172871CC527220080E797</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SlimTables.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E172881CC527220080E797</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AcceptanceTests-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E172891CC527220080E797</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E1728A1CC527220080E797</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>30E1728B1CC527220080E797</string>
-				<string>30E1728C1CC527220080E797</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>30E1728B1CC527220080E797</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C36D8202309F3A33EE25C081</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>AcceptanceTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.trickysquirrel.AcceptanceTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>AcceptanceTests/AcceptanceTests-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>30E1728C1CC527220080E797</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3046C82DC8F90DFB9B84DBCF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>AcceptanceTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.trickysquirrel.AcceptanceTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>AcceptanceTests/AcceptanceTests-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4E635D1F660055E646EB1054</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_AcceptanceTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>51892DD49E8A205CDA97555F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>5EE26D4B6F30BBE329BE207E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E635D1F660055E646EB1054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>689B61EB35E373241BEC84A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D3E82D199E8905ABB6F0831</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D5B460BFFF587956F6C117F2</string>
-				<string>4E635D1F660055E646EB1054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>831DF2ACE9D48C330DC17A4D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93684CAE5C82769122935C76</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A283CBFDB5C7CC580348BE0A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C36D8202309F3A33EE25C081</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-AcceptanceTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8CE054E696D9F5E168F0C78</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D5B460BFFF587956F6C117F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D5B460BFFF587956F6C117F2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E32DDB44387993664232A279</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>831DF2ACE9D48C330DC17A4D</string>
-				<string>689B61EB35E373241BEC84A6</string>
-				<string>C36D8202309F3A33EE25C081</string>
-				<string>3046C82DC8F90DFB9B84DBCF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>0429ED7B1CA413B500428AFB</string>
-</dict>
-</plist>
