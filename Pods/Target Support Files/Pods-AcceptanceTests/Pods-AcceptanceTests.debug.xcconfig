@@ -1,0 +1,8 @@
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libc++
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ComponentKit" "${PODS_ROOT}/Headers/Public/OCSlimProject" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/cslim"
+OCSLIMPROJECT_BUNDLE_RESOURCES_DIR = ${TARGET_BUILD_DIR}/${EXECUTABLE_FOLDER_PATH}/OCSlimProject.bundle
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ComponentKit" -isystem "${PODS_ROOT}/Headers/Public/OCSlimProject" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/cslim"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ComponentKit" -l"SDWebImage" -l"c++" -l"cslim" -framework "CoreText" -framework "ImageIO" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

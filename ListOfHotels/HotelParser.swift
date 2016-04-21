@@ -38,8 +38,12 @@ class HotelParser : HotelParsing{
             guard let id = item["hotelId"] as? NSNumber else {return}
             guard let name = item["hotelName"] as? String else {return}
             guard let imageURL = item["thumbnailUrl"] as? String else {return}
+            guard let starRating = item["starRating"] as? NSNumber else {return}
             
-            parsedHotels.append(Hotel(name: name, id: UInt64(id.unsignedLongValue), imageURL: NSURL(string: imageURL)!))
+            parsedHotels.append(Hotel(name: name,
+                id: UInt64(id.unsignedLongValue),
+                imageURL: NSURL(string: imageURL)!,
+                starRating: Float(starRating.floatValue)))
         }
         
         return parsedHotels
