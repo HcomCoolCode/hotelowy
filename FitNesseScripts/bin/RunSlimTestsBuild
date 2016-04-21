@@ -1,0 +1,16 @@
+PROJECT=Benji
+SCHEME=AcceptanceTests
+MYPATH=$(dirname $0)
+
+echo "== Removing Xcode DerivedData =="
+rm -rf ~/Library/Developer/Xcode/DerivedData/
+
+echo "== removing local derived data ${MYPATH}/../../build/derivedData"
+rm -rf $MYPATH/../../build/derivedData/
+
+echo "== Reseting iOS simulators =="
+osascript -e 'tell application "iOS Simulator" to quit'
+xcrun simctl list devices | grep -v '^[-=]' | cut -d "(" -f2 | cut -d ")" -f1 | xargs -I {} xcrun simctl erase "{}"
+
+echo "building AcceptanceTests - Test"
+xcodebuild -workspace "$MYPATH/../../${PROJECT}.xcworkspace" -derivedDataPath  "${MYPATH}/../../build/derivedData" -scheme "${SCHEME}" -sdk iphonesimulator -arch i386 -configuration Test clean install

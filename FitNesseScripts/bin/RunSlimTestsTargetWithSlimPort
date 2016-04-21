@@ -1,0 +1,29 @@
+MYPATH=$(dirname $0)
+SLIM_PORT=$1 
+source ${MYPATH}/env.sh
+
+APP_PID=$(ps auxwww | grep ${PRODUCT_NAME}[.app] | awk '{print $2}')
+
+if [ "$APP_PID" != "" ] ; then
+	echo "Killing Detected Hanging Application ${APP_PID}"
+	kill "$APP_PID"
+fi
+
+xcodebuild -version | grep "Xcode 5"
+XCODE5=$?
+
+if [ $XCODE5 -eq 0 ]
+then
+  IOS_SIM=ios-sim-xc5
+  IOS_SIM_DEVICETYPE_ARGS=(--family ipad --sdk 7.1)
+else
+  IOS_SIM=ios-sim
+  IOS_SIM_DEVICETYPE_ARGS=(--devicetypeid "com.apple.CoreSimulator.SimDeviceType.iPad-2, 7.1")
+fi
+
+echo "Uninstalling AcceptanceTests"
+xcrun simctl uninstall booted com.bskyb.AcceptanceTests
+
+echo "Device Type Args:${IOS_SIM_DEVICETYPE_ARGS[@]}"
+$MYPATH/$IOS_SIM launch ${INSTALL_DIR}/${PRODUCT_NAME}.app "${IOS_SIM_DEVICETYPE_ARGS[@]}" --verbose --exit --args $SLIM_PORT
+

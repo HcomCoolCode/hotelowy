@@ -1,0 +1,32 @@
+#!/bin/bash
+FORMAT=text
+OUTPUT_FILE=
+
+while [ "$1" != "" ]; do
+    case $1 in
+	
+		-f | --format )			shift
+								FORMAT=$1
+                                ;;
+		-o | --output )			shift
+								OUTPUT_FILE=$1
+    							;;
+    							
+		esac
+		shift
+done
+
+MYPATH=$(dirname $0)
+cd  $MYPATH/../
+
+echo "in headless"
+
+CMD="java -Xmx100M -jar fitnesse-standalone.jar -c CeDevices?suite&format=$FORMAT"
+
+echo "will execute ${CMD}"
+
+if [ -z "$OUTPUT_FILE" ] ; then
+	$CMD
+else
+	$CMD -b $OUTPUT_FILE
+fi

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+MYPATH=$(dirname $0)
+FILE_OUTPUT_ENABLED=false
+
+outputArgs() {
+	if $FILE_OUTPUT_ENABLED ; then
+		echo "-f xml -o fitnesse-report.xml"
+	fi
+}
+	
+echo "call RunSlimTestsBuild"
+
+"./${MYPATH}/RunSlimTestsBuild"
+	
+while [ "$1" != "" ]; do
+	case $1 in
+
+		-o )					shift
+								FILE_OUTPUT_ENABLED=true
+								;;
+		esac
+		shift
+done
+
+echo "call RunSlimTestsHeadless with args ${outputargs}"	
+"./${MYPATH}/RunSlimTestsHeadless" $(outputArgs)

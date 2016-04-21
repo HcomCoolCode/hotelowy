@@ -1,0 +1,3 @@
+This is the root testing page for the hotel search and details features
+
+!contents -R2 -g -p -f -h
