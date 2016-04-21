@@ -1,0 +1,41 @@
+!1 Display Hotel List
+!4 Test: Given a set of hotels all hotels will be displayed in the correct order
+|FIT Hotel Data Set|fakeData1                           |
+|title             |star rating|image url            |id|
+|hotel1            |1          |!-http://hotel1.com-!|1 |
+|hotel2            |2.5        |!-http://hotel2.com-!|2 |
+|hotel3            |5          |!-http://hotel3.com-!|3 |
+
+
+
+
+|Ordered Query:FIT Presented Hotels|fakeData1                           |
+|title                             |star rating|image url            |id|
+|hotel1                            |1          |!-http://hotel1.com-!|1 |
+|hotel2                            |2.5        |!-http://hotel2.com-!|2 |
+|hotel3                            |5          |!-http://hotel3.com-!|3 |
+
+!4 Test: Given a set of no hotels display an empty list
+!4 Test: Given a hotel without an id, do not display hotel but display all others
+|FIT Hotel Data Set|fakeData3                           |
+|title             |star rating|image url            |id|
+|hotel1            |1          |!-http://hotel1.com-!|1 |
+|hotel2            |2.5        |!-http://hotel2.com-!|  |
+|hotel3            |5          |!-http://hotel3.com-!|3 |
+
+|Ordered Query:FIT Presented Hotels|fakeData3                           |
+|title                             |star rating|image url            |id|
+|hotel1                            |1          |!-http://hotel1.com-!|1 |
+|hotel3                            |5          |!-http://hotel3.com-!|3 |
+
+!4 Test: Given a set of error cases, display correct text to user
+|FIT Presented Error                                    |
+|error       |http status|displayed text?               |
+|no error    |           |                              |
+|http error  |400        |Network error please try again|
+|time out    |           |Time out please try again     |
+|data invalid|           |Data invalid please try again |
+
+!4 Test: Given the user selects a hotel at an index the correct hotel is request to show more details
+|script: Presented Details           |
+|select row|1|showing details|hotel 2|
