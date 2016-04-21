@@ -35,8 +35,8 @@ class EANAPINetworkTests: XCTestCase {
         let url = NSURL(string:"http://qz.com")
         
         n.getURL(url!, completion: {
-            XCTAssertNil($0)
-            XCTAssertNotNil($1)
+            XCTAssertNotNil($0)
+            XCTAssertNil($1)
             expect.fulfill()
         })
 

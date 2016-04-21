@@ -54,6 +54,6 @@ class EANAPIKeyTests: XCTestCase {
     func testSteadyMD5() {
         let keys = EANAPIKeys(fileNamed: "MockEANAPIKeys")
         let sig = keys.sig(1000)
-        XCTAssertEqual(sig, "760f8abd3fa4c0e10af4722dde6d47c0")
+        XCTAssertEqual(sig, "856a2b2aeb13aa79d91a82e6bffd6db1")
     }
 }

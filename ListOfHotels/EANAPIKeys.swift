@@ -24,11 +24,10 @@ public struct EANAPIKeys {
         secret = keys?["SECRET"] as? String
     }
     
-    func sig(timestamp: Int) -> String {
+    func sig(timestamp: Double) -> String {
 
         var hash = ""
         if let ak = apiKey, s = secret where timestamp > 0 {
-            print(ak)
             let preHash = ak + s + String(timestamp)
             hash = md5(string: preHash)
         }
