@@ -57,3 +57,6 @@ fastlane/screenshots
 
 ## you would think this was here already
 .DS_Store
+
+## hide the keys
+ListOfHotels/EANAPIKeys.plist
