@@ -36,7 +36,10 @@ class EANRequestBuilder {
         let sig = keys.sig(timestamp)
         params.updateValue(sig, forKey: "sig")
         for (key, value) in params {
-            request += key + "=" + value
+            request += key + "=" + value + "&"
+        }
+        if(request.hasSuffix("&")) {
+            request.removeAtIndex(request.characters.endIndex.predecessor())
         }
         return NSURL(string: request)
     }

@@ -42,4 +42,12 @@ class EANRequestBuilderTests: XCTestCase {
         let url = builder.build()
         XCTAssertTrue(url!.absoluteString.containsString("city=paris"))
     }
+    
+    func testShouldUseAmpersandsBetweenQueryParams() {
+        let builder = EANRequestBuilder(keys: mockKeys)
+        builder.forCity("paris")
+        let url = builder.build()
+        XCTAssertTrue(url!.absoluteString.containsString("&"))
+        XCTAssertFalse(url!.absoluteString.hasSuffix("&"))
+    }
 }
