@@ -33,7 +33,7 @@ class EANRequestBuilder {
     func build() -> NSURL? {
         var request = base
         let timestamp = NSDate().timeIntervalSince1970
-        let sig = keys.sig(timestamp)
+        let sig = keys.sig(UInt(timestamp))
         params.updateValue(sig, forKey: "sig")
         for (key, value) in params {
             request += key + "=" + value + "&"

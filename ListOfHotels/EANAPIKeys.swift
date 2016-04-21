@@ -24,7 +24,7 @@ public struct EANAPIKeys {
         secret = keys?["SECRET"] as? String
     }
     
-    func sig(timestamp: Double) -> String {
+    func sig(timestamp: UInt) -> String {
 
         var hash = ""
         if let ak = apiKey, s = secret where timestamp > 0 {
