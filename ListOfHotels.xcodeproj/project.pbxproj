@@ -49,6 +49,10 @@
 		30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */; };
 		30E172831CC527220080E797 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E172821CC527220080E797 /* AcceptanceTests.m */; };
 		30E172861CC527220080E797 /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E172851CC527220080E797 /* FixtureExample.swift */; };
+		62D2D53C1CC680790050A2ED /* MapComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D53B1CC680790050A2ED /* MapComponent.mm */; };
+		62D2D53E1CC69BF30050A2ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2D53D1CC69BF30050A2ED /* MapKit.framework */; };
+		62D2D5411CC770FF0050A2ED /* HotelDetailView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */; };
+		62D2D5491CC7DBF80050A2ED /* HotelComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */; };
 		4DDAB46D1CC8F0CA0072C037 /* HotelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8901CC01503004701D3 /* HotelResponse.swift */; };
 		4DDAB46E1CC8F0CA0072C037 /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8961CC02865004701D3 /* Accommodation.swift */; };
 		4DDAB46F1CC8F0CA0072C037 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89A1CC02884004701D3 /* Amenity.swift */; };
@@ -112,6 +116,12 @@
 		048F469F1CB813B600CABDCF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		04C67BC91CBB9B10007968F2 /* CollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDataSource.h; sourceTree = "<group>"; };
 		04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewDataSource.mm; sourceTree = "<group>"; };
+		62D2D53A1CC680790050A2ED /* MapComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapComponent.h; sourceTree = "<group>"; };
+		62D2D53B1CC680790050A2ED /* MapComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MapComponent.mm; sourceTree = "<group>"; };
+		62D2D53D1CC69BF30050A2ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		62D2D53F1CC770FF0050A2ED /* HotelDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailView.h; sourceTree = "<group>"; };
+		62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HotelDetailView.mm; sourceTree = "<group>"; };
+		62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelComponentModel.swift; sourceTree = "<group>"; };
 		279DA8901CC01503004701D3 /* HotelResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelResponse.swift; sourceTree = "<group>"; };
 		279DA8921CC02837004701D3 /* UrgencyMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrgencyMessage.swift; sourceTree = "<group>"; };
 		279DA8941CC02859004701D3 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -142,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D2D53E1CC69BF30050A2ED /* MapKit.framework in Frameworks */,
 				C8CE054E696D9F5E168F0C78 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +270,11 @@
 			children = (
 				042EF6D21CBBE49D00E300DE /* HotelComponent.h */,
 				042EF6D31CBBE49D00E300DE /* HotelComponent.mm */,
+				62D2D53F1CC770FF0050A2ED /* HotelDetailView.h */,
+				62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */,
+				62D2D53A1CC680790050A2ED /* MapComponent.h */,
+				62D2D53B1CC680790050A2ED /* MapComponent.mm */,
+				62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */,
 			);
 			name = "Front End";
 			sourceTree = "<group>";
@@ -358,6 +374,7 @@
 		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62D2D53D1CC69BF30050A2ED /* MapKit.framework */,
 				D5B460BFFF587956F6C117F2 /* Pods.framework */,
 				4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */,
 			);
@@ -659,6 +676,8 @@
 				279DA8991CC02878004701D3 /* Neighbourhood.swift in Sources */,
 				279DA8A11CC028B6004701D3 /* AveragePriceDetail.swift in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
+				62D2D5411CC770FF0050A2ED /* HotelDetailView.mm in Sources */,
+				62D2D53C1CC680790050A2ED /* MapComponent.mm in Sources */,
 				279DA8931CC02837004701D3 /* UrgencyMessage.swift in Sources */,
 				279DA8971CC02865004701D3 /* Accommodation.swift in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
@@ -670,6 +689,7 @@
 				0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */,
 				042EF6D41CBBE49D00E300DE /* HotelComponent.mm in Sources */,
 				04758CBA1CBCFBCA00F5C286 /* RealNetwork.swift in Sources */,
+				62D2D5491CC7DBF80050A2ED /* HotelComponentModel.swift in Sources */,
 				0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
