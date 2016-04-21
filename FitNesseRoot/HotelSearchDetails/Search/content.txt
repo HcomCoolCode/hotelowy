@@ -6,6 +6,9 @@
 |hotel2            |2.5        |!-http://hotel2.com-!|2 |
 |hotel3            |5          |!-http://hotel3.com-!|3 |
 
+
+
+
 |Ordered Query:FIT Presented Hotels|fakeData1                           |
 |title                             |star rating|image url            |id|
 |hotel1                            |1          |!-http://hotel1.com-!|1 |
@@ -13,7 +16,6 @@
 |hotel3                            |5          |!-http://hotel3.com-!|3 |
 
 !4 Test: Given a set of no hotels display an empty list
-
 !4 Test: Given a hotel without an id, do not display hotel but display all others
 |FIT Hotel Data Set|fakeData3                           |
 |title             |star rating|image url            |id|

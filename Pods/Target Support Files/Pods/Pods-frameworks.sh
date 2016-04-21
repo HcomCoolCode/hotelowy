@@ -82,3 +82,14 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods/ComponentKit.framework"
+  install_framework "Pods/ObjectMapper.framework"
+  install_framework "Pods/SDWebImage.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods/ComponentKit.framework"
+  install_framework "Pods/ObjectMapper.framework"
+  install_framework "Pods/SDWebImage.framework"
+fi

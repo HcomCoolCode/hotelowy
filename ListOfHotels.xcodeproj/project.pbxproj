@@ -29,9 +29,16 @@
 		04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
 		048F46A01CB813B600CABDCF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F469F1CB813B600CABDCF /* DataSource.m */; };
 		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
-		1D9C0AB32EF4C67F04FAF863 /* libPods-AcceptanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8072472187D22A7ECBF64706 /* libPods-AcceptanceTests.a */; };
+		279DA8911CC01503004701D3 /* HotelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8901CC01503004701D3 /* HotelResponse.swift */; };
+		279DA8931CC02837004701D3 /* UrgencyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8921CC02837004701D3 /* UrgencyMessage.swift */; };
+		279DA8951CC02859004701D3 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8941CC02859004701D3 /* Landmark.swift */; };
+		279DA8971CC02865004701D3 /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8961CC02865004701D3 /* Accommodation.swift */; };
+		279DA8991CC02878004701D3 /* Neighbourhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8981CC02878004701D3 /* Neighbourhood.swift */; };
+		279DA89B1CC02884004701D3 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89A1CC02884004701D3 /* Amenity.swift */; };
+		279DA89D1CC02890004701D3 /* PromoPriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */; };
+		279DA89F1CC02899004701D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89E1CC02899004701D3 /* Theme.swift */; };
+		279DA8A11CC028B6004701D3 /* AveragePriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */; };
 		3049D3AD1CC7593300CAE898 /* FITPresentedHotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */; };
-		3049D3AE1CC75C3200CAE898 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB61CA4146800428AFB /* Hotel.swift */; };
 		3049D3AF1CC75C3200CAE898 /* HotelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC01CA426F500428AFB /* HotelFetcher.swift */; };
 		3049D3B01CC75C3600CAE898 /* HotelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC21CA4273600428AFB /* HotelParser.swift */; };
 		3049D3B11CC75C3600CAE898 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
@@ -42,11 +49,22 @@
 		30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */; };
 		30E172831CC527220080E797 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E172821CC527220080E797 /* AcceptanceTests.m */; };
 		30E172861CC527220080E797 /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E172851CC527220080E797 /* FixtureExample.swift */; };
-		554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CC89F23F45A2D98CC849E /* libPods.a */; };
 		62D2D53C1CC680790050A2ED /* MapComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D53B1CC680790050A2ED /* MapComponent.mm */; };
 		62D2D53E1CC69BF30050A2ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2D53D1CC69BF30050A2ED /* MapKit.framework */; };
 		62D2D5411CC770FF0050A2ED /* HotelDetailView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */; };
 		62D2D5491CC7DBF80050A2ED /* HotelComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */; };
+		4DDAB46D1CC8F0CA0072C037 /* HotelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8901CC01503004701D3 /* HotelResponse.swift */; };
+		4DDAB46E1CC8F0CA0072C037 /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8961CC02865004701D3 /* Accommodation.swift */; };
+		4DDAB46F1CC8F0CA0072C037 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89A1CC02884004701D3 /* Amenity.swift */; };
+		4DDAB4701CC8F0CA0072C037 /* AveragePriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */; };
+		4DDAB4711CC8F0CA0072C037 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB61CA4146800428AFB /* Hotel.swift */; };
+		4DDAB4721CC8F0CA0072C037 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8941CC02859004701D3 /* Landmark.swift */; };
+		4DDAB4731CC8F0CA0072C037 /* Neighbourhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8981CC02878004701D3 /* Neighbourhood.swift */; };
+		4DDAB4741CC8F0CA0072C037 /* PromoPriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */; };
+		4DDAB4751CC8F0CA0072C037 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89E1CC02899004701D3 /* Theme.swift */; };
+		4DDAB4761CC8F0CA0072C037 /* UrgencyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8921CC02837004701D3 /* UrgencyMessage.swift */; };
+		5EE26D4B6F30BBE329BE207E /* Pods_AcceptanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */; };
+		C8CE054E696D9F5E168F0C78 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B460BFFF587956F6C117F2 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +122,15 @@
 		62D2D53F1CC770FF0050A2ED /* HotelDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailView.h; sourceTree = "<group>"; };
 		62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HotelDetailView.mm; sourceTree = "<group>"; };
 		62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelComponentModel.swift; sourceTree = "<group>"; };
+		279DA8901CC01503004701D3 /* HotelResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelResponse.swift; sourceTree = "<group>"; };
+		279DA8921CC02837004701D3 /* UrgencyMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrgencyMessage.swift; sourceTree = "<group>"; };
+		279DA8941CC02859004701D3 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		279DA8961CC02865004701D3 /* Accommodation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accommodation.swift; sourceTree = "<group>"; };
+		279DA8981CC02878004701D3 /* Neighbourhood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neighbourhood.swift; sourceTree = "<group>"; };
+		279DA89A1CC02884004701D3 /* Amenity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amenity.swift; sourceTree = "<group>"; };
+		279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoPriceDetail.swift; sourceTree = "<group>"; };
+		279DA89E1CC02899004701D3 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AveragePriceDetail.swift; sourceTree = "<group>"; };
 		3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
 		3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITPresentedHotels.swift; sourceTree = "<group>"; };
 		30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITHotelDataSet.swift; sourceTree = "<group>"; };
@@ -113,11 +140,11 @@
 		30E172871CC527220080E797 /* SlimTables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimTables.h; sourceTree = "<group>"; };
 		30E172881CC527220080E797 /* AcceptanceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceptanceTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		30E172891CC527220080E797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		8072472187D22A7ECBF64706 /* libPods-AcceptanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcceptanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C36D8202309F3A33EE25C081 /* Pods-AcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C86CC89F23F45A2D98CC849E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B460BFFF587956F6C117F2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62D2D53E1CC69BF30050A2ED /* MapKit.framework in Frameworks */,
-				554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */,
+				C8CE054E696D9F5E168F0C78 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9C0AB32EF4C67F04FAF863 /* libPods-AcceptanceTests.a in Frameworks */,
+				5EE26D4B6F30BBE329BE207E /* Pods_AcceptanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,8 +243,8 @@
 		042EF6DB1CBC023200E300DE /* Backend */ = {
 			isa = PBXGroup;
 			children = (
+				279DA8A21CC02A35004701D3 /* Model Objects */,
 				0429EDBC1CA41EC000428AFB /* hotels_sample.json */,
-				0429EDB61CA4146800428AFB /* Hotel.swift */,
 				0429EDC01CA426F500428AFB /* HotelFetcher.swift */,
 				04758CBD1CBD01A300F5C286 /* Parser */,
 				04758CBC1CBD018400F5C286 /* Network */,
@@ -282,6 +309,23 @@
 			name = Parser;
 			sourceTree = "<group>";
 		};
+		279DA8A21CC02A35004701D3 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				279DA8901CC01503004701D3 /* HotelResponse.swift */,
+				279DA8961CC02865004701D3 /* Accommodation.swift */,
+				279DA89A1CC02884004701D3 /* Amenity.swift */,
+				279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */,
+				0429EDB61CA4146800428AFB /* Hotel.swift */,
+				279DA8941CC02859004701D3 /* Landmark.swift */,
+				279DA8981CC02878004701D3 /* Neighbourhood.swift */,
+				279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */,
+				279DA89E1CC02899004701D3 /* Theme.swift */,
+				279DA8921CC02837004701D3 /* UrgencyMessage.swift */,
+			);
+			name = "Model Objects";
+			sourceTree = "<group>";
+		};
 		3049D3AB1CC7591A00CAE898 /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,8 +375,8 @@
 			isa = PBXGroup;
 			children = (
 				62D2D53D1CC69BF30050A2ED /* MapKit.framework */,
-				C86CC89F23F45A2D98CC849E /* libPods.a */,
-				8072472187D22A7ECBF64706 /* libPods-AcceptanceTests.a */,
+				D5B460BFFF587956F6C117F2 /* Pods.framework */,
+				4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -625,10 +669,19 @@
 				0429EDBB1CA41D6A00428AFB /* Network.swift in Sources */,
 				0429ED8B1CA413B600428AFB /* DetailViewController.swift in Sources */,
 				048F46A01CB813B600CABDCF /* DataSource.m in Sources */,
+				279DA8951CC02859004701D3 /* Landmark.swift in Sources */,
+				279DA89D1CC02890004701D3 /* PromoPriceDetail.swift in Sources */,
+				279DA8911CC01503004701D3 /* HotelResponse.swift in Sources */,
+				279DA89F1CC02899004701D3 /* Theme.swift in Sources */,
+				279DA8991CC02878004701D3 /* Neighbourhood.swift in Sources */,
+				279DA8A11CC028B6004701D3 /* AveragePriceDetail.swift in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
 				62D2D5411CC770FF0050A2ED /* HotelDetailView.mm in Sources */,
 				62D2D53C1CC680790050A2ED /* MapComponent.mm in Sources */,
+				279DA8931CC02837004701D3 /* UrgencyMessage.swift in Sources */,
+				279DA8971CC02865004701D3 /* Accommodation.swift in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
+				279DA89B1CC02884004701D3 /* Amenity.swift in Sources */,
 				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
 				0429EDB71CA4146800428AFB /* Hotel.swift in Sources */,
 				04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */,
@@ -664,17 +717,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3049D3AE1CC75C3200CAE898 /* Hotel.swift in Sources */,
+				4DDAB4711CC8F0CA0072C037 /* Hotel.swift in Sources */,
 				3049D3B31CC75C3A00CAE898 /* FakeNetwork.swift in Sources */,
 				30E172861CC527220080E797 /* FixtureExample.swift in Sources */,
+				4DDAB4721CC8F0CA0072C037 /* Landmark.swift in Sources */,
 				30E172831CC527220080E797 /* AcceptanceTests.m in Sources */,
+				4DDAB4761CC8F0CA0072C037 /* UrgencyMessage.swift in Sources */,
 				30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */,
 				3049D3AF1CC75C3200CAE898 /* HotelFetcher.swift in Sources */,
 				3049D3B21CC75C3A00CAE898 /* Network.swift in Sources */,
+				4DDAB4741CC8F0CA0072C037 /* PromoPriceDetail.swift in Sources */,
+				4DDAB46D1CC8F0CA0072C037 /* HotelResponse.swift in Sources */,
 				3049D3B41CC75C3A00CAE898 /* RealNetwork.swift in Sources */,
+				4DDAB46E1CC8F0CA0072C037 /* Accommodation.swift in Sources */,
 				3049D3B11CC75C3600CAE898 /* HotelParsing.swift in Sources */,
+				4DDAB4751CC8F0CA0072C037 /* Theme.swift in Sources */,
+				4DDAB4731CC8F0CA0072C037 /* Neighbourhood.swift in Sources */,
 				3049D3B01CC75C3600CAE898 /* HotelParser.swift in Sources */,
 				3049D3AD1CC7593300CAE898 /* FITPresentedHotels.swift in Sources */,
+				4DDAB4701CC8F0CA0072C037 /* AveragePriceDetail.swift in Sources */,
+				4DDAB46F1CC8F0CA0072C037 /* Amenity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
