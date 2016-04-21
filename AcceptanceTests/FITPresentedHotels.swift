@@ -70,18 +70,20 @@ class FITPresentedHotels: NSObject {
         for hotel in self.fetchedHotels! {
 
             var starRatingString: NSString
-            if (hotel.starRating.floatValue - floor(hotel.starRating.floatValue) > 0.01) {
-                starRatingString = String(format:"%.1f",hotel.starRating.floatValue) as NSString
+            if (hotel.starRating ?? 0 - floor(hotel.starRating ?? 0) > 0.01) {
+                starRatingString = String(format:"%.1f",hotel.starRating ?? 0) as NSString
             } else {
-                starRatingString = String(format:"%i",hotel.starRating.integerValue) as NSString
+                starRatingString = String(format:"%i",hotel.starRating ?? 0) as NSString
             }
 
-
+            let emptyString: NSString = ""
+            let hotelName = hotel.name ?? ""
+            
             let row = [
-                titleColumnKey: hotel.name as NSString,
+                titleColumnKey: hotelName as NSString ?? emptyString,
                 starRatingColumnKey: starRatingString,
-                imageUrlColumnKey: hotel.imageURL.absoluteString,
-                idColumnKey: String(format:"%lu",hotel.id) as NSString ]
+                imageUrlColumnKey: hotel.imageURL?.absoluteString ?? emptyString,
+                idColumnKey: String(format:"%lu", hotel.id ?? 0) as NSString ]
 
             result.addObject(row)
         }

@@ -9,5 +9,5 @@
 import Foundation
 
 protocol HotelParsing {
-    func parseHotelData(data: NSData) -> [Hotel]?
+    func parseHotelData(data: NSData) throws -> HotelResponse?
 }
