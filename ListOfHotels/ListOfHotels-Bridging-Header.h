@@ -3,4 +3,5 @@
 //
 
 #import "DataSource.h"
+#import "HotelDetailView.h"
 #import <CommonCrypto/CommonCrypto.h>

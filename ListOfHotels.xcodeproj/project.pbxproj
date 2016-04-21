@@ -29,16 +29,51 @@
 		04758CBF1CBD01C900F5C286 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
 		048F46A01CB813B600CABDCF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F469F1CB813B600CABDCF /* DataSource.m */; };
 		04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */; };
-		078311811CC4CBFC00E3AB9F /* EANAPIKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */; };
-		078311841CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */; };
-		078311871CC5329300E3AB9F /* MockEANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */; };
-		078311881CC53F8300E3AB9F /* MockEANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */; };
-		0783118A1CC6522B00E3AB9F /* EANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078311891CC6522B00E3AB9F /* EANAPIKeys.plist */; };
-		0783118C1CC656EA00E3AB9F /* EANAPINetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0783118B1CC656EA00E3AB9F /* EANAPINetwork.swift */; };
-		0783118F1CC6571700E3AB9F /* EANAPINetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0783118E1CC6571700E3AB9F /* EANAPINetworkTests.swift */; };
-		07EE4E681CC840130013F39D /* EANRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE4E671CC840130013F39D /* EANRequestBuilder.swift */; };
-		07EE4E6A1CC841FC0013F39D /* EANRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE4E691CC841FC0013F39D /* EANRequestBuilderTests.swift */; };
-		554B9FAC48D9E4DE44C0E80F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C86CC89F23F45A2D98CC849E /* libPods.a */; };
+		07EE4E701CC90F500013F39D /* EANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07EE4E6C1CC90F500013F39D /* EANAPIKeys.plist */; };
+		07EE4E711CC90F500013F39D /* EANAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE4E6D1CC90F500013F39D /* EANAPIKeys.swift */; };
+		07EE4E721CC90F500013F39D /* EANAPINetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE4E6E1CC90F500013F39D /* EANAPINetwork.swift */; };
+		07EE4E731CC90F500013F39D /* EANRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE4E6F1CC90F500013F39D /* EANRequestBuilder.swift */; };
+		07EE4E791CC90F700013F39D /* EANAPIKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE4E751CC90F700013F39D /* EANAPIKeyTests.swift */; };
+		07EE4E7A1CC90F700013F39D /* EANAPINetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE4E761CC90F700013F39D /* EANAPINetworkTests.swift */; };
+		07EE4E7B1CC90F700013F39D /* EANRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE4E771CC90F700013F39D /* EANRequestBuilderTests.swift */; };
+		07EE4E7C1CC90F700013F39D /* MockEANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07EE4E781CC90F700013F39D /* MockEANAPIKeys.plist */; };
+		07EE4E7D1CC90FBF0013F39D /* MockEANAPIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07EE4E781CC90F700013F39D /* MockEANAPIKeys.plist */; };
+		279DA8911CC01503004701D3 /* HotelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8901CC01503004701D3 /* HotelResponse.swift */; };
+		279DA8931CC02837004701D3 /* UrgencyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8921CC02837004701D3 /* UrgencyMessage.swift */; };
+		279DA8951CC02859004701D3 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8941CC02859004701D3 /* Landmark.swift */; };
+		279DA8971CC02865004701D3 /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8961CC02865004701D3 /* Accommodation.swift */; };
+		279DA8991CC02878004701D3 /* Neighbourhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8981CC02878004701D3 /* Neighbourhood.swift */; };
+		279DA89B1CC02884004701D3 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89A1CC02884004701D3 /* Amenity.swift */; };
+		279DA89D1CC02890004701D3 /* PromoPriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */; };
+		279DA89F1CC02899004701D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89E1CC02899004701D3 /* Theme.swift */; };
+		279DA8A11CC028B6004701D3 /* AveragePriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */; };
+		3049D3AD1CC7593300CAE898 /* FITPresentedHotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */; };
+		3049D3AF1CC75C3200CAE898 /* HotelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC01CA426F500428AFB /* HotelFetcher.swift */; };
+		3049D3B01CC75C3600CAE898 /* HotelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDC21CA4273600428AFB /* HotelParser.swift */; };
+		3049D3B11CC75C3600CAE898 /* HotelParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CBE1CBD01C900F5C286 /* HotelParsing.swift */; };
+		3049D3B21CC75C3A00CAE898 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDBA1CA41D6A00428AFB /* Network.swift */; };
+		3049D3B31CC75C3A00CAE898 /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */; };
+		3049D3B41CC75C3A00CAE898 /* RealNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */; };
+		3049D3B51CC75DA600CAE898 /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
+		30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */; };
+		30E172831CC527220080E797 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E172821CC527220080E797 /* AcceptanceTests.m */; };
+		30E172861CC527220080E797 /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E172851CC527220080E797 /* FixtureExample.swift */; };
+		4DDAB46D1CC8F0CA0072C037 /* HotelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8901CC01503004701D3 /* HotelResponse.swift */; };
+		4DDAB46E1CC8F0CA0072C037 /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8961CC02865004701D3 /* Accommodation.swift */; };
+		4DDAB46F1CC8F0CA0072C037 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89A1CC02884004701D3 /* Amenity.swift */; };
+		4DDAB4701CC8F0CA0072C037 /* AveragePriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */; };
+		4DDAB4711CC8F0CA0072C037 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429EDB61CA4146800428AFB /* Hotel.swift */; };
+		4DDAB4721CC8F0CA0072C037 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8941CC02859004701D3 /* Landmark.swift */; };
+		4DDAB4731CC8F0CA0072C037 /* Neighbourhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8981CC02878004701D3 /* Neighbourhood.swift */; };
+		4DDAB4741CC8F0CA0072C037 /* PromoPriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */; };
+		4DDAB4751CC8F0CA0072C037 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA89E1CC02899004701D3 /* Theme.swift */; };
+		4DDAB4761CC8F0CA0072C037 /* UrgencyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279DA8921CC02837004701D3 /* UrgencyMessage.swift */; };
+		5EE26D4B6F30BBE329BE207E /* Pods_AcceptanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */; };
+		62D2D53C1CC680790050A2ED /* MapComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D53B1CC680790050A2ED /* MapComponent.mm */; };
+		62D2D53E1CC69BF30050A2ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2D53D1CC69BF30050A2ED /* MapKit.framework */; };
+		62D2D5411CC770FF0050A2ED /* HotelDetailView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */; };
+		62D2D5491CC7DBF80050A2ED /* HotelComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */; };
+		C8CE054E696D9F5E168F0C78 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B460BFFF587956F6C117F2 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,14 +125,39 @@
 		048F469F1CB813B600CABDCF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		04C67BC91CBB9B10007968F2 /* CollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDataSource.h; sourceTree = "<group>"; };
 		04C67BCA1CBB9B10007968F2 /* CollectionViewDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewDataSource.mm; sourceTree = "<group>"; };
-		078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeyTests.swift; sourceTree = "<group>"; };
-		078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeys.swift; sourceTree = "<group>"; };
-		078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MockEANAPIKeys.plist; sourceTree = "<group>"; };
-		078311891CC6522B00E3AB9F /* EANAPIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EANAPIKeys.plist; sourceTree = "<group>"; };
-		0783118B1CC656EA00E3AB9F /* EANAPINetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPINetwork.swift; sourceTree = "<group>"; };
-		0783118E1CC6571700E3AB9F /* EANAPINetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPINetworkTests.swift; sourceTree = "<group>"; };
-		07EE4E671CC840130013F39D /* EANRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANRequestBuilder.swift; sourceTree = "<group>"; };
-		07EE4E691CC841FC0013F39D /* EANRequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANRequestBuilderTests.swift; sourceTree = "<group>"; };
+		07EE4E6C1CC90F500013F39D /* EANAPIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EANAPIKeys.plist; sourceTree = "<group>"; };
+		07EE4E6D1CC90F500013F39D /* EANAPIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeys.swift; sourceTree = "<group>"; };
+		07EE4E6E1CC90F500013F39D /* EANAPINetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPINetwork.swift; sourceTree = "<group>"; };
+		07EE4E6F1CC90F500013F39D /* EANRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANRequestBuilder.swift; sourceTree = "<group>"; };
+		07EE4E751CC90F700013F39D /* EANAPIKeyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPIKeyTests.swift; sourceTree = "<group>"; };
+		07EE4E761CC90F700013F39D /* EANAPINetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANAPINetworkTests.swift; sourceTree = "<group>"; };
+		07EE4E771CC90F700013F39D /* EANRequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANRequestBuilderTests.swift; sourceTree = "<group>"; };
+		07EE4E781CC90F700013F39D /* MockEANAPIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MockEANAPIKeys.plist; sourceTree = "<group>"; };
+		279DA8901CC01503004701D3 /* HotelResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelResponse.swift; sourceTree = "<group>"; };
+		279DA8921CC02837004701D3 /* UrgencyMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrgencyMessage.swift; sourceTree = "<group>"; };
+		279DA8941CC02859004701D3 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		279DA8961CC02865004701D3 /* Accommodation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accommodation.swift; sourceTree = "<group>"; };
+		279DA8981CC02878004701D3 /* Neighbourhood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neighbourhood.swift; sourceTree = "<group>"; };
+		279DA89A1CC02884004701D3 /* Amenity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amenity.swift; sourceTree = "<group>"; };
+		279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoPriceDetail.swift; sourceTree = "<group>"; };
+		279DA89E1CC02899004701D3 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AveragePriceDetail.swift; sourceTree = "<group>"; };
+		3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITPresentedHotels.swift; sourceTree = "<group>"; };
+		30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITHotelDataSet.swift; sourceTree = "<group>"; };
+		30E1727F1CC527220080E797 /* AcceptanceTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptanceTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E172821CC527220080E797 /* AcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTests.m; sourceTree = "<group>"; };
+		30E172851CC527220080E797 /* FixtureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureExample.swift; sourceTree = "<group>"; };
+		30E172871CC527220080E797 /* SlimTables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimTables.h; sourceTree = "<group>"; };
+		30E172881CC527220080E797 /* AcceptanceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceptanceTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		30E172891CC527220080E797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E635D1F660055E646EB1054 /* Pods_AcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D2D53A1CC680790050A2ED /* MapComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapComponent.h; sourceTree = "<group>"; };
+		62D2D53B1CC680790050A2ED /* MapComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MapComponent.mm; sourceTree = "<group>"; };
+		62D2D53D1CC69BF30050A2ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		62D2D53F1CC770FF0050A2ED /* HotelDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailView.h; sourceTree = "<group>"; };
+		62D2D5401CC770FF0050A2ED /* HotelDetailView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HotelDetailView.mm; sourceTree = "<group>"; };
+		62D2D5481CC7DBF80050A2ED /* HotelComponentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelComponentModel.swift; sourceTree = "<group>"; };
 		689B61EB35E373241BEC84A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		831DF2ACE9D48C330DC17A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C36D8202309F3A33EE25C081 /* Pods-AcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,7 +239,7 @@
 		0429ED9C1CA413B600428AFB /* ListOfHotelsTests */ = {
 			isa = PBXGroup;
 			children = (
-				0783117F1CC4CBA500E3AB9F /* EANAPINetworkTests */,
+				07EE4E741CC90F5A0013F39D /* EANTests */,
 				0429EDB81CA4154300428AFB /* HotelTests.swift */,
 				0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */,
 				0429EDC61CA4392900428AFB /* MasterViewControllerTests.swift */,
@@ -251,7 +311,7 @@
 		04758CBC1CBD018400F5C286 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				078311821CC4D16D00E3AB9F /* EAN */,
+				07EE4E6B1CC90F370013F39D /* EAN */,
 				0429EDBA1CA41D6A00428AFB /* Network.swift */,
 				04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */,
 				04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */,
@@ -268,26 +328,88 @@
 			name = Parser;
 			sourceTree = "<group>";
 		};
-		0783117F1CC4CBA500E3AB9F /* EANAPINetworkTests */ = {
+		07EE4E6B1CC90F370013F39D /* EAN */ = {
 			isa = PBXGroup;
 			children = (
-				078311801CC4CBFC00E3AB9F /* EANAPIKeyTests.swift */,
-				078311861CC5329300E3AB9F /* MockEANAPIKeys.plist */,
-				0783118E1CC6571700E3AB9F /* EANAPINetworkTests.swift */,
-				07EE4E691CC841FC0013F39D /* EANRequestBuilderTests.swift */,
-			);
-			name = EANAPINetworkTests;
-			sourceTree = "<group>";
-		};
-		078311821CC4D16D00E3AB9F /* EAN */ = {
-			isa = PBXGroup;
-			children = (
-				078311831CC4D18B00E3AB9F /* EANAPIKeys.swift */,
-				078311891CC6522B00E3AB9F /* EANAPIKeys.plist */,
-				0783118B1CC656EA00E3AB9F /* EANAPINetwork.swift */,
-				07EE4E671CC840130013F39D /* EANRequestBuilder.swift */,
+				07EE4E6C1CC90F500013F39D /* EANAPIKeys.plist */,
+				07EE4E6D1CC90F500013F39D /* EANAPIKeys.swift */,
+				07EE4E6E1CC90F500013F39D /* EANAPINetwork.swift */,
+				07EE4E6F1CC90F500013F39D /* EANRequestBuilder.swift */,
 			);
 			name = EAN;
+			sourceTree = "<group>";
+		};
+		07EE4E741CC90F5A0013F39D /* EANTests */ = {
+			isa = PBXGroup;
+			children = (
+				07EE4E751CC90F700013F39D /* EANAPIKeyTests.swift */,
+				07EE4E761CC90F700013F39D /* EANAPINetworkTests.swift */,
+				07EE4E771CC90F700013F39D /* EANRequestBuilderTests.swift */,
+				07EE4E781CC90F700013F39D /* MockEANAPIKeys.plist */,
+			);
+			name = EANTests;
+			sourceTree = "<group>";
+		};
+		279DA8A21CC02A35004701D3 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				279DA8901CC01503004701D3 /* HotelResponse.swift */,
+				279DA8961CC02865004701D3 /* Accommodation.swift */,
+				279DA89A1CC02884004701D3 /* Amenity.swift */,
+				279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */,
+				0429EDB61CA4146800428AFB /* Hotel.swift */,
+				279DA8941CC02859004701D3 /* Landmark.swift */,
+				279DA8981CC02878004701D3 /* Neighbourhood.swift */,
+				279DA89C1CC02890004701D3 /* PromoPriceDetail.swift */,
+				279DA89E1CC02899004701D3 /* Theme.swift */,
+				279DA8921CC02837004701D3 /* UrgencyMessage.swift */,
+			);
+			name = "Model Objects";
+			sourceTree = "<group>";
+		};
+		3049D3AB1CC7591A00CAE898 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */,
+			);
+			name = Inputs;
+			sourceTree = "<group>";
+		};
+		30E172761CC527050080E797 /* def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests";
+			sourceTree = "<group>";
+		};
+		30E172801CC527220080E797 /* AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E172891CC527220080E797 /* Info.plist */,
+				3049D3AB1CC7591A00CAE898 /* Inputs */,
+				30E172841CC527220080E797 /* Fixtures */,
+				30E172811CC527220080E797 /* Supporting Files */,
+			);
+			path = AcceptanceTests;
+			sourceTree = "<group>";
+		};
+		30E172811CC527220080E797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E172821CC527220080E797 /* AcceptanceTests.m */,
+				30E172871CC527220080E797 /* SlimTables.h */,
+				30E172881CC527220080E797 /* AcceptanceTests-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30E172841CC527220080E797 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				30E172851CC527220080E797 /* FixtureExample.swift */,
+				3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */,
+			);
+			name = Fixtures;
 			sourceTree = "<group>";
 		};
 		6D3E82D199E8905ABB6F0831 /* Frameworks */ = {
@@ -443,10 +565,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0783118A1CC6522B00E3AB9F /* EANAPIKeys.plist in Resources */,
+				07EE4E7D1CC90FBF0013F39D /* MockEANAPIKeys.plist in Resources */,
+				07EE4E701CC90F500013F39D /* EANAPIKeys.plist in Resources */,
 				0429ED931CA413B600428AFB /* LaunchScreen.storyboard in Resources */,
 				0429ED901CA413B600428AFB /* Assets.xcassets in Resources */,
-				078311881CC53F8300E3AB9F /* MockEANAPIKeys.plist in Resources */,
 				0429EDBD1CA41EC000428AFB /* hotels_sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,7 +577,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078311871CC5329300E3AB9F /* MockEANAPIKeys.plist in Resources */,
+				07EE4E7C1CC90F700013F39D /* MockEANAPIKeys.plist in Resources */,
 				0429EDCA1CA43EAB00428AFB /* hotels_sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,9 +720,11 @@
 				279DA8991CC02878004701D3 /* Neighbourhood.swift in Sources */,
 				279DA8A11CC028B6004701D3 /* AveragePriceDetail.swift in Sources */,
 				0429ED891CA413B500428AFB /* MasterViewController.swift in Sources */,
-				0783118C1CC656EA00E3AB9F /* EANAPINetwork.swift in Sources */,
-				078311841CC4D18B00E3AB9F /* EANAPIKeys.swift in Sources */,
-				07EE4E681CC840130013F39D /* EANRequestBuilder.swift in Sources */,
+				07EE4E731CC90F500013F39D /* EANRequestBuilder.swift in Sources */,
+				62D2D5411CC770FF0050A2ED /* HotelDetailView.mm in Sources */,
+				62D2D53C1CC680790050A2ED /* MapComponent.mm in Sources */,
+				279DA8931CC02837004701D3 /* UrgencyMessage.swift in Sources */,
+				279DA8971CC02865004701D3 /* Accommodation.swift in Sources */,
 				04C67BCB1CBB9B10007968F2 /* CollectionViewDataSource.mm in Sources */,
 				279DA89B1CC02884004701D3 /* Amenity.swift in Sources */,
 				04758CB81CBCFBC400F5C286 /* FakeNetwork.swift in Sources */,
@@ -609,7 +733,9 @@
 				0429EDC11CA426F500428AFB /* HotelFetcher.swift in Sources */,
 				0429EDC31CA4273600428AFB /* HotelParser.swift in Sources */,
 				042EF6D41CBBE49D00E300DE /* HotelComponent.mm in Sources */,
+				07EE4E721CC90F500013F39D /* EANAPINetwork.swift in Sources */,
 				04758CBA1CBCFBCA00F5C286 /* RealNetwork.swift in Sources */,
+				07EE4E711CC90F500013F39D /* EANAPIKeys.swift in Sources */,
 				62D2D5491CC7DBF80050A2ED /* HotelComponentModel.swift in Sources */,
 				0429ED871CA413B500428AFB /* AppDelegate.swift in Sources */,
 			);
@@ -619,13 +745,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07EE4E791CC90F700013F39D /* EANAPIKeyTests.swift in Sources */,
 				0429EDC71CA4392900428AFB /* MasterViewControllerTests.swift in Sources */,
+				07EE4E7A1CC90F700013F39D /* EANAPINetworkTests.swift in Sources */,
 				0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */,
 				0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */,
+				07EE4E7B1CC90F700013F39D /* EANRequestBuilderTests.swift in Sources */,
 				0429EDC91CA43CF400428AFB /* HotelParserTests.swift in Sources */,
-				0783118F1CC6571700E3AB9F /* EANAPINetworkTests.swift in Sources */,
-				07EE4E6A1CC841FC0013F39D /* EANRequestBuilderTests.swift in Sources */,
-				078311811CC4CBFC00E3AB9F /* EANAPIKeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
