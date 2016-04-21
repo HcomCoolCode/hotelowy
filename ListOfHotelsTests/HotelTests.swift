@@ -14,17 +14,17 @@ class HotelTests: XCTestCase {
     let imageURL = NSURL(string: "http://www.hotels.com/image.jpg")!
 
     func testIdIsAssigned() {
-        let hotel = Hotel(name: "", id: 123, imageURL :imageURL)
+        let hotel = Hotel(name: "", id: 123, imageURL :imageURL, starRating: 1)
         XCTAssertEqual(hotel.id, 123)
     }
     
     func testNameIsAssigned() {
-        let hotel = Hotel(name: "name", id: 1, imageURL :imageURL)
+        let hotel = Hotel(name: "name", id: 1, imageURL :imageURL, starRating: 1)
         XCTAssertEqual(hotel.name, "name")
     }
     
     func testImageURLIsAssigned() {
-        let hotel = Hotel(name: "name", id: 1, imageURL :imageURL)
+        let hotel = Hotel(name: "name", id: 1, imageURL :imageURL, starRating: 1)
         XCTAssertEqual(hotel.imageURL, imageURL)
     }
 

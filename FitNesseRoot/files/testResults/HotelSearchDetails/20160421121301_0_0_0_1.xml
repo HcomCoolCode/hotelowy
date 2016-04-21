@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20151230</FitNesseVersion>
+  <rootPath>HotelSearchDetails</rootPath>
+  <pageHistoryReference>
+    <name>HotelSearchDetails.Search</name>
+    <date>2016-04-21T12:13:01+01:00</date>
+    <pageHistoryLink>HotelSearchDetails.Search?pageHistory&amp;resultDate=20160421121301</pageHistoryLink>
+    <counts>
+      <right>20</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>26</exceptions>
+    </counts>
+    <runTimeInMillis>529</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:./OCSlimProjectTestRunner.sh</testSystem>
+    <command>./OCSlimProjectTestRunner.sh 8085</command>
+    <exitCode>0</exitCode>
+    <stdOut>Running Test Target "AcceptanceTests.app" with Slim Port "8085"
+Simulator Device "iPhone-6", deployment Target "9.3"
+</stdOut>
+    <stdErr>App Spec: &lt;DTiPhoneSimulatorApplicationSpecifier 0x7fc932cbd180&gt; specified by app path /Users/richardmoult/Library/Developer/Xcode/DerivedData/ListOfHotels-drlkryelzyywsofihnyoapzwlqvv/Build/Products/Debug-iphonesimulator/AcceptanceTests.app
+SDK Root: &lt;DTiPhoneSimulatorSystemRoot 0x7fc932d27ef0&gt; path=/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk
+Creating named pipe at `/var/folders/rd/vg6gwglx159_70t4w5n0n85r0000gn/T//ios-sim-stderr-pipe-1461237178'
+Creating named pipe at `/var/folders/rd/vg6gwglx159_70t4w5n0n85r0000gn/T//ios-sim-stdout-pipe-1461237178'
+using device family iphone
+2016-04-21 12:12:58.762 ios-sim[2403:129984] [MT] DVTAssertions: Warning in /Library/Caches/com.apple.xbs/Sources/DVTFrameworks/DVTFrameworks-10174/DVTFoundation/PlugInArchitecture/PlugInManager/DVTPlugInManager.m:260
+Details:  Requested but did not find extension point with identifier Xcode.DVTFoundation.DevicePlatformMapping
+Object:   &lt;DVTPlugInManager: 0x7fc932ce9ad0&gt;
+Method:   -extensionPointWithIdentifier:
+Thread:   &lt;NSThread: 0x7fc932c0bd30&gt;{number = 1, name = main}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+Session started
+Session did end with error (null)
+Removing named pipe at `/var/folders/rd/vg6gwglx159_70t4w5n0n85r0000gn/T//ios-sim-stderr-pipe-1461237178'
+Removing named pipe at `/var/folders/rd/vg6gwglx159_70t4w5n0n85r0000gn/T//ios-sim-stdout-pipe-1461237178'
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>4410</totalRunTimeInMillis>
+</suiteResults>
+
