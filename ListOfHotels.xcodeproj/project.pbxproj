@@ -46,6 +46,8 @@
 		3049D3B31CC75C3A00CAE898 /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB71CBCFBC400F5C286 /* FakeNetwork.swift */; };
 		3049D3B41CC75C3A00CAE898 /* RealNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04758CB91CBCFBCA00F5C286 /* RealNetwork.swift */; };
 		3049D3B51CC75DA600CAE898 /* hotels_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0429EDBC1CA41EC000428AFB /* hotels_sample.json */; };
+		30B483DA1D0AFB7400437EDC /* LOHSearchResultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B483D91D0AFB7400437EDC /* LOHSearchResultsTests.swift */; };
+		30B483DD1D0B208F00437EDC /* LOHSearchResultsTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B483DC1D0B208F00437EDC /* LOHSearchResultsTestHelper.swift */; };
 		30D44BA01CC6652100CE225E /* FITHotelDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */; };
 		30E172831CC527220080E797 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E172821CC527220080E797 /* AcceptanceTests.m */; };
 		30E172861CC527220080E797 /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E172851CC527220080E797 /* FixtureExample.swift */; };
@@ -123,6 +125,8 @@
 		279DA8A01CC028B6004701D3 /* AveragePriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AveragePriceDetail.swift; sourceTree = "<group>"; };
 		3046C82DC8F90DFB9B84DBCF /* Pods-AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
 		3049D3AC1CC7593300CAE898 /* FITPresentedHotels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITPresentedHotels.swift; sourceTree = "<group>"; };
+		30B483D91D0AFB7400437EDC /* LOHSearchResultsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOHSearchResultsTests.swift; sourceTree = "<group>"; };
+		30B483DC1D0B208F00437EDC /* LOHSearchResultsTestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOHSearchResultsTestHelper.swift; sourceTree = "<group>"; };
 		30D44B9F1CC6652100CE225E /* FITHotelDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FITHotelDataSet.swift; sourceTree = "<group>"; };
 		30E1727F1CC527220080E797 /* AcceptanceTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptanceTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E172821CC527220080E797 /* AcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTests.m; sourceTree = "<group>"; };
@@ -211,11 +215,8 @@
 		0429ED9C1CA413B600428AFB /* ListOfHotelsTests */ = {
 			isa = PBXGroup;
 			children = (
-				0429EDB81CA4154300428AFB /* HotelTests.swift */,
-				0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */,
-				0429EDC61CA4392900428AFB /* MasterViewControllerTests.swift */,
-				0429EDC81CA43CF400428AFB /* HotelParserTests.swift */,
-				0429ED9F1CA413B600428AFB /* Info.plist */,
+				30B483D61D0AEAD300437EDC /* Component Integration Tests */,
+				30B483D81D0AEB5300437EDC /* Unit Tests */,
 			);
 			path = ListOfHotelsTests;
 			sourceTree = "<group>";
@@ -318,6 +319,43 @@
 			name = Inputs;
 			sourceTree = "<group>";
 		};
+		30B483D61D0AEAD300437EDC /* Component Integration Tests */ = {
+			isa = PBXGroup;
+			children = (
+				30B483D91D0AFB7400437EDC /* LOHSearchResultsTests.swift */,
+				30B483DB1D0B207300437EDC /* Helpers */,
+			);
+			name = "Component Integration Tests";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		30B483D71D0AEB4400437EDC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		30B483D81D0AEB5300437EDC /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0429EDB81CA4154300428AFB /* HotelTests.swift */,
+				0429EDC41CA434E100428AFB /* HotelFetcherTests.swift */,
+				0429EDC61CA4392900428AFB /* MasterViewControllerTests.swift */,
+				0429EDC81CA43CF400428AFB /* HotelParserTests.swift */,
+				0429ED9F1CA413B600428AFB /* Info.plist */,
+			);
+			name = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		30B483DB1D0B207300437EDC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30B483DC1D0B208F00437EDC /* LOHSearchResultsTestHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		30E172761CC527050080E797 /* def import_pods     pod 'ComponentKit', '~> 0.13'     pod 'SDWebImage', '~>3.7' end    target 'ListOfHotels' do     import_pods end   target 'ListOfHotelsTests' do     import_pods end   target 'ListOfHotelsUITests' do     import_pods end   target 'AcceptanceTests' do     import_pods     pod 'OCSlimProject' AcceptanceTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +366,7 @@
 		30E172801CC527220080E797 /* AcceptanceTests */ = {
 			isa = PBXGroup;
 			children = (
+				30B483D71D0AEB4400437EDC /* New Group */,
 				30E172891CC527220080E797 /* Info.plist */,
 				3049D3AB1CC7591A00CAE898 /* Inputs */,
 				30E172841CC527220080E797 /* Fixtures */,
@@ -678,9 +717,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B483DD1D0B208F00437EDC /* LOHSearchResultsTestHelper.swift in Sources */,
 				0429EDC71CA4392900428AFB /* MasterViewControllerTests.swift in Sources */,
 				0429EDC51CA434E100428AFB /* HotelFetcherTests.swift in Sources */,
 				0429EDB91CA4154300428AFB /* HotelTests.swift in Sources */,
+				30B483DA1D0AFB7400437EDC /* LOHSearchResultsTests.swift in Sources */,
 				0429EDC91CA43CF400428AFB /* HotelParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

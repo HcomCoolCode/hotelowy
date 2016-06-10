@@ -1,4 +1,4 @@
-|HotelSearchDetails.Search||13:27:39 Fri, Jun 10, 2016|
+|HotelSearchDetails.Search||13:31:56 Fri, Jun 10, 2016|
 |HotelSearchDetails||18:23:18 Mon, Apr 18, 2016|
 |FrontPage||18:22:28 Mon, Apr 18, 2016|
 |FrontPage.HotelSearchDetails||17:13:56 Mon, Apr 18, 2016|
