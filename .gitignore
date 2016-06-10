@@ -55,5 +55,7 @@ fastlane/screenshots
 ## no emacs temp files please
 *~
 
+FitNesseRoot/files/testResults/*
+
 ## you would think this was here already
 .DS_Store

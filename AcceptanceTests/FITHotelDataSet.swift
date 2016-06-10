@@ -51,19 +51,17 @@ class FITHotelDataSet: NSObject {
     var title:String?
     var starRating:NSString?
     var imageUrl:NSString?
-    var id: NSString {
-        set {
-            let hotelData = FITHotelData(title: title!, starRating: starRating!, imageUrl: imageUrl!, id: newValue)
-            self.hotelDataSet.append(hotelData)
-        }
-        get {
-            return ""
-        }
-    }
+    var id: NSString?
 
     init(string: NSString) {
         self.staticHotelDataKey = string
         super.init()
+    }
+
+    func execute() {
+
+        let hotelData = FITHotelData(title: title!, starRating: starRating!, imageUrl: imageUrl!, id: id!)
+        self.hotelDataSet.append(hotelData)
     }
 
     func endTable() {

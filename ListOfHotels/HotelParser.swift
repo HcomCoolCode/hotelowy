@@ -12,6 +12,7 @@ import ObjectMapper
 class HotelParser : HotelParsing {
     func parseHotelData(data: NSData) throws -> HotelResponse? {
         let json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments)
-        return Mapper<HotelResponse>().map(json)
+        let hotelResponse = Mapper<HotelResponse>().map(json)
+        return hotelResponse
     }
 }

@@ -17,17 +17,17 @@ class FITFakeNetwork : NSObject, Network {
         jsonString = "{\"result\" : { \"hotels\" :"
         jsonString = jsonString!.stringByAppendingString(FITHotelData.jsonArray(hotelDataSet))
         jsonString = jsonString!.stringByAppendingString("} }")
-
-        let data = jsonString!.dataUsingEncoding(NSUTF8StringEncoding)
-        do {
-            let json = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments)
-            print(json)
-        }
-        catch {
-            print("error")
-        }
-
-
+//
+//        let data = jsonString!.dataUsingEncoding(NSUTF8StringEncoding)
+//        do {
+//            let json = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments)
+//            print(json)
+//        }
+//        catch {
+//            print("error")
+//        }
+//
+//
         super.init()
     }
 
@@ -69,12 +69,8 @@ class FITPresentedHotels: NSObject {
 
         for hotel in self.fetchedHotels! {
 
-            var starRatingString: NSString
-            if (hotel.starRating ?? 0 - floor(hotel.starRating ?? 0) > 0.01) {
-                starRatingString = String(format:"%.1f",hotel.starRating ?? 0) as NSString
-            } else {
-                starRatingString = String(format:"%i",hotel.starRating ?? 0) as NSString
-            }
+            var starRatingString = String(format:"%.1f",hotel.starRating ?? 0) as NSString
+            starRatingString = starRatingString.stringByReplacingOccurrencesOfString(".0", withString: "")
 
             let emptyString: NSString = ""
             let hotelName = hotel.name ?? ""
