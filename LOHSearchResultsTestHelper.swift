@@ -9,6 +9,38 @@
 import Foundation
 @testable import ListOfHotels
 
+
+struct ACHotelPODO {
+
+    let title: String?
+    let starRating: Float?
+    let id: Int?
+}
+
+
+class FITFakeNetwork : NSObject, Network {
+
+    var fakeDataSet: [[String:AnyObject]]
+
+    required init(hotelDataSet: [[String:AnyObject]]) {
+
+        fakeDataSet = hotelDataSet
+        super.init()
+    }
+
+    func getURL(url: NSURL, completion: (data: NSData?, error: NSError?) -> ()) {
+
+        let hotels = ["hotels" : fakeDataSet]
+        let result = ["result" : hotels]
+
+        if let data = try? NSJSONSerialization.dataWithJSONObject(result, options: NSJSONWritingOptions.PrettyPrinted) {
+
+            completion(data: data, error: nil)
+        }
+    }
+    
+}
+
 func processSearchResults(inputHotelList: [[String:AnyObject]]) -> [ACHotelPODO] {
 
     var output: [ACHotelPODO] = [ACHotelPODO]()
